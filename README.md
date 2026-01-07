@@ -49,6 +49,53 @@ If taxonomic determinations have been updated for any records in the tables vst_
 
 NEONForestAGB is a dataset derived from the Veg structure data described in section 1.1.1. Jeff Atkins et al. systematically applied allometric equations to every DBH measurement for every possible combination of `individualID` and survey date that is present in the DP1.10098.001 database. 
 
+In this dataset there are three rows for every combination of individualID and survey date. Each row is the same except for the allometry that was used to compute AGB (aboveground biomass). The allometry used is indicated in the `allometry` column of the 10 csv files that represent the full NEONForestAGB database (named `NEONForestAGBv2_partXX.csv`). Allometry values are either "AGBJenkins", "AGBChojnacky", or "AGBAnnighofer". 
+
+For more information about this dataset, how it was made, or what it's proerties are, see the documentation in `./docs/NEONForestAGB/`, the metadata file, the master taxon list, and all of the files for the AGB database in `./data/NEONForestAGB/` 
+
+
+### 1.2 Deriving plot-level AGB for each sampling campaign
+
+The `DP1.10098.001` and `NEONForestAGB` datasets are used in tandem to create plot-level estimates of AGB. 
+
+First it is helpful to understand the nature of the plots. At each NEON TOS (Terrestrial Observation Site), there are both `Distributed` plots (up to n=20), the locations of which are chosen to proportionally represent the landcover types of the site, and `Tower` plots (n = 20 in forests, n = 30 in non-woody sites), which are located within the airshed of the flux tower. For more information, see the docs folder. 
+
+The family of functions in the .py files in /src/ work together to execute the following workflow, which ultimately results in AGB estimates for each NEON TOS site, survey plot, and survey campaign (year).   
+
+Per TOS site: 
+
+1. Open the DP1.10098 .pkl file for the specified siteID (4-character site code). 
+
+2. Read in and concatenate all NEONForestAGBv2 csvs. Filter to the specified siteID. 
+
+3. Cut the NEONForestAGB dataframe down to just the columns `['individualID','date','allometry','AGB']`. Pivot using an index of `['individualID','date']` so that each allometry types become columns and the values are the values from the AGB column. Join the NEONForestAGB dataframe to the `vst_apparentindividual` dataframe in the DP1 dict on the individualID and date columns. For any rows in vst_apparentindividual that do not have a corresponging entry in NEONForestAGB, fill in the allometry columns with NA. Now all available biomass estimates have been added to the table of the raw measurement information.
+
+3. Make a list of all unique combinations of plotID and year in the DP1 data, where the year is obtained from the final 4 characters of the eventID. 
+
+4. Begin looping through plotIDs and calculating the necessary information to be able to estimate whole-plot biomass. 
+
+Per plotID: 
+
+1. Create a list of all of the unique `individualIDs` from the `vst_apparentindividual` table that fall within the plot. We want all individuals, not just those for a given sampling year, because we will be implementing logic to fill in information for missing entries. From here foreward we can refer to this dataframe as vst_ai. 
+
+2. Divide up all of the vst_ai df into "small_woody", "tree" and "ambig" categories. 
+- To be in the "tree" category, an individual must have a `growthForm` within the set `['single bole tree','multi-bole tree','small tree']` and have a `stemDiameter` equal to or greater than 10cm for all measurement years in the dataset. 
+- To be in the "small_woody" category, an individual must be in the set `['small_tree','sapling','single shrub', 'small shrub']` and have a `stemDiameter` of less than 10cm for all measurement years. 
+- If an individul falls into both categories at various points in the plot history, add it to the "ambig" df. 
+
+3. For the tree df, conduct any gap filling that is necessary. If there is missing data for a given allometry type for a given survey year, and there are at least 2 other observations for that individual and allometry type, estimate the missing observation using a linear fit. If only 1 observation is available, use that same value as a gap filler (assumption: no growth). If no observations are available, leave all as NA. 
+
+4. For the ambig df, 
+
+Per year / eventID: 
+
+1. 
+
+
+
 ## 2. AOP data 
 
 This is an area of active research and will be updated at a later time. 
+
+
+2. Begin looping survey years, beginning with the first. 
