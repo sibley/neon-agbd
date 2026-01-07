@@ -1,0 +1,20 @@
+Variable,Description,Units,Levels/Range,Example
+domainID,NEON domain for each site,,,D01
+siteID,Four-letter short code for each NEON site,,,LAJA
+plotID,Terrestrial plot ID designated by NEON,,,ABBY_05
+taxonID,USDA PLANTS Database assigned taxon code based on unique species traits,,,QURU
+Genus,Genus classifications of each measured individual,,,Abies
+individualID,Unique identfiying string for each measured individual,,,NEON.PLA.D16.ABBY.01276
+scientificName,Species name as it appears in USDA PLANTS database,,,Quercus rubrua L.
+date,Measurement date,YYYY-MM-DD,,7/18/2018
+habit,Growth habit from USDA PLANTS database,,"""tree"", ""shrub/tree"", ""shrub""",
+growthForm,The observed nature of the measured invidual,,"""small tree"", ""multi-bole tree"", ""single bole tree"", ""sapling""",
+plantStatus,Plant health status upon measurement,,"""Live"", ""Live, physically damaged"", ""Standing dead"", ""No longer qualifies"", ""Dead, broken bole"", ""Live, insect damaged”, ""Live,  other damage"", ""Live, broken bole"",  ""Live, disease damaged"", ""Removed"", ""Lost, burned"", ""Downed"", ""Lost, fate unknown"", ""Lost, presumed dead""  ",
+canopyPosition,Position with in the canopy,,"""Partially shaded"", ""Mostly shaded"", ""Full sun"", ""Full shade"", ""Open grown""",
+measurementHeight,Height at which stemDiameter value is taken,cm,0-290 cm; most at 10 or 130 cm,130
+stemDiameter,Measurement of stem diameter taken with a measurement tape,cm,0-222 cm,26.4
+basalStemDiameter,Measurement of stem diameter at basal height,cm,,
+height,Tree height,m,0.1-119.8 m,14.2
+qualityFlag,Data quality and status determination,,"validated, missing allometry, missing values, NA",
+allometry,Allometry set (Jenkins et al. (2003) or Chojnacky et al. (2014)),,"AGBJenkins, AGBChojnacky",
+AGB,Aboveground biomass estimate,kg,"0-58,165.18",666

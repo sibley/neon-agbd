@@ -45,9 +45,9 @@ For all tables, duplicates may exist where protocol and/or data entry aberration
 If taxonomic determinations have been updated for any records in the tables vst_mappingandtagging or vst_non-woody, past determinations are archived in the vst_identificationHistory table, where the archived determinations are linked to current records using identificationHistoryID.
 ```
 
-#### 1.1.2 per-tree biomass estimates 
+#### 1.1.2 Tree biomass estimates - NEONForestAGB
 
-Per-tree biomass estimates for  
+NEONForestAGB is a dataset derived from the Veg structure data described in section 1.1.1. Jeff Atkins et al. systematically applied allometric equations to every DBH measurement for every possible combination of `individualID` and survey date that is present in the DP1.10098.001 database. 
 
 ## 2. AOP data 
 
