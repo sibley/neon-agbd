@@ -10,6 +10,8 @@ If you discover inconsistencies along the way regarding how I have described the
 
 If there are any pertinent notes that you can make for yourself that will be useful in future sessions of working with this code, please put them in a /claude.md file that you write.
 
-Good luck. Let me know if you get hung up on anything. It is really important that we do this meticulously, so please take your time and think things through. Your contribution to plant science will be felt if this all goes well - I believe in you!
+If it helps, I've included all the notebooks that I've used to work with NEON data in /notebooks/. There are functions in there that could be illustrative regarding how you work with these datasets. 
+
+Good luck. Let me know if you get hung up on anything. It is really important that we do this meticulously, so please take your time and think things through. Your contribution to plant science will surely be felt if this all goes well - I believe in you!
 
 Now, lets get started :)
