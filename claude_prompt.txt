@@ -1,1 +1,15 @@
-Hello Claude. I have created this git repo, neon-agbd, with the intent that you will write the code that achieves the stated goals in the README.md. 
+Hello Claude. I have created this git repo, neon-agbd, with the intent that you will write the code that achieves the stated goals in the README.md. The overarching goal is to compute plot-level biomass density (AGB, aboveground biomass, on a per hectare basis) for every year where that plot had measurements taken. However the task is not that straightforward - there are two databases that need to be brought together, and within one of the databases there are multiple tables per site that need to be used in harmony. There are also considerations to make for gap filling, and how woody vegetation of different size classes are handled differently. 
+
+I have given a description of the involved datasets in the README.md. There is much more detail on them in the documents that are in the /docs/ folder. Please read the docs to get a detailed understanding of the data. All of the datasets for all of the sites are also present in the /data/ dir. Please open them and examine them to understand their contents.
+
+Then, your task will be to write the functions necessary to execute the workflow in section 1.2 of the README.md. All .py files should go in the /src/ directory. 
+
+While writing the code, bonus points will be given for following the DRY principle. Don't Repeat Yourself (DRY), meaning if an action is required in multiple places, do it using a function that you define instead of using the same individual lines of code in each place. 
+
+If you discover inconsistencies along the way regarding how I have described the NEON datasets or how I have understood what the appropriate workflow is, please alert me to these inconsistencies as you are working on the code. I am particularly interested if my understanding of the small_woody surveys is correct. If i am correct, all small_woody individuals within a plot are identified (and are thus listed as apparent individuals), but only a subset of them have been measured, so it is a reasonable thing to do to take the average biomass of the measured ones and multiply by the number of small_woody individuals in the plots. 
+
+If there are any pertinent notes that you can make for yourself that will be useful in future sessions of working with this code, please put them in a /claude.md file that you write.
+
+Good luck. Let me know if you get hung up on anything. It is really important that we do this meticulously, so please take your time and think things through. Your contribution to plant science will be felt if this all goes well - I believe in you!
+
+Now, lets get started :)
