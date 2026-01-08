@@ -60,9 +60,9 @@ The `DP1.10098.001` and `NEONForestAGB` datasets are used in tandem to create pl
 
 First it is helpful to understand the nature of the plots. At each NEON TOS (Terrestrial Observation Site), there are both `Distributed` plots (up to n=20), the locations of which are chosen to proportionally represent the landcover types of the site, and `Tower` plots (n = 20 in forests, n = 30 in non-woody sites), which are located within the airshed of the flux tower. For more information, see the docs folder. 
 
-The family of functions in the .py files in /src/ work together to execute the following workflow, which ultimately results in AGB estimates for each NEON TOS site, survey plot, and survey campaign (year).   
+The family of functions in the .py files in /src/ work together to execute the following workflow, which ultimately results in AGB estimates for a given NEON TOS site, by survey plot and survey campaign (year).   
 
-Per TOS site: 
+For the TOS site: 
 
 1. Open the DP1.10098 .pkl file for the specified siteID (4-character site code). 
 
@@ -78,18 +78,19 @@ Per plotID:
 
 1. Create a list of all of the unique `individualIDs` from the `vst_apparentindividual` table that fall within the plot. We want all individuals, not just those for a given sampling year, because we will be implementing logic to fill in information for missing entries. From here foreward we can refer to this dataframe as vst_ai. 
 
-2. Divide up all of the vst_ai df into "small_woody", "tree" and "ambig" categories. 
-- To be in the "tree" category, an individual must have a `growthForm` within the set `['single bole tree','multi-bole tree','small tree']` and have a `stemDiameter` equal to or greater than 10cm for all measurement years in the dataset. 
-- To be in the "small_woody" category, an individual must be in the set `['small_tree','sapling','single shrub', 'small shrub']` and have a `stemDiameter` of less than 10cm for all measurement years. 
-- If an individul falls into both categories at various points in the plot history, add it to the "ambig" df. 
+2. Conduct any gap filling that is necessary for each individualID. If there is missing data for a given allometry type for a given survey year, and there are at least 2 observations for that individual and allometry type from other years, estimate the missing observation using a linear fit. If only 1 observation is available, use that same value as a gap filler (assumption: no growth). If no observations are available, leave all as NA. 
 
-3. For the tree df, conduct any gap filling that is necessary. If there is missing data for a given allometry type for a given survey year, and there are at least 2 other observations for that individual and allometry type, estimate the missing observation using a linear fit. If only 1 observation is available, use that same value as a gap filler (assumption: no growth). If no observations are available, leave all as NA. 
+3. Divide up all of the vst_ai df into "small_woody", "tree" categories. 
+- To be in the "tree" category, an individual must have a `growthForm` within the set `['single bole tree','multi-bole tree','small tree']` and have a `stemDiameter` equal to or greater than 10cm. 
+- To be in the "small_woody" category, an individual must be in the set `['small_tree','sapling','single shrub', 'small shrub']` and have a `stemDiameter` of less than 10cm. 
 
-4. For the ambig df, 
+4. For each year, sum the biomass for all trees, and divide by the area of the plot. The area of each plot can be obtained from [FILL THIS IN]. Store this as the "tree" biomass for the plot. 
 
-Per year / eventID: 
+5. For each year, sum the small_woody biomass and divided by the number of measured individuals to get an average biomass. Then multiply this by the total number of small_woody individuals that exist in the plot to get the "small_woody" biomass total for the plot. Divide by the plot area to get the biomass density.  
 
-1. 
+The results of 4 and 5 should be stored in a data frame with columns showing the siteID, plotID, eventYear, the biomass totals for each category type (trees and small_woody) and for each of the 3 allometry types that are present, the n of trees, the n of measured small_woody, and the n of total small_woody in the site (total of 12 columns). 
+
+This will be the output of the workflow. 
 
 
 
