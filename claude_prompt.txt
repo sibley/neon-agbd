@@ -1,3 +1,5 @@
+Main Claude prompt #1:
+
 Hello Claude. I have created this git repo, neon-agbd, with the intent that you will write the code that achieves the stated goals in the README.md. The overarching goal is to compute plot-level biomass density (AGB, aboveground biomass, on a per hectare basis) for every year where that plot had measurements taken. However the task is not that straightforward - there are two databases that need to be brought together, and within one of the databases there are multiple tables per site that need to be used in harmony. There are also considerations to make for gap filling, and how woody vegetation of different size classes are handled differently. 
 
 I have given a description of the involved datasets in the README.md. There is much more detail on them in the documents that are in the /docs/ folder. Please read the docs to get a detailed understanding of the data. All of the datasets for all of the sites are also present in the /data/ dir. Please open them and examine them to understand their contents.
@@ -8,7 +10,11 @@ While writing the code, bonus points will be given for following the DRY princip
 
 If you discover inconsistencies along the way regarding how I have described the NEON datasets or how I have understood what the appropriate workflow is, please alert me to these inconsistencies as you are working on the code. I am particularly interested if my understanding of the small_woody surveys is correct. If i am correct, all small_woody individuals within a plot are identified (and are thus listed as apparent individuals), but only a subset of them have been measured, so it is a reasonable thing to do to take the average biomass of the measured ones and multiply by the number of small_woody individuals in the plots. 
 
+If you run into any errors when testing caused by cases that I haven't accounted for (for example, issues that come up because of missing data), please show me the case that is causing trouble and ask me what to do in that situation. 
+
 If there are any pertinent notes that you can make for yourself that will be useful in future sessions of working with this code, please put them in a /claude.md file that you write.
+
+Please also keep a running record of our conversation (no need to show your code executions, just the text) in a file called ./claude_transcript.md 
 
 If it helps, I've included all the notebooks that I've used to work with NEON data in /notebooks/. There are functions in there that could be illustrative regarding how you work with these datasets. 
 
