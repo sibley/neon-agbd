@@ -84,7 +84,7 @@ Per plotID:
 - To be in the "tree" category, an individual must have a `growthForm` within the set `['single bole tree','multi-bole tree','small tree']` and have a `stemDiameter` equal to or greater than 10cm. 
 - To be in the "small_woody" category, an individual must be in the set `['small_tree','sapling','single shrub', 'small shrub']` and have a `stemDiameter` of less than 10cm. 
 
-4. For each year, sum the biomass for all trees, and divide by the area of the plot. The area of each plot can be obtained from [FILL THIS IN]. Store this as the "tree" biomass for the plot. 
+4. For each year, sum the biomass for all trees, and divide by the area of the plot. Plot area should be expressed in hectares. The area of each plotID in units of square meters can be obtained from the file /data/plot_polygons/NEON_TOS_Plot_polygons.geojson file in the plotSize column. Store this calculated value as the "tree" biomass for the plot. 
 
 5. For each year, sum the small_woody biomass and divided by the number of measured individuals to get an average biomass. Then multiply this by the total number of small_woody individuals that exist in the plot to get the "small_woody" biomass total for the plot. Divide by the plot area to get the biomass density.  
 
