@@ -1,11 +1,229 @@
 """
 Gap filling functions for missing biomass values in vegetation structure data.
+Also handles dead status corrections and related data cleaning.
 """
 
 import numpy as np
 import pandas as pd
 from typing import List, Optional, Tuple
 from scipy import stats
+
+
+# Plant status values that indicate the tree is dead
+DEAD_STATUSES = {
+    'Standing dead', 'Downed', 'Dead, broken bole',
+    'Lost, presumed dead', 'Removed'
+}
+
+# Plant status values that indicate the tree is alive
+LIVE_STATUSES = {
+    'Live', 'Live, physically damaged', 'Live,  other damage',
+    'Live, disease damaged', 'Live, broken bole'
+}
+
+
+def is_dead_status(status: str) -> bool:
+    """
+    Determine if a plantStatus value indicates the tree is dead.
+
+    Parameters
+    ----------
+    status : str
+        The plantStatus value
+
+    Returns
+    -------
+    bool
+        True if the status indicates dead, False otherwise
+    """
+    if pd.isna(status):
+        return False
+    return status in DEAD_STATUSES
+
+
+def is_live_status(status: str) -> bool:
+    """
+    Determine if a plantStatus value indicates the tree is alive.
+
+    Parameters
+    ----------
+    status : str
+        The plantStatus value
+
+    Returns
+    -------
+    bool
+        True if the status indicates alive, False otherwise
+    """
+    if pd.isna(status):
+        return False
+    return status in LIVE_STATUSES
+
+
+def get_individual_status_by_year(df: pd.DataFrame, individual_id: str) -> pd.DataFrame:
+    """
+    Get the overall status for an individual by year.
+
+    For multi-stem individuals, if ANY stem is alive, the individual is considered alive.
+    The status is determined as 'dead' only if ALL stems are dead.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame containing individual measurements with 'individualID', 'year', 'plantStatus'
+    individual_id : str
+        The individualID to get status for
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with columns ['individualID', 'year', 'is_dead'] sorted by year
+    """
+    ind_df = df[df['individualID'] == individual_id].copy()
+
+    if ind_df.empty:
+        return pd.DataFrame(columns=['individualID', 'year', 'is_dead'])
+
+    # Group by year and check if any stem is alive
+    results = []
+    for year in ind_df['year'].unique():
+        year_df = ind_df[ind_df['year'] == year]
+        statuses = year_df['plantStatus'].unique()
+        has_live = any(is_live_status(s) for s in statuses)
+        has_dead = any(is_dead_status(s) for s in statuses)
+        # Only dead if no live stems and at least one dead stem
+        is_dead = not has_live and has_dead
+        results.append({'year': year, 'is_dead': is_dead})
+
+    yearly_status = pd.DataFrame(results)
+    yearly_status['individualID'] = individual_id
+    yearly_status = yearly_status[['individualID', 'year', 'is_dead']].sort_values('year')
+
+    return yearly_status
+
+
+def correct_sandwiched_dead_status(yearly_status: pd.DataFrame) -> pd.DataFrame:
+    """
+    Correct "sandwiched" dead statuses where alive->dead->alive pattern occurs.
+
+    If a dead status is sandwiched between two alive statuses, we assume the
+    dead status was an error and the tree was actually alive.
+
+    Parameters
+    ----------
+    yearly_status : pd.DataFrame
+        DataFrame with columns ['individualID', 'year', 'is_dead'] sorted by year
+
+    Returns
+    -------
+    pd.DataFrame
+        Corrected DataFrame with same columns, plus 'corrected_is_dead'
+    """
+    df = yearly_status.copy()
+    df = df.sort_values('year').reset_index(drop=True)
+
+    # Initialize corrected status as original
+    df['corrected_is_dead'] = df['is_dead'].copy()
+
+    if len(df) < 3:
+        return df
+
+    # Look for sandwiched dead status
+    for i in range(1, len(df) - 1):
+        if df.loc[i, 'is_dead']:  # Current year is dead
+            # Check if previous is alive (not dead)
+            prev_alive = not df.loc[i-1, 'is_dead']
+            # Check if next is alive (not dead)
+            next_alive = not df.loc[i+1, 'is_dead']
+
+            if prev_alive and next_alive:
+                # Sandwiched dead - correct to alive
+                df.loc[i, 'corrected_is_dead'] = False
+
+    return df
+
+
+def apply_dead_status_corrections(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Apply dead status corrections to the full dataset for trees.
+
+    This function:
+    1. Determines overall status for each individual by year
+    2. Corrects sandwiched dead statuses
+    3. Adds a 'corrected_is_dead' column to the dataframe
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with tree measurements, must have 'individualID', 'year', 'plantStatus'
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with added 'corrected_is_dead' column
+    """
+    df = df.copy()
+
+    if 'year' not in df.columns or 'plantStatus' not in df.columns:
+        df['corrected_is_dead'] = False
+        return df
+
+    # Get unique individuals
+    individuals = df['individualID'].unique()
+
+    # Build a mapping of (individualID, year) -> corrected_is_dead
+    corrections = {}
+
+    for ind_id in individuals:
+        yearly_status = get_individual_status_by_year(df, ind_id)
+        if yearly_status.empty:
+            continue
+
+        corrected = correct_sandwiched_dead_status(yearly_status)
+
+        for _, row in corrected.iterrows():
+            corrections[(row['individualID'], row['year'])] = row['corrected_is_dead']
+
+    # Apply corrections to dataframe
+    df['corrected_is_dead'] = df.apply(
+        lambda row: corrections.get((row['individualID'], row['year']), False),
+        axis=1
+    )
+
+    return df
+
+
+def zero_biomass_for_dead_trees(df: pd.DataFrame, allometry_cols: List[str]) -> pd.DataFrame:
+    """
+    Set biomass to 0 for trees that are confirmed dead (after correction).
+
+    Only zeros biomass if corrected_is_dead is True - this means the dead
+    status was persistent and not a sandwiched error.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with 'corrected_is_dead' column and allometry columns
+    allometry_cols : List[str]
+        List of allometry column names to zero out
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with zeroed biomass for dead trees
+    """
+    df = df.copy()
+
+    if 'corrected_is_dead' not in df.columns:
+        return df
+
+    # Zero out biomass for dead trees
+    dead_mask = df['corrected_is_dead'] == True
+    for col in allometry_cols:
+        if col in df.columns:
+            df.loc[dead_mask, col] = 0.0
+
+    return df
 
 
 def fit_linear_model(years: np.ndarray, values: np.ndarray) -> Tuple[float, float]:
