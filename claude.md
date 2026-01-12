@@ -92,6 +92,75 @@ The output DataFrame has 13 columns:
 
 1. **Small woody understanding**: The current implementation assumes that small_woody individuals without stemDiameter measurements are counted but not included in the average biomass calculation. This matches the README description.
 
+## Version 2 Features (2026-01)
+
+### Dead Status Corrections
+Trees that have a "sandwiched" dead status (alive->dead->alive pattern) are now corrected to assume the tree was alive throughout. If the dead status persists (alive->dead->dead), the tree's biomass is set to 0 for dead periods.
+
+Dead status values recognized:
+- Standing dead, Downed, Dead broken bole, Lost presumed dead, Removed
+
+Live status values recognized:
+- Live, Live physically damaged, Live other damage, Live disease damaged, Live broken bole
+
+### New Output Tables
+
+The `compute_site_biomass_full()` function returns a dictionary with:
+- `plot_biomass`: Plot-level biomass with growth metrics
+- `unaccounted_trees`: Trees not included in calculations
+- `individual_trees`: Individual tree measurements in long form
+- `site_id`: Site identifier
+- `metadata`: Processing information
+
+### Unaccounted Trees Table
+Tracks trees that couldn't be included in biomass calculations:
+- `UNMEASURED`: Trees in mapping table but never measured
+- `NO_ALLOMETRY`: Trees with diameter but no biomass estimates
+
+### Individual Trees Table
+Long-form table with one row per tree per survey year:
+- All three allometry AGB values
+- Growth rates (year-over-year and cumulative via linear regression)
+- Time-invariant attributes from mapping table (scientific name, taxonID, etc.)
+- Corrected dead status flag
+
+### Growth Metrics
+- `growth`: Year-over-year growth rate (Mg/ha/year)
+- `growth_cumu`: Cumulative average growth from linear regression slope
+
+### Example Script
+`example_run.py` demonstrates processing a site and saving outputs as pkl and CSV files.
+
+## Implementation Notes
+
+### Multi-Stem Tree Handling
+- Each individual can have multiple stems (rows per year with same individualID)
+- For dead status: individual is alive if ANY stem is alive
+- For individual tree table: biomass is summed across stems, diameter takes max value
+
+### Growth Calculations
+- Year-over-year growth: `(current_biomass - previous_biomass) / (current_year - previous_year)`
+- Cumulative growth: slope from `scipy.stats.linregress(years, biomass)`
+- Plot-level growth uses total biomass (tree + small_woody) with Jenkins as primary allometry
+- Individual tree growth is calculated separately for each allometry type
+
+### Unaccounted Trees Logic
+- UNMEASURED: individualID exists in `vst_mappingandtagging` but not in `vst_apparentindividual`
+- NO_ALLOMETRY: Tree has stemDiameter >= 10cm but no biomass from any of the three allometries
+- Only trees (not small_woody) are tracked as unaccounted
+
+### Dead Status Classification
+Ambiguous statuses NOT currently classified:
+- `No longer qualifies` - unclear if dead or just doesn't meet criteria
+- `Lost, fate unknown` - unknown status
+- `Lost, tag damaged` - unknown status
+
+These are treated as neither dead nor alive, so they don't trigger dead corrections.
+
+### Performance Considerations
+- Dead status corrections run per-individual, which can be slow for large sites
+- HARV with ~1300 unaccounted trees takes longer due to the iteration
+
 ## Future Improvements
 
 - Add support for vst_shrubgroup data (currently not used)
