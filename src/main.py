@@ -17,16 +17,20 @@ from .data_loader import (
     merge_agb_with_apparent_individual,
     extract_year_from_event_id,
     get_unique_plot_years,
+    get_plot_years_from_perplotperyear,
 )
 from .gap_filling import (
     gap_fill_plot_data,
     create_complete_individual_year_grid,
+    forward_fill_growth_form,
     apply_dead_status_corrections,
     zero_biomass_for_dead_trees,
 )
 from .biomass_calculator import (
     add_category_column,
     aggregate_plot_biomass_all_years,
+)
+from .constants import (
     ALLOMETRY_COLS,
     TREE_GROWTH_FORMS,
     DIAMETER_THRESHOLD,
@@ -97,6 +101,70 @@ def calculate_cumulative_growth(years: np.ndarray, biomass: np.ndarray) -> float
         return slope
     except Exception:
         return np.nan
+
+
+def create_empty_plot_year_row(
+    site_id: str,
+    plot_id: str,
+    year: int,
+    plot_area_m2: float,
+    site_has_agb_data: bool,
+    has_trees_in_vst_ai: bool = False,
+    has_small_woody_in_vst_ai: bool = False
+) -> Dict:
+    """
+    Create a row for a plot-year with no woody individuals or no AGB data.
+
+    Parameters
+    ----------
+    site_id : str
+        Site identifier
+    plot_id : str
+        Plot identifier
+    year : int
+        Survey year
+    plot_area_m2 : float
+        Plot area in square meters
+    site_has_agb_data : bool
+        Whether the site has NEONForestAGB data
+    has_trees_in_vst_ai : bool
+        Whether trees >=10cm exist in vst_apparentindividual for this plot-year
+    has_small_woody_in_vst_ai : bool
+        Whether small_woody exist in vst_apparentindividual for this plot-year
+
+    Returns
+    -------
+    Dict
+        Row dictionary with appropriate 0/NaN values
+    """
+    # Determine tree biomass value
+    # 0 = no trees present, NaN = trees present but can't estimate
+    if has_trees_in_vst_ai and not site_has_agb_data:
+        tree_value = np.nan
+    else:
+        tree_value = 0.0
+
+    # Determine small_woody biomass value
+    if has_small_woody_in_vst_ai and not site_has_agb_data:
+        sw_value = np.nan
+    else:
+        sw_value = 0.0
+
+    return {
+        'siteID': site_id,
+        'plotID': plot_id,
+        'year': year,
+        'plotArea_m2': plot_area_m2,
+        'tree_AGBJenkins': tree_value,
+        'tree_AGBChojnacky': tree_value,
+        'tree_AGBAnnighofer': tree_value,
+        'n_trees': 0,
+        'small_woody_AGBJenkins': sw_value,
+        'small_woody_AGBChojnacky': sw_value,
+        'small_woody_AGBAnnighofer': sw_value,
+        'n_small_woody_total': 0,
+        'n_small_woody_measured': 0,
+    }
 
 
 def identify_unaccounted_trees(
@@ -247,6 +315,10 @@ def create_individual_tree_table(
     # Also keep corrected_is_dead if present
     if 'corrected_is_dead' in trees_df.columns:
         agg_cols['corrected_is_dead'] = 'first'
+
+    # Also keep gapFilling if present
+    if 'gapFilling' in trees_df.columns:
+        agg_cols['gapFilling'] = 'first'
 
     # Group by individual and year
     grouped = trees_df.groupby(['individualID', 'year', 'plotID']).agg(agg_cols).reset_index()
@@ -453,11 +525,13 @@ def compute_site_biomass_full(
     dp1_data = load_dp1_data(site_id, dp1_data_dir)
     vst_ai = dp1_data['vst_apparentindividual'].copy()
     vst_mapping = dp1_data['vst_mappingandtagging'].copy()
+    vst_ppy = dp1_data['vst_perplotperyear'].copy()
 
     # Step 2: Load NEONForestAGB data
     if verbose:
         print("  Loading NEONForestAGB data...")
     agb_df = load_neon_forest_agb(site_id, agb_data_dir)
+    site_has_agb_data = len(agb_df) > 0
 
     # Step 3: Pivot AGB data and merge with vst_apparentindividual
     if verbose:
@@ -474,8 +548,11 @@ def compute_site_biomass_full(
     plot_areas = load_plot_areas(plot_polygons_path)
     plot_areas_site = plot_areas[plot_areas['siteID'] == site_id]
 
-    # Get unique plot-year combinations
-    plot_years = get_unique_plot_years(merged_df)
+    # Get unique plot-year combinations from vst_perplotperyear (authoritative source)
+    # This includes plots that were surveyed but had no woody vegetation
+    plot_years = get_plot_years_from_perplotperyear(vst_ppy)
+    if verbose:
+        print(f"  Found {len(plot_years)} plot-year combinations from vst_perplotperyear")
 
     # Step 5: Categorize individuals
     if verbose:
@@ -483,6 +560,9 @@ def compute_site_biomass_full(
     merged_df = add_category_column(merged_df)
 
     # Step 5b: Apply dead status corrections for trees
+    # NOTE: We only apply status corrections here (to get corrected_is_dead column).
+    # We do NOT zero dead tree biomass yet - that happens AFTER gap filling.
+    # Otherwise gap filling would use the 0s to extrapolate into years when trees were alive.
     if apply_dead_corrections:
         if verbose:
             print("  Applying dead status corrections...")
@@ -492,7 +572,7 @@ def compute_site_biomass_full(
 
         if not trees_df.empty:
             trees_df = apply_dead_status_corrections(trees_df)
-            trees_df = zero_biomass_for_dead_trees(trees_df, ALLOMETRY_COLS)
+            # Do NOT call zero_biomass_for_dead_trees here - wait until after gap filling
 
             # Update merged_df with corrected tree data
             merged_df = merged_df[~trees_mask].copy()
@@ -513,40 +593,89 @@ def compute_site_biomass_full(
     if verbose:
         print("  Computing plot-level biomass...")
 
+    # Pre-compute which plot-years have individuals in vst_ai (for determining 0 vs NaN)
+    vst_ai_with_year = vst_ai.copy()
+    vst_ai_with_year['year'] = vst_ai_with_year['eventID'].apply(extract_year_from_event_id)
+
     all_results = []
     all_plot_dfs = []
     unique_plots = plot_years['plotID'].unique()
 
     for plot_id in unique_plots:
-        # Get years for this plot
-        years = plot_years[plot_years['plotID'] == plot_id]['year'].tolist()
+        # Get years for this plot from vst_perplotperyear
+        plot_year_rows = plot_years[plot_years['plotID'] == plot_id]
+        years = plot_year_rows['year'].tolist()
 
-        # Get plot area
+        # Get plot area - try plot_areas first, then fallback to totalSampledAreaTrees from vst_perplotperyear
         plot_area_row = plot_areas_site[plot_areas_site['plotID'] == plot_id]
-        if len(plot_area_row) == 0:
+        if len(plot_area_row) > 0:
+            plot_area_m2 = plot_area_row['plotSize'].iloc[0]
+        elif 'totalSampledAreaTrees' in plot_year_rows.columns:
+            # Use totalSampledAreaTrees as fallback
+            plot_area_m2 = plot_year_rows['totalSampledAreaTrees'].iloc[0]
+            if pd.isna(plot_area_m2):
+                if verbose:
+                    print(f"    Warning: No plot area found for {plot_id}, skipping...")
+                continue
+        else:
             if verbose:
                 print(f"    Warning: No plot area found for {plot_id}, skipping...")
             continue
 
-        plot_area_m2 = plot_area_row['plotSize'].iloc[0]
-
-        # Get data for this plot
+        # Get data for this plot from merged_df
         plot_df = merged_df[merged_df['plotID'] == plot_id].copy()
+
+        # Check if plot has any data
+        if plot_df.empty:
+            # No individuals in merged_df for this plot
+            # Check vst_ai to determine if there are woody individuals without AGB estimates
+            plot_vst_ai = vst_ai_with_year[vst_ai_with_year['plotID'] == plot_id]
+
+            # Create empty rows for each year
+            empty_rows = []
+            for year in years:
+                year_vst_ai = plot_vst_ai[plot_vst_ai['year'] == year]
+
+                # Check for trees (>=10cm) and small_woody (<10cm) in vst_ai
+                has_trees = False
+                has_small_woody = False
+                if not year_vst_ai.empty and 'stemDiameter' in year_vst_ai.columns:
+                    has_trees = (year_vst_ai['stemDiameter'] >= DIAMETER_THRESHOLD).any()
+                    has_small_woody = (year_vst_ai['stemDiameter'] < DIAMETER_THRESHOLD).any()
+
+                empty_row = create_empty_plot_year_row(
+                    site_id, plot_id, year, plot_area_m2,
+                    site_has_agb_data, has_trees, has_small_woody
+                )
+                empty_rows.append(empty_row)
+
+            all_results.append(pd.DataFrame(empty_rows))
+            continue
 
         # Apply gap filling if requested
         if apply_gap_filling:
             # Create complete grid and fill gaps
             plot_df = create_complete_individual_year_grid(plot_df, plot_id, years)
+            plot_df = forward_fill_growth_form(plot_df)
             plot_df = gap_fill_plot_data(plot_df, ALLOMETRY_COLS)
             # Re-categorize after gap filling (category may be NA for new rows)
             plot_df = add_category_column(plot_df)
 
-            # Re-apply dead corrections after gap filling if needed
+            # Re-apply dead corrections after gap filling
             if apply_dead_corrections:
                 trees_mask = plot_df['category'] == 'tree'
                 if trees_mask.any():
                     trees_df = plot_df[trees_mask].copy()
                     trees_df = apply_dead_status_corrections(trees_df)
+                    trees_df = zero_biomass_for_dead_trees(trees_df, ALLOMETRY_COLS)
+                    plot_df = plot_df[~trees_mask].copy()
+                    plot_df = pd.concat([plot_df, trees_df], ignore_index=True)
+        else:
+            # No gap filling, but still need to zero dead trees if corrections are enabled
+            if apply_dead_corrections:
+                trees_mask = plot_df['category'] == 'tree'
+                if trees_mask.any():
+                    trees_df = plot_df[trees_mask].copy()
                     trees_df = zero_biomass_for_dead_trees(trees_df, ALLOMETRY_COLS)
                     plot_df = plot_df[~trees_mask].copy()
                     plot_df = pd.concat([plot_df, trees_df], ignore_index=True)
@@ -594,20 +723,20 @@ def compute_site_biomass_full(
         print(f"  Found {len(unaccounted_trees)} unaccounted trees.")
         print(f"  Created individual tree table with {len(individual_trees)} records.")
 
-    # Build output dictionary
-    output = {
-        'plot_biomass': results_df,
-        'unaccounted_trees': unaccounted_trees,
-        'individual_trees': individual_trees,
-        'site_id': site_id,
-        'metadata': {
-            'apply_gap_filling': apply_gap_filling,
-            'apply_dead_corrections': apply_dead_corrections,
-            'n_plots': len(unique_plots),
-            'n_plot_years': len(results_df),
-            'n_unaccounted_trees': len(unaccounted_trees),
-            'n_individual_tree_records': len(individual_trees)
-        }
+    # Build output dictionary - start with input DP1 data and add computed outputs
+    output = dp1_data.copy()
+    output['plot_biomass'] = results_df
+    output['unaccounted_trees'] = unaccounted_trees
+    output['individual_trees'] = individual_trees
+    output['site_id'] = site_id
+    output['metadata'] = {
+        'apply_gap_filling': apply_gap_filling,
+        'apply_dead_corrections': apply_dead_corrections,
+        'site_has_agb_data': site_has_agb_data,
+        'n_plots': len(unique_plots),
+        'n_plot_years': len(results_df),
+        'n_unaccounted_trees': len(unaccounted_trees),
+        'n_individual_tree_records': len(individual_trees)
     }
 
     return output
@@ -793,7 +922,9 @@ if __name__ == "__main__":
     print(f"\nResults saved to: {pkl_file}")
 
     # Also save individual CSVs for inspection
-    output['plot_biomass'].to_csv(f"./output/{site}_plot_biomass.csv", index=False)
-    output['unaccounted_trees'].to_csv(f"./output/{site}_unaccounted_trees.csv", index=False)
-    output['individual_trees'].to_csv(f"./output/{site}_individual_trees.csv", index=False)
-    print(f"Individual CSVs also saved to ./output/")
+    csv_dir = Path("./output/csvs")
+    csv_dir.mkdir(exist_ok=True)
+    output['plot_biomass'].to_csv(csv_dir / f"{site}_plot_biomass.csv", index=False)
+    output['unaccounted_trees'].to_csv(csv_dir / f"{site}_unaccounted_trees.csv", index=False)
+    output['individual_trees'].to_csv(csv_dir / f"{site}_individual_trees.csv", index=False)
+    print(f"Individual CSVs also saved to {csv_dir}/")

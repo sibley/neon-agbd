@@ -178,3 +178,90 @@ Asked Claude to read `claude_prompt2.md` and implement several improvements:
 - Updated `claude.md` with Version 2 features documentation
 - Dead status is determined at the individual level (if ANY stem is alive, individual is alive)
 - Growth calculated using Jenkins allometry as primary (first available)
+
+---
+
+## Session 3 - Non-Forested Sites and Gap-Filling Fix
+
+**Date**: 2026-01-12
+
+### User Request
+Asked Claude to handle non-forested sites (grasslands) and sites without NEONForestAGB data appropriately, ensuring plots with no woody vegetation report 0 biomass rather than being excluded.
+
+### Key Issues Discovered
+
+1. **Missing plot-years**: The original implementation only included plot-years where individuals existed in `vst_apparentindividual`, missing plots that were surveyed but had no woody vegetation.
+
+2. **Gap-filling order of operations bug**: Dead trees were being zeroed BEFORE gap-filling, causing the 0 values to be extrapolated backwards into years when trees were alive.
+
+3. **Incorrect NaN vs 0 logic**: Needed clear rules for when to report 0 (no vegetation) vs NaN (vegetation exists but can't estimate biomass).
+
+### Claude's Actions
+
+1. **Used vst_perplotperyear as authoritative source**
+   - Added `get_plot_years_from_perplotperyear()` function to `data_loader.py`
+   - This table includes ALL surveyed plot-years, including those with no woody vegetation
+   - Modified `compute_site_biomass_full()` to use this as the source of plot-years
+
+2. **Created constants.py**
+   - Centralized all hardcoded constants (DEAD_STATUSES, LIVE_STATUSES, TREE_GROWTH_FORMS, etc.)
+   - Updated all modules to import from constants.py
+
+3. **Fixed gap-filling order of operations** (`main.py`)
+   - Initial dead corrections now ONLY apply `apply_dead_status_corrections()` to get the `corrected_is_dead` column
+   - `zero_biomass_for_dead_trees()` is now called AFTER gap-filling
+   - This prevents dead tree 0 values from being extrapolated into years when trees were alive
+
+4. **Updated biomass calculation logic** (`biomass_calculator.py`)
+   - Modified `calculate_tree_biomass_density()` to check live trees separately from dead trees
+   - If live trees exist but ALL have NaN biomass → plot biomass = NaN
+   - Dead trees (with 0 biomass) are excluded from this check
+
+5. **Added forward-filling for growthForm and stemDiameter** (`gap_filling.py`)
+   - Added `forward_fill_growth_form()` function
+   - Gap-filled rows now inherit growthForm and stemDiameter from adjacent measurements
+   - Handles both NaN and empty string values
+
+6. **Added gapFilling column**
+   - Individual tree records now include a `gapFilling` column: 'ORIGINAL' or 'FILLED'
+
+### Plot-Level Biomass Logic
+
+| Scenario | Tree Biomass |
+|----------|-------------|
+| No trees in plot | 0 |
+| Only dead trees | 0 |
+| Live trees with valid AGB estimates | Calculated sum |
+| Live trees, ALL have NaN AGB (no ForestAGB data) | NaN |
+| Mix of live trees (some with valid AGB) + dead trees | Calculated sum |
+
+### Sites Without NEONForestAGB Data
+
+Seven NEON sites have no data in the NEONForestAGB dataset:
+- CPER, NOGP, DCFS, WOOD (grasslands)
+- LAJA, MOAB, JORN (arid/semi-arid)
+
+For these sites:
+- Trees: If live trees exist → NaN (can't estimate); if no live trees → 0
+- Small woody: If individuals exist → NaN (can't estimate); if none → 0
+- `metadata['site_has_agb_data']` indicates whether the site has ForestAGB data
+
+### Test Results
+
+**MOAB** (site with trees but no AGB data):
+- 165 plot-year combinations
+- Plot-years with live trees: NaN (correctly indicates can't estimate)
+- Plot-years without trees: 0
+
+**HARV** (forested site with AGB data):
+- 207 plot-year combinations
+- All have valid biomass values (mean: 93.88 Mg/ha)
+
+**CPER** (grassland, no trees, no AGB data):
+- 160 plot-year combinations
+- All tree biomass = 0
+- Small woody with individuals: NaN; without: 0
+
+### Notes
+- The `unaccounted_trees` table helps interpret plots where some trees have estimates and others don't
+- Updated CLAUDE.md with new functionality documentation

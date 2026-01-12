@@ -1,0 +1,82 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+MOAB,MOAB_054,NEON.PLA.D13.MOAB.03991,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,KRLA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_001,NEON.PLA.D13.MOAB.03997,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,KRLA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_044,NEON.PLA.D13.MOAB.03992,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,KRLA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_047,NEON.PLA.D13.MOAB.03994,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,KRLA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_047,NEON.PLA.D13.MOAB.03993,Ephedra viridis Coville,EPVI,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_010,NEON.PLA.D13.MOAB.03996,Krascheninnikovia lanata (Pursh) A. Meeuse & Smit,KRLA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_016,NEON.PLA.D13.MOAB.03995,Atriplex canescens (Pursh) Nutt.,ATCA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.03998,Pinus edulis Engelm.,PIED,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_005,NEON.PLA.D13.MOAB.03987,Atriplex canescens (Pursh) Nutt.,ATCA2,UNMEASURED,Never measured in survey campaigns
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00546,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00518,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00521,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00534,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00522,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00517,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00664,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00632,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00630,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00691,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00656,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00682,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00634,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00644,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00581,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00594,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00573,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00592,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566B,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00582,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558B,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520B,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520C,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557A,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683B,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00684,Pinus edulis Engelm.,PIED,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650A,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650C,Juniperus osteosperma (Torr.) Little,JUOS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

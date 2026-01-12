@@ -6,19 +6,13 @@ import numpy as np
 import pandas as pd
 from typing import Dict, List, Optional, Tuple
 
-# Constants for categorizing growth forms
-TREE_GROWTH_FORMS = ['single bole tree', 'multi-bole tree', 'small tree']
-SMALL_WOODY_GROWTH_FORMS = ['small tree', 'sapling', 'single shrub', 'small shrub']
-
-# Diameter threshold (cm) for separating trees from small woody
-DIAMETER_THRESHOLD = 10.0
-
-# Allometry column names
-ALLOMETRY_COLS = ['AGBJenkins', 'AGBChojnacky', 'AGBAnnighofer']
-
-# Unit conversion: NEONForestAGB provides AGB in kg, we convert to Mg (tonnes)
-# 1 Mg = 1000 kg, so Mg/ha = kg/ha / 1000
-KG_TO_MG = 1 / 1000.0
+from .constants import (
+    TREE_GROWTH_FORMS,
+    SMALL_WOODY_GROWTH_FORMS,
+    DIAMETER_THRESHOLD,
+    ALLOMETRY_COLS,
+    KG_TO_MG,
+)
 
 
 def categorize_individual(row: pd.Series) -> str:
@@ -113,13 +107,28 @@ def calculate_tree_biomass_density(
     year_df = trees_df[trees_df['year'] == year]
 
     result = {}
+
+    # Identify live trees (not dead) for the NaN check
+    if 'corrected_is_dead' in year_df.columns:
+        live_mask = year_df['corrected_is_dead'] == False
+        live_trees = year_df[live_mask]
+    else:
+        live_trees = year_df
+
     for col in ALLOMETRY_COLS:
         if col in year_df.columns:
-            # Sum biomass for all trees, then divide by area
-            # Convert from kg/ha to Mg/ha (tonnes/ha)
-            total_biomass_kg = year_df[col].sum(skipna=True)
-            biomass_density_kg_ha = total_biomass_kg / plot_area_ha if plot_area_ha > 0 else np.nan
-            result[f'tree_{col}'] = biomass_density_kg_ha * KG_TO_MG if not np.isnan(biomass_density_kg_ha) else np.nan
+            if len(year_df) == 0:
+                # No trees at all - biomass is 0
+                result[f'tree_{col}'] = 0.0
+            elif len(live_trees) > 0 and live_trees[col].isna().all():
+                # Live trees exist but ALL have NaN biomass - can't estimate
+                result[f'tree_{col}'] = np.nan
+            else:
+                # Either no live trees (only dead with 0), or some live trees have valid biomass
+                # Sum all valid values (0 for dead, actual values for live with estimates)
+                total_biomass_kg = year_df[col].sum(skipna=True)
+                biomass_density_kg_ha = total_biomass_kg / plot_area_ha if plot_area_ha > 0 else np.nan
+                result[f'tree_{col}'] = biomass_density_kg_ha * KG_TO_MG if not np.isnan(biomass_density_kg_ha) else np.nan
         else:
             result[f'tree_{col}'] = np.nan
 

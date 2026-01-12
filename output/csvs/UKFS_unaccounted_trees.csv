@@ -1,0 +1,547 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+UKFS,UKFS_044,NEON.PLA.D06.UKFS.09027,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09813,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09312,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10784,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10758,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09385,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09362,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09381,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084B,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09856,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10936,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10998,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10688,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084F,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09316,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09171,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10855,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.06508,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09831,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10732,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10378,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10956,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10789,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09198,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10399,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10945,Toxicodendron radicans (L.) Kuntze,TORA2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09351,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09194,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.04952,Vitis riparia Michx.,VIRI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_011,NEON.PLA.D06.UKFS.04070A,Gymnocladus dioicus (L.) K. Koch,GYDI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10739,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10765,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09199,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09884,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09359,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09396,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10773,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10375,Populus deltoides W. Bartram ex Marshall,PODE3,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09349,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10930,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10943,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10884,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09150,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10771,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10895,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10879,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09809,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10389,Gleditsia triacanthos L.,GLTR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10728,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10744,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10860,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10927,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10794,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10965,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10949,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09353,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09873,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09849,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10876,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_051,NEON.PLA.D06.UKFS.03113,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_016,NEON.PLA.D06.UKFS.10388,Platanus occidentalis L.,PLOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10987,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10928,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.04500A,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09322,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599E,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09783,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10740,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09781,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10394,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09373,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10595,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10782,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_012,NEON.PLA.D06.UKFS.10380,Juglans nigra L.,JUNI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09369,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10371,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09008,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10898,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.09276,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09828,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10978,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.06512,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10921,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10929,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10968,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10894,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09878,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09854,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10833,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09887,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.11005,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10852,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10826,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10832,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_054,NEON.PLA.D06.UKFS.03115,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10381,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09200,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09337,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10598,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09387,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10946,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.04778A,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10745,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10970,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09857,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10988,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10877,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10973,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09012,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10933,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09871,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10767,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09808,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10934,Vitis riparia Michx.,VIRI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10971,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10985,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10916,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09360,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09881,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10909,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.09275,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.05246,Vitis riparia Michx.,VIRI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10913,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10764,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_012,NEON.PLA.D06.UKFS.03440,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09187,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09335,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10992,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10593,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10858,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09880,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09164,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10991,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10693,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10883,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10783,Juglans nigra L.,JUNI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_031,NEON.PLA.D06.UKFS.06140,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10763,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10986,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10828,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10893,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10974,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10733,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10887,Quercus sp.,QUERC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09311,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09814,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10868,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10735,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.04040,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10881,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10849,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09817,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10769,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09834,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09344,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084A,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.11001,Euonymus fortunei (Turcz.) Hand.-Maz.,EUFO5,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10941,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10944,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10920,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09826,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.03078,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09330,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09386,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10912,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10864,Zanthoxylum americanum Mill.,ZAAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10904,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10901,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09314,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09827,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10797,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10760,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10588,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.06513,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10972,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10752,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10954,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09861,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10908,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.11004,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10952,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10872,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09830,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10981,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10856,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10885,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10964,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10878,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09352,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09802,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10746,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_045,NEON.PLA.D06.UKFS.09585,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09378,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10926,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10690,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599F,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09319,Rubus sp.,RUBUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10873,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10827,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09358,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599H,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10890,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09870,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10843,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10897,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_044,NEON.PLA.D06.UKFS.09024,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09007,Rhus aromatica Aiton,RHAR4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09003,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10866,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10751,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10779,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.10383,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10377,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10983,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09324,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10886,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10768,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09383,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10889,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10861,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10977,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09859,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10786,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10391,Gleditsia triacanthos L.,GLTR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10780,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.46143,Vitis riparia Michx.,VIRI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10831,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10902,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10742,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10689,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09372,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09818,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09380,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10997,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10938,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09170,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10880,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10748,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10925,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09807,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09331,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_031,NEON.PLA.D06.UKFS.10570,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10940,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10896,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_045,NEON.PLA.D06.UKFS.11092,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10963,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10882,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09782,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10788,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_013,NEON.PLA.D06.UKFS.03325,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09172,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10911,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10923,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09869,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09382,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10924,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09393,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10918,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09197,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09376,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10990,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10762,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.11002,Euonymus fortunei (Turcz.) Hand.-Maz.,EUFO5,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10891,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10795,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10754,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10862,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10731,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09885,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599J,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10851,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10847,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10772,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10859,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09185,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10691,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10976,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10962,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09144,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10730,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10907,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10766,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09006,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09313,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,TEMP.PLA.UKFS.2019.43001,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09174,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09148,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10935,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10741,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10919,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09819,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10917,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09011,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10830,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.03834A,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09368,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09866,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09326,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10848,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10979,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10948,Euonymus fortunei (Turcz.) Hand.-Maz.,EUFO5,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09333,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10777,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10372,Populus deltoides W. Bartram ex Marshall,PODE3,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084G,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00082A,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.11003,Euonymus fortunei (Turcz.) Hand.-Maz.,EUFO5,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.10384,Quercus macrocarpa Michx.,QUMA2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10950,Toxicodendron radicans (L.) Kuntze,TORA2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09858,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10727,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09009,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10842,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09346,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10587,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.03132,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10960,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09832,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09323,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10995,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09355,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10750,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10846,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09877,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10379,Acer negundo L.,ACNE2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09336,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10931,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_031,NEON.PLA.D06.UKFS.06966,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09395,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10753,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09864,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09805,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10376,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.11007,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09820,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10994,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09345,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10844,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09350,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09196,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10982,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09776,Quercus muehlenbergii Engelm.,QUMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10729,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10840,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10857,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.04492A,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_011,NEON.PLA.D06.UKFS.10374,Gymnocladus dioicus (L.) K. Koch,GYDI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09778,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.03082A,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10932,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10736,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09175,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084E,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.11006,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09851,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10980,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10392,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_015,NEON.PLA.D06.UKFS.04608,Ribes missouriense Nutt.,RIMI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09779,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084C,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10395,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09860,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.03096A,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10737,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09340,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,TEMP.PLA.UKFS.2019.43002,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09848,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10958,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10749,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10906,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09342,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.10386,Quercus muehlenbergii Engelm.,QUMU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_055,NEON.PLA.D06.UKFS.03117,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10775,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09852,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10761,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09815,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09189,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10792,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09366,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10914,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09357,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09825,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10957,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.03066A,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10734,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10966,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_016,NEON.PLA.D06.UKFS.10387,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10870,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09183,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10829,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09347,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_044,NEON.PLA.D06.UKFS.09025,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09370,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09367,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09176,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10869,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.00084D,Morus alba L.,MOAL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10905,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10743,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09379,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10996,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10774,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09173,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10854,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.10370,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09005,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10382,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09341,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10953,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09867,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09865,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.11099,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10738,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10975,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09315,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10793,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09821,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10947,Toxicodendron radicans (L.) Kuntze,TORA2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_058,NEON.PLA.D06.UKFS.10385,Carya ovata (Mill.) K. Koch,CAOV2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09850,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599G,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599I,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09810,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10756,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09394,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09875,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10747,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09868,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.03599D,Maclura pomifera (Raf.) C.K. Schneid.,MAPO,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_044,NEON.PLA.D06.UKFS.09023,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10875,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_054,NEON.PLA.D06.UKFS.10373,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10757,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10937,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10845,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09338,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10892,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10955,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10591,Juglans nigra L.,JUNI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09147,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10867,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_011,NEON.PLA.D06.UKFS.04068,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09804,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09182,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10393,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09816,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10961,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09371,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09320,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09364,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09874,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10841,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10790,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09192,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.04791A,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10922,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10967,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10850,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09377,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09339,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10984,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10791,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10853,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.03824A,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09180,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10951,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_045,NEON.PLA.D06.UKFS.11096,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10787,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10999,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10759,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10993,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10888,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10989,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09354,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09879,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_032,NEON.PLA.D06.UKFS.09004,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_011,NEON.PLA.D06.UKFS.04070,Gymnocladus dioicus (L.) K. Koch,GYDI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10903,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10785,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10796,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09343,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10776,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10871,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09811,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.04953,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_012,NEON.PLA.D06.UKFS.03442,Ulmus americana L.,ULAM,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.10863,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10969,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_031,NEON.PLA.D06.UKFS.06757,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09145,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_007,NEON.PLA.D06.UKFS.10942,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_055,NEON.PLA.D06.UKFS.10390,Morus rubra L.,MORU2,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10778,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09806,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_004,NEON.PLA.D06.UKFS.10770,Rhus glabra L.,RHGL,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_010,NEON.PLA.D06.UKFS.11100,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09801,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_008,NEON.PLA.D06.UKFS.10959,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09356,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10915,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_003,NEON.PLA.D06.UKFS.10781,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_002,NEON.PLA.D06.UKFS.10755,Fraxinus americana/pennsylvanica,FRAM2/FRPE,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09188,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.10874,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09334,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_001,NEON.PLA.D06.UKFS.10692,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_006,NEON.PLA.D06.UKFS.10910,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_050,NEON.PLA.D06.UKFS.09833,Cornus drummondii C.A. Mey.,CODR,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.09327,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02573,Vitis riparia Michx.,VIRI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02567,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02598,Toxicodendron radicans (L.) Kuntze,TORA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02575,Vitis riparia Michx.,VIRI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02562,Rosa multiflora Thunb.,ROMU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02578,Vitis riparia Michx.,VIRI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02568,Rosa multiflora Thunb.,ROMU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_059,NEON.PLA.D06.UKFS.02587,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.02691,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.02680,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.02684,Parthenocissus quinquefolia (L.) Planch.,PAQU2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.02689,Toxicodendron radicans (L.) Kuntze,TORA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02638,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02631,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02665,Parthenocissus quinquefolia (L.) Planch.,PAQU2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02636,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02648,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02635,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02639,Ampelopsis cordata Michx.,AMCO2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02612,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02659,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02647,Rosa multiflora Thunb.,ROMU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02656,Vitis riparia Michx.,VIRI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02651,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02622,Rosa multiflora Thunb.,ROMU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_053,NEON.PLA.D06.UKFS.02637,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_047,NEON.PLA.D06.UKFS.02073,Parthenocissus quinquefolia (L.) Planch.,PAQU2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_049,NEON.PLA.D06.UKFS.02687,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_005,NEON.PLA.D06.UKFS.03839,Symphoricarpos orbiculatus Moench,SYOR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_031,NEON.PLA.D06.UKFS.02221,Fraxinus americana/pennsylvanica,FRAM2/FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_045,NEON.PLA.D06.UKFS.04696,Fraxinus americana/pennsylvanica,FRAM2/FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_045,NEON.PLA.D06.UKFS.04691,Fraxinus americana/pennsylvanica,FRAM2/FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_057,NEON.PLA.D06.UKFS.09408,Fraxinus americana/pennsylvanica,FRAM2/FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_057,NEON.PLA.D06.UKFS.09406,Fraxinus americana/pennsylvanica,FRAM2/FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.10626,Quercus muehlenbergii Engelm.,QUMU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+UKFS,UKFS_043,NEON.PLA.D06.UKFS.06070,Carya ovata (Mill.) K. Koch,CAOV2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

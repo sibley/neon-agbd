@@ -1,0 +1,913 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17158,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03812,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10742,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02886,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02031,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.13015,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01744,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00257,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01182,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17402,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01178,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.14502Z,Juglans nigra L.,JUNI,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03808,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00259,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03974,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03922,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17325,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17189,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17434,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17309,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17026,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_008,NEON.PLA.D02.SCBI.01108,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17304,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17320,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17308,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01707,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02876,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01352,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_007,NEON.PLA.D02.SCBI.13017,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17196,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01226,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00164,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03883,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01820,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01896,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01692,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01278,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00121,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02092,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00084,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00278,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00036,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02011,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01242,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01697,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17408,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00264,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17183,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00174,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01306,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01906,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17190,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02029,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17410,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.01954,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01245,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17401,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05002,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03817,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17140,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01214,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01189,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17322,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03804,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.09956,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02870,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17187,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03715,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17040,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17156,Cercis canadensis L. var. canadensis,CECAC,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01838,Prunus avium (L.) L.,PRAV,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03939,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02948,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_004,NEON.PLA.D02.SCBI.13001,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02865,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00057,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17153,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17425,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00262,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01356,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00123,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17436,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03977,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01301,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02896,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03965,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01291,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17407,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02065,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02918,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02927,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01844,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01281,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.09975,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01298,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.14227,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.13007,Acer negundo L. var. negundo,ACNEN,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00071,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17424,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_055,NEON.PLA.D02.SCBI.14438Z,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.16225,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17178,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03907,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17025,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17163,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01183,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03961,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_056,NEON.PLA.D02.SCBI.03492,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03710,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02875,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03958,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03952,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17306,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00250,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03816,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17017,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01216,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02879,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01300,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01348,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17429,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00032,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03914,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01694,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02961,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03966,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17180,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01738,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02924,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01202,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00062,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05004,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17318,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01225,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02898,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03957,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17168,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03923,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01197,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17403,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00159,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_050,NEON.PLA.D02.SCBI.10809,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01351,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03940,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01179,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17038,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01705,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02076,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00102,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01685,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01695,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17312,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00029,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01208,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01322,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00186,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00183,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17192,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02929,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17035,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.13003,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17329,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17338,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03987,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02921,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00251,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02016,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.13005,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03953,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00180,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00063,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_011,NEON.PLA.D02.SCBI.13014,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_058,NEON.PLA.D02.SCBI.10722,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02032,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02899,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00096,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00119,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00163,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10891,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00190,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.03782,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01849,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02926,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_004,NEON.PLA.D02.SCBI.14440Z,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03972,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17032,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02866,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_056,NEON.PLA.D02.SCBI.03497,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17001,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01836,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03963,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17405,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.09965,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02880,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03884,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02959,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01682,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01900,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17157,Parthenocissus quinquefolia (L.) Planch.,PAQU2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03983,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03924,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.02133,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00043,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02089,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00269,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00151,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.12493,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17179,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00091,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03921,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02912,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03948,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00031,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00175,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05003,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01192,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00148,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01344,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01683,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02953,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05006,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02873,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02909,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01691,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00083,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03980,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.12284,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01340,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00195,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10784,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00191,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02864,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03902,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01299,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17413,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03981,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02908,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02882,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01903,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05443,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01842,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17003,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17176,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02951,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00156,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.14504Z,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01157,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17172,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17142,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00085,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00139,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17315,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00037,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01698,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05008,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00093,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.16226,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.05103,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02878,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17019,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00142,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01902,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_011,NEON.PLA.D02.SCBI.13013,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03964,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17428,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17327,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00074,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00271,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00161,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02023,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03946,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02934,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17039,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17303,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01181,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17195,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03960,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01243,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17198,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17161,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01191,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03810,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03990,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01211,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03873,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17321,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17430,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03916,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17013,Prunus avium (L.) L.,PRAV,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.03737,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03806,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03872,Carya sp.,CARYA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03819,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00075,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01187,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02085,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02087,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.16223,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01295,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01329,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17041,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17302,Rosa multiflora Thunb.,ROMU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03821,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_058,NEON.PLA.D02.SCBI.03371,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03716,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00152,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01212,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02932,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01699,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01704,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01854,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03986,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10890,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01324,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01350,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03910,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.02105,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17420,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02861,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03920,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17021,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01254,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17435,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01801,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00188,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17147,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02021,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.14503Z,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17170,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01337,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00124,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01737,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00160,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00125,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02919,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.14215Z,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02954,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17034,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.03719,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02958,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17411,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02904,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01343,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03882,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_064,NEON.PLA.D02.SCBI.03191,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02017,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01311,Carya cordiformis (Wangenh.) K. Koch,CACO15,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02931,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01277,Hydrangea arborescens L.,HYAR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00165,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17421,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_063,NEON.PLA.D02.SCBI.00776,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17409,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01190,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01736,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17165,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00153,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.13018,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01739,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00286,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00267,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17169,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02015,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10883,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03991,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17412,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_017,NEON.PLA.D02.SCBI.01404,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02914,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03709,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17404,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02887,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03936,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05005,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17159,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01750,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02010,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01231,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00181,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01280,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01700,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00265,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01355,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03993,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01307,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01276,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00187,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01304,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01303,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01207,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.05101,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_004,NEON.PLA.D02.SCBI.13002,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01253,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03982,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17438,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03811,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17194,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01821,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02855,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02083,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00275,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.13006,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00086,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02952,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.16224,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03975,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17316,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_011,NEON.PLA.D02.SCBI.01878,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17012,Robinia pseudoacacia L.,ROPS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02091,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17437,Ailanthus altissima (Mill.) Swingle,AIAL,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02066,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17027,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00252,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01200,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00284,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17193,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02030,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01907,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00258,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10791,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.17051,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01247,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17317,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00283,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02955,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17337,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03934,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01745,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03962,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02933,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.14505Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00097,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02093,Cercis canadensis L. var. canadensis,CECAC,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.14429Z,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17151,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01210,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01323,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00158,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_013,NEON.PLA.D02.SCBI.14413Z,Acer negundo L. var. negundo,ACNEN,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17427,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01342,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_058,NEON.PLA.D02.SCBI.10719,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02962,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17152,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10790,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01206,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.01942,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17422,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.13004,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00140,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17004,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01822,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00149,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01229,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10793,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17188,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17406,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_004,NEON.PLA.D02.SCBI.14437Z,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17150,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01681,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01188,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01349,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02022,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03945,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01309,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.17050,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02012,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02915,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.13933,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01905,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03702,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00253,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17016,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17324,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17010,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03803,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01279,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.13019,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02048,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01802,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01156,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01294,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03879,Fraxinus sp.,FRAXI,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17423,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17191,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03949,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03711,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01746,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01230,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02894,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01706,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01742,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01714,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.05415,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03944,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00092,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00038,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.03785,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01274,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17015,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_013,NEON.PLA.D02.SCBI.13010Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01848,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01228,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01275,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03802,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17314,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_055,NEON.PLA.D02.SCBI.03096,Tilia americana L.,TIAM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02014,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01252,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17301,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01843,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02090,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01341,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17022,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17339,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03809,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01686,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17177,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.17330,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01357,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17167,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17007,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01359,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02889,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17143,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17426,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00035,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.17334,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01195,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03989,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02935,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00033,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01837,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03701,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00053,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03984,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01302,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00081,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03971,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03875,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05466,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01293,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03876,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03900,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17310,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01250,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.14435Z,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02917,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17030,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02907,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_061,NEON.PLA.D02.SCBI.10845,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17162,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01735,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00150,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01215,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17031,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01196,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_046,NEON.PLA.D02.SCBI.14190Z,Ailanthus altissima (Mill.) Swingle,AIAL,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01347,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01901,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03938,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02869,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01186,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01248,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02957,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03885,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00017,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01194,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01184,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03915,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00268,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05469,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17002,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.05116,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03947,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01296,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00034,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02949,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17185,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05455,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03955,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01845,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_064,NEON.PLA.D02.SCBI.03192,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00082,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_050,NEON.PLA.D02.SCBI.10812,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05009,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03992,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.14191Z,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_058,NEON.PLA.D02.SCBI.14410Z,Platanus occidentalis L.,PLOC,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02871,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17029,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_013,NEON.PLA.D02.SCBI.01456,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02095,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17009,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17024,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.03234,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00089,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03908,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00041,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01709,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01180,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01310,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17184,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17006,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03943,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05001,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02920,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02906,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01696,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10749,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03994,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03999,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03995,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10747,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00179,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01743,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17319,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02052,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.02152,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02862,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17011,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17037,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02905,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00249,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_062,NEON.PLA.D02.SCBI.10980,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01851,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17305,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02916,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02857,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00272,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17307,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00120,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00055,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_008,NEON.PLA.D02.SCBI.13012,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01895,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17313,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03979,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02094,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00166,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00138,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02874,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02877,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03956,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.14439Z,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03973,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17414,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00182,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02860,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17164,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01731,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17186,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00070,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01680,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03978,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02928,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01158,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_017,NEON.PLA.D02.SCBI.14414Z,Acer negundo L. var. negundo,ACNEN,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17155,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17197,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03954,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00185,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17311,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_056,NEON.PLA.D02.SCBI.03490,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02890,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17023,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17431,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03717,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00274,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17333,Rubus pensilvanicus Poir.,RUPE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02930,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17005,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00256,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01246,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01297,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_052,NEON.PLA.D02.SCBI.05124,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03919,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17154,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00060,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03967,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17328,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00080,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01701,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01339,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02900,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03996,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01741,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02925,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01703,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01819,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01702,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02911,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02936,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02859,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.17332,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17028,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01249,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01693,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17432,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17173,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00095,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00090,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00263,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_055,NEON.PLA.D02.SCBI.03100,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02950,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17181,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03912,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00173,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.14220Z,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03880,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03988,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.04000,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05444,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01846,Carya cordiformis (Wangenh.) K. Koch,CACO15,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01345,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01898,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01283,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00087,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03871,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01711,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.10944,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17014,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17018,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17331,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00266,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00141,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00072,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_011,NEON.PLA.D02.SCBI.01863,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01740,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01284,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_049,NEON.PLA.D02.SCBI.14214Z,Ulmus sp.,ULMUS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01213,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00248,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01850,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17182,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02895,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01193,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17141,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17139,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03903,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02013,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03911,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01354,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02884,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00155,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01679,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01286,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.16211,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03801,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00189,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01285,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03713,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02897,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01224,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10739,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01338,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17166,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00122,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03714,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03942,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03985,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03976,Rubus sp.,RUBUS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03937,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05470,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17160,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01251,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03909,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02888,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01185,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01201,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.01899,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00184,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00073,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01203,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03998,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17174,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_056,NEON.PLA.D02.SCBI.03488,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.03763,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03951,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10755,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_055,NEON.PLA.D02.SCBI.03117,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.05007,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03941,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00261,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00273,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_008,NEON.PLA.D02.SCBI.13011,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17326,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00040,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.17323,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.13008,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03874,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03933,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17033,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00260,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10786,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01227,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01332,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00042,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17433,Acer negundo L. var. negundo,ACNEN,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03805,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02913,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17175,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02081,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00254,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02960,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.00255,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02075,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01205,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02910,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17008,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_016,NEON.PLA.D02.SCBI.02088,Elaeagnus umbellata Thunb.,ELUM,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03950,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01204,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02956,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_013,NEON.PLA.D02.SCBI.14506Z,Carya cordiformis (Wangenh.) K. Koch,CACO15,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02872,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01734,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_005,NEON.PLA.D02.SCBI.14501Z,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00157,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00030,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03997,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01708,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03814,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02923,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.05471,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01803,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17020,Carya ovalis (Wangenh.) Sarg.,CAOV3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01331,Rubus phoenicolasius Maxim.,RUPH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_022,NEON.PLA.D02.SCBI.17171,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01712,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00088,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17042,Symphoricarpos orbiculatus Moench,SYOR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02863,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02885,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_014,NEON.PLA.D02.SCBI.17036,Berberis thunbergii DC.,BETH,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_051,NEON.PLA.D02.SCBI.03959,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.00137,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_045,NEON.PLA.D02.SCBI.10741,Vitis sp.,VITIS,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01852,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02922,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_003,NEON.PLA.D02.SCBI.01853,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01244,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_048,NEON.PLA.D02.SCBI.02856,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+SCBI,SCBI_062,NEON.PLA.D02.SCBI.00247,Berberis thunbergii DC.,BETH,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_047,NEON.PLA.D02.SCBI.02826,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_054,NEON.PLA.D02.SCBI.00939,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_057,NEON.PLA.D02.SCBI.05684,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_002,NEON.PLA.D02.SCBI.14989,Asimina triloba (L.) Dunal,ASTR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_008,NEON.PLA.D02.SCBI.01105,Fraxinus americana L.,FRAM2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_008,NEON.PLA.D02.SCBI.01122,Carya glabra (Mill.) Sweet,CAGL8,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.01914A,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_010,NEON.PLA.D02.SCBI.01918,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_007,NEON.PLA.D02.SCBI.01648,Carya glabra (Mill.) Sweet,CAGL8,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_015,NEON.PLA.D02.SCBI.01270A,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_018,NEON.PLA.D02.SCBI.01550,Fraxinus pennsylvanica Marshall,FRPE,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_018,NEON.PLA.D02.SCBI.01579,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16450,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16452,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16461,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16449,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16464,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16444,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16458,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16445,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16448,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16462,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16447,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16446,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16465,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16459,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16453,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16455,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16457,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16460,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16451,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16456,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16463,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_071,NEON.PLA.D02.SCBI.16454,Carya cordiformis (Wangenh.) K. Koch,CACO15,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_067,NEON.PLA.D02.SCBI.16475,Fraxinus americana L.,FRAM2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_011,NEON.PLA.D02.SCBI.16042,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16298,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16294,Robinia pseudoacacia L.,ROPS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.14209,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16299,Robinia pseudoacacia L.,ROPS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16295,Ailanthus altissima (Mill.) Swingle,AIAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16297,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16300,Robinia pseudoacacia L.,ROPS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_019,NEON.PLA.D02.SCBI.16296,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16293,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.14192,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16283,Robinia pseudoacacia L.,ROPS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16098,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16290,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16282,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16100,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16097,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.17201,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16099,Acer negundo L. var. negundo,ACNEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.14441,Robinia pseudoacacia L.,ROPS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16291,Celtis occidentalis L.,CEOC,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16285,Prunus serotina Ehrh. var. serotina,PRSES,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16292A,Diospyros virginiana L.,DIVI5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_021,NEON.PLA.D02.SCBI.16292,Diospyros virginiana L.,DIVI5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17132,Quercus rubra L.,QURU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17131,Carya glabra (Mill.) Sweet,CAGL8,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17128,Carya glabra (Mill.) Sweet,CAGL8,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17130,Liriodendron tulipifera L.,LITU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17136,Liriodendron tulipifera L.,LITU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17129,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17135,Liriodendron tulipifera L.,LITU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17137,Quercus rubra L.,QURU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17134,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+SCBI,SCBI_023,NEON.PLA.D02.SCBI.17133,Liriodendron tulipifera L.,LITU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

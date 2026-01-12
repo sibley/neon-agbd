@@ -1,0 +1,978 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+BART,BART_001,NEON.PLA.D01.BART.01936,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08158,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00565,Acer saccharinum L.,ACSA2,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02303,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00905,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02326,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01965,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00464,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01261,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02595,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02325,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.08149,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02568,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02574,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00564,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00397,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00058,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01327,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01342,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02163,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01840,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02425,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01616,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01688,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00380,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01302,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08217,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02127,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01568,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02409,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02571,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00907,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00382,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00530,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00506,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00931,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00383,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01315,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00513,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02279,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00971,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02484,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01859,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00926,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_034,NEON.PLA.D01.BART.08216,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02173,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01632,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02420,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01531,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01927,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01211,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02411,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_013,NEON.PLA.D01.BART.00632,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01908,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01045,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01745,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.02980,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00923,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01308,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02176,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02142,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01167,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02898,Fraxinus sp.,FRAXI,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02886,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02384,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02003,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02401,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_034,NEON.PLA.D01.BART.02977,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08215,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02214,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02501,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08208,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01077,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01217,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01934,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02924,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02179,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00474,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00081,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01674,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02168,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02473,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01081,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02006,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01477,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02562,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02580,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02304,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00487,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02485,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00135,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02563,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01507,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01959,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01478,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02297,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01653,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02301,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01598,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.02982,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01636,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01550,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02590,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01654,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01244,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02564,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01907,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00522,Acer saccharinum L.,ACSA2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00134,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02260,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01226,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01554,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01314,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02181,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01350,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02328,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02271,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01385,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01404,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01520,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00079,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00526,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02019,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02134,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01919,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02246,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02304A,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01483,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.01028,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00394,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01061,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02381,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01221,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00561,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01271,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00538,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.08300,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02923,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01675,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00518,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01206,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01030,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00376,Prunus pensylvanica L. f.,PRPE2,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.01027,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00597,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02079,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02942,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01403,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01574,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00462,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02211,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01317,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01622,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02941,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08155,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02419,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01191,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01347,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00377,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01582,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02578,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.03995,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01151,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01052,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02128,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01974,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00475,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01539,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01630,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00909,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02030,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01649,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01054,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01694,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02939,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08235,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02274,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01943,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01989,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01717,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02416,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02570,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01277,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00702,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01815,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00488,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02569,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01100,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02558,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01266,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02572,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02005,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01070,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02259,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01617,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01805,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00557,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01279,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01275,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05925,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00532,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08206,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02174,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00501,Hamamelis virginiana L.,HAVI4,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01561,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_028,NEON.PLA.D01.BART.00859,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01637,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01570,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00337A,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01068,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00400,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01640,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01188,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01722,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01650,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00524,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00078,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08232,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01240,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02251,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02306,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02171,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02940,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02060,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02481,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00966,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05929,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01942,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00130,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01548,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.00941,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00436,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01817,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01646,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01215,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02944,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_028,NEON.PLA.D01.BART.00796A,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00514,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02089,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00067,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00486,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01588,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00929,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01952,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_073,NEON.PLA.D01.BART.05908,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01168,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02405,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08221,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00064,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02047,Prunus pensylvanica L. f.,PRPE2,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00516,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01336,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02280,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00060,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02283,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02889,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02922,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01946,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.00940,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02253,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02263,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01518,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00443,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02072,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00126,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00450,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01695,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01195,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00952,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02586,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02061,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05931,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01280,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00914,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01718,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02882,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01994,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02413,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01376,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01599,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02282,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00551,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01382,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02557,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02180,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02497,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02881,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02126,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02598,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01108,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00503,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00065,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02302,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01835,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01655,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.00495,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02588,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00930,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01348,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00425,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00140A,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00363,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.00943,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00504,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01903,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01272,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01922,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02195,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00145,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.08213,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08157,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00819,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00953,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01044,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08156,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02470,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08228,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01579,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01340,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01097,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01047,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02920,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02884,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01657,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01357,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01997,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00906,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00141,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00438,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_028,NEON.PLA.D01.BART.00797,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05926,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01615,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02489,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01633,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02891,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00987,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00147,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00485,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01624,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00143,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01628,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00126A,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02226,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00423,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01645,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.04869,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08207,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01995,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01480,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02240,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01566,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01742,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02212,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02141,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00568,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01330,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02465,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01932,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02064,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00132,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00925,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02034,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01099,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_034,NEON.PLA.D01.BART.09704,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02056,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05930,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01363,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08231,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02065,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01197,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02565,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05928,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01967,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00129,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00556,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00370,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01362,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01304,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02593,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02136,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02218,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02305,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01321,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02339,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.01003,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02146,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02184,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01583,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08162,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00482,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08202,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01402,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02422,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00480,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01714,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01328,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02406,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00938,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02140,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01194,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02412,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00904,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08201,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01212,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.02103,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00127,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01333,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01058,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02498,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.00945,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01281,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01331,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00465,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01569,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00523,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02492,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00146,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02370,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02167,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00911,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01613,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00912,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00511,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01309,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01245,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01092,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.08299,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00921,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00176,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00128,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01184,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01635,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01626,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02551,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01971,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01461,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01294,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.03999,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01401,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01487,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02556,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_018,NEON.PLA.D01.BART.02090,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02275,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01902,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01639,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01904,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01631,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02059,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01808,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01048,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00399,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02899,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01545,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01924,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02897,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01231,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00594,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01996,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01096,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01686,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00059,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02029,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00701,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02900,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_032,NEON.PLA.D01.BART.05915,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01196,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01590,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01638,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02479,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.02000,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01214,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.08212,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00479,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01219,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00910,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02892,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00932,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02219,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00375,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00384,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02463,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01329,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01987,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01985,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00449,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02186,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00560,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01142,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.01008,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01716,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01192,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02272,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02585,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.08222,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02555,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01587,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01460,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02480,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01213,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01292,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_073,NEON.PLA.D01.BART.05911,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00477,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02327,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01680,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00460,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02467,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00077,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00144,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00510,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01597,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01527,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00463,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02143,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01915,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.08148,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02407,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01978,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01232,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01584,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01199,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01698,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00364,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_034,NEON.PLA.D01.BART.08218,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00448,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01115,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02888,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01984,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02178,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02936,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01521,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01856,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02490,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02499,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02918,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02185,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01153,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01118,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01670,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01361,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01093,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02559,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08229,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01860,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00618,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01656,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01204,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02244,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01816,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02002,Betula populifolia Marshall,BEPO,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02403,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.00087,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01691,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01641,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01634,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01968,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00922,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.04000,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02402,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01592,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02162,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01200,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01208,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02004,Betula populifolia Marshall,BEPO,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01749,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01218,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01955,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02472,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.08211,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01983,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02273,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02169,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02032,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08154,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02165,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00066,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01371,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02213,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01452,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00148,Betula papyrifera Marshall,BEPA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01751,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02292,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01750,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00483,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01506,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01210,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.00491,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01956,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02333,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02496,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01262,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02132,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08298,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02346,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.03998,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02067,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02500,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00140,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02266,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01916,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.08210,Ostrya virginiana (Mill.) K. Koch,OSVI,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01312,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08204,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02494,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00967,Unknown plant,2PLANT,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01069,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02083,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01621,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02952,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02001,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05922,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01080,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02028,Prunus pensylvanica L. f.,PRPE2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01620,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00569,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01581,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00471,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02581,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.03997,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01920,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01182,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02491,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02553,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01050,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02291,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02475,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00507,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02495,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02293,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02589,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01457,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01696,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05921,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00567,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01699,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02281,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02493,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01926,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00142,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01152,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00908,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02329,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02885,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02594,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01260,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01034,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08205,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.08151,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00484,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02552,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01746,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01591,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02919,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02462,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02380,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02469,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01295,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02183,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02575,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01072,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00974,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00508,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01909,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05920,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05919,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01833,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02573,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01678,Acer spicatum Lam.,ACSP2,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00396,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02414,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02591,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02324,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02024,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01857,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.04870,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01220,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02554,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01479,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00362,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00916,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01116,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00131,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01171,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01660,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01273,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00924,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01154,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02478,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01046,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01148,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01094,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01451,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00473,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02177,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08225,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01969,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01618,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01589,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02330,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08153,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00959,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01313,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02583,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_007,NEON.PLA.D01.BART.01001,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_028,NEON.PLA.D01.BART.00796,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01032,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01925,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02020,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_070,NEON.PLA.D01.BART.05918,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08152,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01065,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05927,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01066,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02468,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01450,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01658,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.05923,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00977,Betula populifolia Marshall,BEPO,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.02989,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01301,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02410,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01146,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01553,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_070,NEON.PLA.D01.BART.05916,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00933,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02418,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01625,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00379,Prunus pensylvanica L. f.,PRPE2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01562,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01358,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01486,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02579,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02261,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02488,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00913,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02182,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_042,NEON.PLA.D01.BART.08203,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00489,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00439,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01059,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01113,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02954,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_032,NEON.PLA.D01.BART.05914,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01183,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08163,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00936,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01338,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01715,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01476,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00478,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00593,Hamamelis virginiana L.,HAVI4,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00481,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02383,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01351,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08160,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00133,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01923,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00127A,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01594,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.02999,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02175,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00126B,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_073,NEON.PLA.D01.BART.05909,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02592,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02138,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01940,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00068,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02895,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01676,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02893,Ostrya virginiana (Mill.) K. Koch,OSVI,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02945,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01223,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01453,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02345,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01593,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01033,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01838,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02561,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01595,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00970,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02172,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01738,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02894,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00141A,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01339,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00554,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02051,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01659,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02949,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02483,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00527,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02187,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01291,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01917,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01169,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01145,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00337,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01723,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02587,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00934,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02254,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01748,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02294,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01571,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02597,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00960,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01801,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00069,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00549,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_032,NEON.PLA.D01.BART.05913,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02421,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01921,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01818,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00437,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02474,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02487,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02137,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01627,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02210,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01332,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01580,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01303,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08296,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00398,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00372,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01324,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01501,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08234,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01685,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01173,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01543,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02018,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01532,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08159,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02063,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01511,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02560,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00075,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00988,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_041,NEON.PLA.D01.BART.08161,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01814,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02415,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02938,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01107,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01095,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01993,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00509,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02457,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00512,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00562,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02379,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01359,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02921,Acer saccharum Marshall var. saccharum,ACSAS,UNMEASURED,Never measured in survey campaigns
+BART,BART_039,NEON.PLA.D01.BART.08150,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01189,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01270,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02896,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01485,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02031,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01193,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_073,NEON.PLA.D01.BART.00681,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01319,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00558,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01488,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01202,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00712,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.00942,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00517,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00365,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01547,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02890,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_004,NEON.PLA.D01.BART.01021,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02887,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02883,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01629,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00138,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00915,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02007,Prunus pensylvanica L. f.,PRPE2,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02295,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02456,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01802,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02188,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02584,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.04871,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01998,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01692,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01170,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.00703,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.03993,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02057,Betula papyrifera Marshall,BEPA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02596,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01690,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01672,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01098,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01198,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08224,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02310,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00073,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01544,Abies balsamea (L.) Mill.,ABBA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01931,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01573,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01156,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01572,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01475,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02197,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01305,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02050,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01209,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02081,Betula populifolia Marshall,BEPO,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02344,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_037,NEON.PLA.D01.BART.08233,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01614,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02133,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01482,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02164,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01343,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01600,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02262,Viburnum lantanoides Michx.,VILA11,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02307,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00080,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02242,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00600,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01318,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02290,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02382,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00218,Populus grandidentata Michx.,POGR4,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01114,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01724,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_034,NEON.PLA.D01.BART.09703,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02241,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.02157,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02243,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00553,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_016,NEON.PLA.D01.BART.00528,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01203,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01067,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01307,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02408,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01525,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_010,NEON.PLA.D01.BART.00234,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02189,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02245,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_070,NEON.PLA.D01.BART.05917,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01456,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.01744,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02166,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_002,NEON.PLA.D01.BART.01216,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01320,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01474,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02033,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01687,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_006,NEON.PLA.D01.BART.02284,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.01316,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02567,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_033,NEON.PLA.D01.BART.02943,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_015,NEON.PLA.D01.BART.01364,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_005,NEON.PLA.D01.BART.01661,Picea rubens Sarg.,PIRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_023,NEON.PLA.D01.BART.02225,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.02464,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.02577,Betula alleghaniensis Britton,BEAL2,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01918,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_003,NEON.PLA.D01.BART.02027,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+BART,BART_001,NEON.PLA.D01.BART.01564,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_011,NEON.PLA.D01.BART.00476,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+BART,BART_047,NEON.PLA.D01.BART.00139,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+BART,BART_073,NEON.PLA.D01.BART.05910,Tsuga canadensis (L.) Carrière,TSCA,UNMEASURED,Never measured in survey campaigns
+BART,BART_040,NEON.PLA.D01.BART.03893,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.03602,Acer saccharum Marshall var. saccharum,ACSAS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.03767,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.04531,Ostrya virginiana (Mill.) K. Koch,OSVI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.04527,Acer saccharum Marshall var. saccharum,ACSAS,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.03756,Betula alleghaniensis Britton,BEAL2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_040,NEON.PLA.D01.BART.03627,Tsuga canadensis (L.) Carrière,TSCA,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_036,NEON.PLA.D01.BART.04967,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_032,NEON.PLA.D01.BART.03518,Betula papyrifera Marshall var. papyrifera,BEPAP,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_028,NEON.PLA.D01.BART.00888,Picea rubens Sarg.,PIRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_071,NEON.PLA.D01.BART.08071,Fagus grandifolia Ehrh.,FAGR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+BART,BART_071,NEON.PLA.D01.BART.08072,Fagus grandifolia Ehrh.,FAGR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

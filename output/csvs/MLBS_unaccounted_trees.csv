@@ -1,0 +1,17 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+MLBS,MLBS_013,NEON.PLA.D07.MLBS.08014Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_002,NEON.PLA.D07.MLBS.02558,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_064,NEON.PLA.D07.MLBS.02557,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_005,NEON.PLA.D07.MLBS.01694A,Acer pensylvanicum L.,ACPE,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_001,NEON.PLA.D07.MLBS.02703,Crataegus macrosperma Ashe,CRMA3,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_002,NEON.PLA.D07.MLBS.02559,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_001,NEON.PLA.D07.MLBS.02702,Crataegus macrosperma Ashe,CRMA3,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_064,NEON.PLA.D07.MLBS.02556,Kalmia latifolia L.,KALA,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_006,NEON.PLA.D07.MLBS.08013Z,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+MLBS,MLBS_074,NEON.PLA.D07.MLBS.00683,Hamamelis virginiana L.,HAVI4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_074,NEON.PLA.D07.MLBS.00686,Hamamelis virginiana L.,HAVI4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_066,NEON.PLA.D07.MLBS.01106,Hamamelis virginiana L.,HAVI4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_066,NEON.PLA.D07.MLBS.01084,Hamamelis virginiana L.,HAVI4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_064,NEON.PLA.D07.MLBS.00008,Hamamelis virginiana L.,HAVI4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_067,NEON.PLA.D07.MLBS.00926A,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+MLBS,MLBS_067,NEON.PLA.D07.MLBS.00940,Amelanchier laevis Wiegand,AMLA,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

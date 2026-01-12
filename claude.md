@@ -4,26 +4,35 @@ This file contains notes for future sessions working with this codebase.
 
 ## Code Structure
 
-The `/src/` directory contains four Python modules:
+The `/src/` directory contains five Python modules:
 
-1. **data_loader.py** - Functions for loading and preparing data
+1. **constants.py** - All hardcoded constants used across the codebase
+   - `DEAD_STATUSES` - Plant status values indicating dead trees
+   - `LIVE_STATUSES` - Plant status values indicating live trees
+   - `TREE_GROWTH_FORMS` - Growth forms that qualify as trees
+   - `SMALL_WOODY_GROWTH_FORMS` - Growth forms that qualify as small woody
+   - `DIAMETER_THRESHOLD` - Diameter cutoff (10cm) for tree vs small woody
+   - `ALLOMETRY_COLS` - Names of allometry columns
+   - `KG_TO_MG` - Unit conversion factor
+
+2. **data_loader.py** - Functions for loading and preparing data
    - `load_dp1_data()` - Load DP1.10098.001 pickle files
    - `load_neon_forest_agb()` - Load and concatenate NEONForestAGB CSVs
    - `load_plot_areas()` - Load plot polygon data from GeoJSON
    - `pivot_agb_by_allometry()` - Convert long to wide format for AGB
    - `merge_agb_with_apparent_individual()` - Join AGB with vst_apparentindividual
 
-2. **gap_filling.py** - Functions for filling missing biomass values
+3. **gap_filling.py** - Functions for filling missing biomass values
    - Uses linear interpolation when 2+ observations exist
    - Uses constant fill when 1 observation exists
    - Leaves NA when 0 observations exist
 
-3. **biomass_calculator.py** - Functions for computing plot-level biomass
+4. **biomass_calculator.py** - Functions for computing plot-level biomass
    - Categorizes individuals as 'tree', 'small_woody', or 'other'
    - Trees: growthForm in [single bole tree, multi-bole tree, small tree] AND stemDiameter >= 10cm
    - Small woody: growthForm in [small tree, sapling, single shrub, small shrub] AND stemDiameter < 10cm
 
-4. **main.py** - Main workflow orchestration
+5. **main.py** - Main workflow orchestration
    - `compute_site_biomass()` - Process a single site
    - `compute_all_sites_biomass()` - Process multiple sites
 
@@ -97,20 +106,43 @@ The output DataFrame has 13 columns:
 ### Dead Status Corrections
 Trees that have a "sandwiched" dead status (alive->dead->alive pattern) are now corrected to assume the tree was alive throughout. If the dead status persists (alive->dead->dead), the tree's biomass is set to 0 for dead periods.
 
-Dead status values recognized:
-- Standing dead, Downed, Dead broken bole, Lost presumed dead, Removed
+Dead status values (defined in `constants.py`):
+- Dead, broken bole
+- Downed
+- Lost, burned
+- Lost, fate unknown
+- Lost, herbivory
+- Lost, presumed dead
+- Removed
+- Standing dead
+- No longer qualifies
 
-Live status values recognized:
-- Live, Live physically damaged, Live other damage, Live disease damaged, Live broken bole
+Live status values (defined in `constants.py`):
+- '' (empty string)
+- Live
+- Live, other damage
+- Live, broken bole
+- Live, disease damaged
+- Live, insect damaged
+- Live, physically damaged
+- Lost, tag damaged
 
-### New Output Tables
+### Output Dictionary
 
-The `compute_site_biomass_full()` function returns a dictionary with:
+The `compute_site_biomass_full()` function returns a dictionary containing both the input DP1.10098 data and computed outputs, so everything is accessible from a single file:
+
+**Input tables (from DP1.10098 pickle):**
+- `vst_apparentindividual`: Raw apparent individual measurements
+- `vst_mappingandtagging`: Tree mapping and tagging data
+- `vst_perplotperyear`: Plot-level metadata per year
+- Plus metadata tables: `categoricalCodes_10098`, `variables_10098`, `validation_10098`, etc.
+
+**Computed outputs:**
 - `plot_biomass`: Plot-level biomass with growth metrics
 - `unaccounted_trees`: Trees not included in calculations
 - `individual_trees`: Individual tree measurements in long form
 - `site_id`: Site identifier
-- `metadata`: Processing information
+- `metadata`: Processing information (settings used, counts)
 
 ### Unaccounted Trees Table
 Tracks trees that couldn't be included in biomass calculations:
@@ -123,6 +155,15 @@ Long-form table with one row per tree per survey year:
 - Growth rates (year-over-year and cumulative via linear regression)
 - Time-invariant attributes from mapping table (scientific name, taxonID, etc.)
 - Corrected dead status flag
+- `gapFilling`: Indicates whether the row is 'ORIGINAL' (measured) or 'FILLED' (gap-filled)
+
+### Gap-Filling Behavior
+When `apply_gap_filling=True` (default), the following gap-filling is applied:
+1. **Complete grid creation**: For each individual that ever appeared in a plot, a row is created for every year the plot was sampled
+2. **Forward/backward fill of growthForm and stemDiameter**: These time-invariant attributes are filled from the nearest observation (forward fill preferred, backward fill if no previous data)
+3. **Biomass interpolation**: Missing biomass values are filled using linear interpolation when 2+ observations exist, or constant fill when only 1 observation exists
+
+The `gapFilling` column tracks whether each row was from an actual measurement ('ORIGINAL') or created by gap-filling ('FILLED').
 
 ### Growth Metrics
 - `growth`: Year-over-year growth rate (Mg/ha/year)
@@ -150,12 +191,10 @@ Long-form table with one row per tree per survey year:
 - Only trees (not small_woody) are tracked as unaccounted
 
 ### Dead Status Classification
-Ambiguous statuses NOT currently classified:
-- `No longer qualifies` - unclear if dead or just doesn't meet criteria
-- `Lost, fate unknown` - unknown status
-- `Lost, tag damaged` - unknown status
-
-These are treated as neither dead nor alive, so they don't trigger dead corrections.
+All plant statuses are now classified as either dead or live (see `constants.py`):
+- `No longer qualifies` - classified as DEAD
+- `Lost, fate unknown` - classified as DEAD
+- `Lost, tag damaged` - classified as LIVE (tag issue, not plant death)
 
 ### Performance Considerations
 - Dead status corrections run per-individual, which can be slow for large sites

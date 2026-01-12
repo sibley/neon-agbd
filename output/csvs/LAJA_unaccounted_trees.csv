@@ -1,0 +1,20 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+LAJA,LAJA_026,NEON.PLA.D04.LAJA.05487,Adelia ricinella L.,ADRI,UNMEASURED,Never measured in survey campaigns
+LAJA,LAJA_026,NEON.PLA.D04.LAJA.05407,Pithecellobium dulce (Roxb.) Benth.,PIDU,UNMEASURED,Never measured in survey campaigns
+LAJA,LAJA_026,NEON.PLA.D04.LAJA.05409,Adelia ricinella L.,ADRI,UNMEASURED,Never measured in survey campaigns
+LAJA,LAJA_018,NEON.PLA.D04.LAJA.08861,Persea americana Mill.,PEAM3,UNMEASURED,Never measured in survey campaigns
+LAJA,LAJA_041,NEON.PLA.D04.LAJA.04355,Pithecellobium dulce (Roxb.) Benth.,PIDU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_041,NEON.PLA.D04.LAJA.04352,Pithecellobium dulce (Roxb.) Benth.,PIDU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261A,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468A,Mangifera indica L.,MAIN3,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261B,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08260,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244A,Cordia collococca L.,COCO5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244,Cordia collococca L.,COCO5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468,Mangifera indica L.,MAIN3,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08260A,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08243,Mangifera indica L.,MAIN3,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08263,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08262,Melicoccus bijugatus Jacq.,MEBI,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+LAJA,LAJA_026,NEON.PLA.D04.LAJA.08100,Andira inermis (W. Wright) Kunth ex DC.,ANIN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

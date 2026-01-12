@@ -1,0 +1,6 @@
+siteID,plotID,year,plotArea_m2,tree_AGBJenkins,tree_AGBChojnacky,tree_AGBAnnighofer,n_trees,small_woody_AGBJenkins,small_woody_AGBChojnacky,small_woody_AGBAnnighofer,n_small_woody_total,n_small_woody_measured,n_unaccounted_trees,total_AGBJenkins,total_AGBChojnacky,total_AGBAnnighofer,growth,growth_cumu
+LAJA,LAJA_002,2016,1600,,,,7,0.0,0.0,0.0,0,0,7,0.0,0.0,0.0,,
+LAJA,LAJA_015,2016,1600,,,,5,,,,37,0,5,0.0,0.0,0.0,,0.0
+LAJA,LAJA_015,2019,1600,,,,4,,,,41,0,5,0.0,0.0,0.0,0.0,0.0
+LAJA,LAJA_026,2016,1600,,,,1,,,,121,0,4,0.0,0.0,0.0,,
+LAJA,LAJA_041,2016,400,,,,2,0.0,0.0,0.0,0,0,2,0.0,0.0,0.0,,

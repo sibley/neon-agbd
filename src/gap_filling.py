@@ -8,18 +8,7 @@ import pandas as pd
 from typing import List, Optional, Tuple
 from scipy import stats
 
-
-# Plant status values that indicate the tree is dead
-DEAD_STATUSES = {
-    'Standing dead', 'Downed', 'Dead, broken bole',
-    'Lost, presumed dead', 'Removed'
-}
-
-# Plant status values that indicate the tree is alive
-LIVE_STATUSES = {
-    'Live', 'Live, physically damaged', 'Live,  other damage',
-    'Live, disease damaged', 'Live, broken bole'
-}
+from .constants import DEAD_STATUSES, LIVE_STATUSES
 
 
 def is_dead_status(status: str) -> bool:
@@ -218,6 +207,7 @@ def zero_biomass_for_dead_trees(df: pd.DataFrame, allometry_cols: List[str]) -> 
         return df
 
     # Zero out biomass for dead trees
+    # Dead trees have no living biomass, so their contribution is 0
     dead_mask = df['corrected_is_dead'] == True
     for col in allometry_cols:
         if col in df.columns:
@@ -426,7 +416,9 @@ def create_complete_individual_year_grid(
     -------
     pd.DataFrame
         DataFrame with complete individual-year grid, with original data
-        merged in and missing combinations having NA for measurement columns
+        merged in and missing combinations having NA for measurement columns.
+        Includes 'gapFilling' column: 'ORIGINAL' for measured rows,
+        'FILLED' for gap-filled rows.
     """
     if df.empty:
         return df
@@ -444,11 +436,67 @@ def create_complete_individual_year_grid(
     # Get columns to keep from original df (excluding those we're creating)
     value_columns = [c for c in df.columns if c not in ['individualID', 'year', 'plotID']]
 
+    # Mark original data
+    df_with_flag = df.copy()
+    df_with_flag['gapFilling'] = 'ORIGINAL'
+
     # Merge original data onto grid
     merged = grid.merge(
-        df[['individualID', 'year'] + value_columns],
+        df_with_flag[['individualID', 'year', 'gapFilling'] + value_columns],
         on=['individualID', 'year'],
         how='left'
     )
 
+    # Mark gap-filled rows
+    merged['gapFilling'] = merged['gapFilling'].fillna('FILLED')
+
     return merged
+
+
+def forward_fill_growth_form(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Forward-fill growthForm and stemDiameter for each individual.
+
+    For gap-filled rows where these columns are NaN or empty string, this fills
+    in the value from the most recent previous year where it was observed. If no
+    previous observation exists, it uses the next available observation (backward fill).
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with 'individualID', 'year', 'growthForm', and 'stemDiameter' columns
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with growthForm and stemDiameter filled for gap-filled rows
+    """
+    if df.empty:
+        return df
+
+    df = df.copy()
+
+    columns_to_fill = ['growthForm', 'stemDiameter']
+    columns_present = [c for c in columns_to_fill if c in df.columns]
+
+    if not columns_present:
+        return df
+
+    # Replace empty strings with NaN so they can be filled
+    for col in columns_present:
+        if df[col].dtype == object:  # String column
+            df[col] = df[col].replace('', np.nan)
+
+    # Opt-in to future pandas behavior to avoid FutureWarning
+    with pd.option_context('future.no_silent_downcasting', True):
+        # Process each individual separately
+        for ind_id in df['individualID'].unique():
+            ind_mask = df['individualID'] == ind_id
+            ind_df = df.loc[ind_mask].sort_values('year')
+
+            for col in columns_present:
+                # Forward fill then backward fill
+                filled_values = ind_df[col].ffill().bfill()
+                df.loc[ind_mask, col] = filled_values.values
+
+    return df

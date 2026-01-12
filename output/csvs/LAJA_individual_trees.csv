@@ -1,0 +1,20 @@
+siteID,plotID,individualID,year,AGBJenkins,AGBChojnacky,AGBAnnighofer,growth_AGBJenkins,growth_cumu_AGBJenkins,growth_AGBChojnacky,growth_cumu_AGBChojnacky,growth_AGBAnnighofer,growth_cumu_AGBAnnighofer,stemDiameter,height,plantStatus,corrected_is_dead,gapFilling,scientificName,taxonID,genus,family,taxonRank,pointID,stemDistance,stemAzimuth
+LAJA,LAJA_041,NEON.PLA.D04.LAJA.04352,2016,0.0,0.0,0.0,,,,,,,31.6,,Live,False,ORIGINAL,Pithecellobium dulce (Roxb.) Benth.,PIDU,Pithecellobium,Fabaceae,species,51,18.2,226.0
+LAJA,LAJA_041,NEON.PLA.D04.LAJA.04355,2016,0.0,0.0,0.0,,,,,,,31.0,,"Live, insect damaged",False,ORIGINAL,Pithecellobium dulce (Roxb.) Benth.,PIDU,Pithecellobium,Fabaceae,species,51,13.1,199.1
+LAJA,LAJA_026,NEON.PLA.D04.LAJA.08100,2016,0.0,0.0,0.0,,,,,,,12.2,4.7,Live,False,ORIGINAL,Andira inermis (W. Wright) Kunth ex DC.,ANIN,Andira,Fabaceae,species,51,6.4,222.6
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08243,2016,0.0,0.0,0.0,,,,,,,51.3,10.1,"Live, insect damaged",False,ORIGINAL,Mangifera indica L.,MAIN3,Mangifera,Anacardiaceae,species,49,7.6,123.4
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,23.4,8.6,Live,False,ORIGINAL,Cordia collococca L.,COCO5,Cordia,Boraginaceae,species,31,10.1,63.3
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244,2019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,11.3,Live,False,ORIGINAL,Cordia collococca L.,COCO5,Cordia,Boraginaceae,species,31,10.1,63.3
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,20.7,8.6,Live,False,ORIGINAL,Cordia collococca L.,COCO5,Cordia,Boraginaceae,species,31,10.1,63.3
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08244A,2019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.8,11.3,Live,False,ORIGINAL,Cordia collococca L.,COCO5,Cordia,Boraginaceae,species,31,10.1,63.3
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08260,2016,0.0,0.0,0.0,,,,,,,12.5,4.2,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,33,5.7,283.7
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08260A,2016,0.0,0.0,0.0,,,,,,,12.0,4.2,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,33,5.7,283.7
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261,2016,0.0,0.0,0.0,,,,,,,13.1,4.4,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,,,
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261A,2016,0.0,0.0,0.0,,,,,,,11.8,4.4,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,,,
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08261B,2016,0.0,0.0,0.0,,,,,,,11.4,4.4,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,,,
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08262,2016,0.0,0.0,0.0,,,,,,,13.0,4.1,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,51,7.7,227.5
+LAJA,LAJA_002,NEON.PLA.D04.LAJA.08263,2016,0.0,0.0,0.0,,,,,,,10.8,3.8,Live,False,ORIGINAL,Melicoccus bijugatus Jacq.,MEBI,Melicoccus,Sapindaceae,species,,,
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,25.0,8.1,Live,False,ORIGINAL,Mangifera indica L.,MAIN3,Mangifera,Anacardiaceae,species,33,5.0,342.9
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468,2019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.4,10.0,Live,False,ORIGINAL,Mangifera indica L.,MAIN3,Mangifera,Anacardiaceae,species,33,5.0,342.9
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,23.7,8.1,Live,False,ORIGINAL,Mangifera indica L.,MAIN3,Mangifera,Anacardiaceae,species,33,5.0,342.9
+LAJA,LAJA_015,NEON.PLA.D04.LAJA.08468A,2019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.0,10.0,Live,False,ORIGINAL,Mangifera indica L.,MAIN3,Mangifera,Anacardiaceae,species,33,5.0,342.9

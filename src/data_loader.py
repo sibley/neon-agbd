@@ -77,6 +77,10 @@ def load_neon_forest_agb(
 
     if site_id is not None:
         combined_df = combined_df[combined_df['siteID'] == site_id].copy()
+        if len(combined_df) == 0:
+            import warnings
+            warnings.warn(f"No NEONForestAGB data found for site {site_id}. "
+                         "This site may be non-forested (e.g., grassland).")
 
     return combined_df
 
@@ -177,13 +181,23 @@ def merge_agb_with_apparent_individual(
     vst_ai['date_str'] = pd.to_datetime(vst_ai['date']).dt.strftime('%Y-%m-%d')
     agb_pivoted['date_str'] = pd.to_datetime(agb_pivoted['date']).dt.strftime('%Y-%m-%d')
 
+    # Determine which allometry columns are available
+    allometry_cols = ['AGBJenkins', 'AGBChojnacky', 'AGBAnnighofer']
+    available_cols = [c for c in allometry_cols if c in agb_pivoted.columns]
+    merge_cols = ['individualID', 'date_str'] + available_cols
+
     # Merge on individualID and date
     merged = vst_ai.merge(
-        agb_pivoted[['individualID', 'date_str', 'AGBJenkins', 'AGBChojnacky', 'AGBAnnighofer']],
+        agb_pivoted[merge_cols],
         left_on=['individualID', 'date_str'],
         right_on=['individualID', 'date_str'],
         how='left'
     )
+
+    # Add missing allometry columns as NaN
+    for col in allometry_cols:
+        if col not in merged.columns:
+            merged[col] = np.nan
 
     # Drop the temporary date_str column
     merged = merged.drop(columns=['date_str'])
@@ -230,3 +244,34 @@ def get_unique_plot_years(vst_ai: pd.DataFrame) -> pd.DataFrame:
     unique_combinations = df[['plotID', 'year']].drop_duplicates().sort_values(['plotID', 'year'])
 
     return unique_combinations.reset_index(drop=True)
+
+
+def get_plot_years_from_perplotperyear(vst_ppy: pd.DataFrame) -> pd.DataFrame:
+    """
+    Get all unique combinations of plotID and year from vst_perplotperyear.
+
+    This is the authoritative source for which plots were surveyed in which years,
+    including plots that had no woody vegetation.
+
+    Parameters
+    ----------
+    vst_ppy : pd.DataFrame
+        The vst_perplotperyear table
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with columns: plotID, year, totalSampledAreaTrees,
+        totalSampledAreaShrubSapling, treesPresent, shrubsPresent
+    """
+    df = vst_ppy.copy()
+    df['year'] = df['eventID'].apply(extract_year_from_event_id)
+
+    # Select relevant columns
+    cols_to_keep = ['plotID', 'year', 'totalSampledAreaTrees',
+                    'totalSampledAreaShrubSapling', 'treesPresent', 'shrubsPresent']
+    cols_available = [c for c in cols_to_keep if c in df.columns]
+
+    result = df[cols_available].drop_duplicates().sort_values(['plotID', 'year'])
+
+    return result.reset_index(drop=True)

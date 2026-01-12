@@ -1,0 +1,863 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00667,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_032,NEON.PLA.D07.ORNL.01211A,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03168,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03965,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00868,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00064,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04803,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00271,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03987,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00615,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00634,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10046,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01272,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05513,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03964,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00580,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01128,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01427,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04784,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00748,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01242,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01228,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03932,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05530,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03975,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01245,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00612,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00035,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03247,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01133,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03244,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08847,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05301,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02401,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00343,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02385,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04812,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00045,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00075,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02329,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03914,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02425,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02426,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04797,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04143,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00052,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05537,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00589,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00666,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01230,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02164,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05555,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00331,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05524,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00582,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00675,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02374,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00037,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05304,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05305,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00060,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00588,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01366,Unknown hardwood plant,2PLANT-H,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01287,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03926,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01254,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00717,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00698,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01124,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08841,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04136,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03939,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02407,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00444,Vaccinium stamineum L.,VAST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08854,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00034,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01357,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03913,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03242,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08374,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00562,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00046,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02240,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08843,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08825,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01125,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00514,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04151,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01201,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02370,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05506,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_035,NEON.PLA.D07.ORNL.08010Z,Pinus virginiana Mill.,PIVI2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01138,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05512,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01120,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03906,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08379,Unknown hardwood plant,2PLANT-H,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00063,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05549,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08852,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00310,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00729,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03917,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04791,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00755,Ailanthus altissima (Mill.) Swingle,AIAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03915,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00610,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00575,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04792,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05551,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00322,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01362,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00739,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03243,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02421,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02362,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03931,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01902,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00438,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05311,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01193,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05294,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02357,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02415,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04152,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00312,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02372,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00744,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00830,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02367,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08369,Unknown softwood plant,2PLANT-S,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05293,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00812,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02336,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03951,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02423,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01130,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10040,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03945,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10039,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02356,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00217,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00357,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00336,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00677,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01178,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00574,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05533,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01168,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03961,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00414,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02339,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05299,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01247,Ulmus alata Michx.,ULAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01243,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10032,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00772,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08859,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08384,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00854,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01212,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02335,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00442,Vaccinium stamineum L.,VAST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00315,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08858,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00826,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00614,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05290,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00572,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00375,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01344,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05522,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01904,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02342,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00363,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00587,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01388,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01226,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03909,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01363,Ulmus alata Michx.,ULAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00508,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02375,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02174,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00594,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_055,NEON.PLA.D07.ORNL.03349,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02377,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05543,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02314,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05528,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10041,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00752,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08830,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03983,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03912,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03980,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00859,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00061,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00746,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01636E,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04146,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00576,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00888,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00056,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01433,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04798,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02160,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01205,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08853,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05302,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05523,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08373,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08820,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01356,Ulmus alata Michx.,ULAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00738,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05540,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02450,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02346,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04787,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02431,Euonymus alatus (Thunb.) Siebold,EUAL13,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00051,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00596,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03248,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03232,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01320,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04807,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00609,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05545,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_043,NEON.PLA.D07.ORNL.25896,Acer negundo L.,ACNE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00041,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01373,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05297,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03974,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05514,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00659,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00712,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03918,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02171,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05541,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01251,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02168,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_035,NEON.PLA.D07.ORNL.08011Z,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03956,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01636B,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00776,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00068,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08816,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08380,Unknown hardwood plant,2PLANT-H,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01398,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01231,Vaccinium stamineum L.,VAST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04140,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02406,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02273,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00753,Quercus coccinea Münchh.,QUCO2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01260,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04144,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02437,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00590,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00679,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00577,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_043,NEON.PLA.D07.ORNL.08005Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00592,Ilex opaca Aiton,ILOP,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00818,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00664,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01149,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08370,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00067,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04141,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03960,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01196,Pinus virginiana Mill.,PIVI2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03955,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03991,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02434,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02382,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04139,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02270,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01151,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04788,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05542,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03235,Pinus strobus L.,PIST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03993,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00858,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04795,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03992,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02165,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08911,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08907,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00058,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00509,Ulmus alata Michx.,ULAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00421,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00832,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00819,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03922,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00506,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02402,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01165,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10038,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08910,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08814,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03921,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01636C,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10031,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05312,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01901,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_055,NEON.PLA.D07.ORNL.03366,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03234,Pinus strobus L.,PIST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01384,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01194,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00047,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03233,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03933,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00069,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02275,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05559,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03925,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00827,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00719,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01376,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00735,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01367,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00591,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00809,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01364,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03240,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08904,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02427,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00593,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03970,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00613,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00066,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00350,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00713,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02272,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02340,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01191,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03958,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01355,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02349,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08821,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00820,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02167,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01150,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01199,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02271,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10037,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00722,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01354,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01148,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05544,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01195,Ilex opaca Aiton,ILOP,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08851,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02313,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03905,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08838,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04802,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01119,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00678,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01121,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04155,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01166,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00808,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02360,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00595,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00321,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03984,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00355,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02238,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02337,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00886,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00671,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01352,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08829,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02380,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02262,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00668,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02371,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03981,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08837,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03225,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02354,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00510,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03224,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00330,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02419,Euonymus alatus (Thunb.) Siebold,EUAL13,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00446,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01182,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05309,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02353,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03954,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00369,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02267,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01249,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00373,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01122,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08840,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03942,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00376,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00573,Vaccinium stamineum L.,VAST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03228,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00079,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05520,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08382,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00364,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00439,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03227,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05308,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00837,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02411,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01157,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00736,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00833,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03904,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03957,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02000,Prenanthes serpentaria Pursh,PRSE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00782,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08836,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08378,Toxicodendron radicans (L.) Kuntze,TORA2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05521,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01152,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08901,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01267,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01184,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02352,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04135,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01213,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05550,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00039,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00415,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01360,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01155,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02095,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00606,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03928,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02438,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00038,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_008,NEON.PLA.D07.ORNL.08012Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00050,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00372,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03246,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05525,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00601,Quercus falcata Michx.,QUFA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01913,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04805,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04794,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05317,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05310,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03901,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05519,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08386,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03237,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01391,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00821,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04783,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02424,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05539,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02350,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02345,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00072,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05314,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05531,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08377,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08902,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02428,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08900,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00745,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02416,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03935,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08845,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02338,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01906,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02417,Lonicera maackii (Rupr.) Herder,LOMA6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02341,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04156,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01131,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00853,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00754,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02418,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_007,NEON.PLA.D07.ORNL.02525,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03245,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01378,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00599,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03989,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01102,Unknown hardwood plant,2PLANT-H,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01223,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04149,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00319,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00073,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01383,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05516,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03930,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00374,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03999,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02261,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04137,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05316,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02361,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02218,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03994,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04158,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03239,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03229,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08819,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04789,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05291,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00603,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02403,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00761,Ailanthus altissima (Mill.) Swingle,AIAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01328,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03944,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02166,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02381,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00036,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00053,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05298,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10045,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00597,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05554,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01118,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08903,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02355,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01426,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01903,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08850,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01236,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01183,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00317,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04145,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01237,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04153,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03169A,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00055,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01905,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02409,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08383,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00586,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03968,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02359,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02410,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02422,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08855,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10035,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_003,NEON.PLA.D07.ORNL.08004Z,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02413,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10034,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03250,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00043,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01180,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02175,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00447,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00571,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01261,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01415,Ulmus rubra Muhl.,ULRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03946,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05296,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00863,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00786,Unknown hardwood plant,2PLANT-H,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00749,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01908,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01244,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01270,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00867,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01299,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05538,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03990,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01359,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02241,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00040,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00071,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05306,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02404,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03972,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00344,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02358,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08375,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03979,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08905,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08827,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01109,Cornus florida L.,COFL2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00042,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02432,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04804,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00570,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01169,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08844,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00358,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00512,Quercus falcata Michx.,QUFA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01293,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01123,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01216,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04142,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10043,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00828,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03923,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05300,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00740,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00705,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03241,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02376,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03995,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08842,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00801,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03967,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00600,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01209,Carya cordiformis (Wangenh.) K. Koch,CACO15,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01281,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01389,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03982,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05315,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02414,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01253,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04160,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00078,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00798,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02430,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03969,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02373,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03952,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08857,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00584,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02231,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05534,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08908,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05552,Vaccinium corymbosum L.,VACO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00337,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00420,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03929,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00057,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00077,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00598,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10036,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04809,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04800,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02276,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03996,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01210,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00585,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10048,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00608,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00665,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02378,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01217,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02364,Ilex opaca Aiton,ILOP,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02368,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00684,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08381,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08387,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03916,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00787,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00607,Lindera benzoin (L.) Blume,LIBE3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03988,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02379,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02170,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02299,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08831,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05292,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03238,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04790,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04134,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02343,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00568,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01316,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00511,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04806,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03985,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00611,Pinus strobus L.,PIST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03962,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00604,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03903,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00070,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02269,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02274,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04147,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00768,Pinus strobus L.,PIST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01414,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01215,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01377,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03977,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_043,NEON.PLA.D07.ORNL.08006Z,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08385,Ligustrum sinense Lour.,LISI,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01232,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04159,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01250,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02030,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00790,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01284,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00367,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00439A,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00507,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02384,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00884,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05517,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04801,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00247,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_032,NEON.PLA.D07.ORNL.08009Z,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01387,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05532,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00569,Quercus falcata Michx.,QUFA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01301,Cercis canadensis L.,CECA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00323,Carya cordiformis (Wangenh.) K. Koch,CACO15,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01129,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00578,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02400,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01321,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08372,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02412,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03941,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02429,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02161,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05515,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00048,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00791,Lonicera japonica Thunb.,LOJA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03924,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10030,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03911,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03900,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05303,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00728,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03973,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00766,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08828,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04148,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00074,Quercus montana Willd.,QUMO4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05518,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03978,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00579,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02351,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01276,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08835,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00650,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00700,Vaccinium stamineum L.,VAST,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04793,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10044,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08846,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03971,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03249,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01302,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03919,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04810,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00366,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_068,NEON.PLA.D07.ORNL.00583,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02173,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08856,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04786,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01288,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00368,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01425,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00741,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00635,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04796,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00059,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10042,Quercus sp.,QUERC,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00708,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08906,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00727,Fraxinus pennsylvanica Marshall,FRPE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02324,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00076,Quercus falcata Michx.,QUFA,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_032,NEON.PLA.D07.ORNL.08008Z,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02386,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01636A,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00855,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00028,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01224,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02383,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01134,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03943,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_043,NEON.PLA.D07.ORNL.00532A,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02268,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03226,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01241,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02195,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04808,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03963,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00062,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02405,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03230,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01636D,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00049,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02439,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01192,Quercus rubra L.,QURU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01375,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01909,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04161,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04150,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.05535,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.10033,Ilex montana Torr. & A. Gray ex A. Gray,ILMO,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00747,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04785,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01156,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00412,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01385,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04157,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.00880,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00852,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08909,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00687,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.04138,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01219,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02266,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01146,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02420,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01361,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05295,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03910,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08848,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08371,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04799,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00703,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05307,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01100,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01105,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03902,Liriodendron tulipifera L.,LITU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02344,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08834,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08849,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_017,NEON.PLA.D07.ORNL.00320,Juniperus virginiana L.,JUVI,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01273,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.05313,Quercus velutina Lam.,QUVE,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08818,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.02366,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_059,NEON.PLA.D07.ORNL.08376,Acer rubrum L.,ACRU,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08815,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01135,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03236,Oxydendrum arboreum (L.) DC.,OXAR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00670,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00332,Sassafras albidum (Nutt.) Nees,SAAL5,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03934,Fraxinus americana L.,FRAM2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08817,Asimina triloba (L.) Dunal,ASTR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.08826,Carpinus caroliniana Walter,CACA18,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01229,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.00829,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_060,NEON.PLA.D07.ORNL.03927,Acer saccharum Marshall,ACSA3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01222,Nyssa sylvatica Marshall,NYSY,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00716,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01291,Quercus alba L.,QUAL,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_018,NEON.PLA.D07.ORNL.01101,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_019,NEON.PLA.D07.ORNL.00654,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_058,NEON.PLA.D07.ORNL.04782,Amelanchier arborea (Michx. f.) Fernald,AMAR3,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_015,NEON.PLA.D07.ORNL.01424,Fagus grandifolia Ehrh.,FAGR,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_062,NEON.PLA.D07.ORNL.03231,Vaccinium pallidum Aiton,VAPA4,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_067,NEON.PLA.D07.ORNL.01246,Prunus serotina Ehrh.,PRSE2,UNMEASURED,Never measured in survey campaigns
+ORNL,ORNL_001,NEON.PLA.D07.ORNL.01103,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_027,NEON.PLA.D07.ORNL.06050,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_032,NEON.PLA.D07.ORNL.02408,Fraxinus americana L.,FRAM2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_063,NEON.PLA.D07.ORNL.00402,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.01802,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.01086,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_052,NEON.PLA.D07.ORNL.03282,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_046,NEON.PLA.D07.ORNL.04903A,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_046,NEON.PLA.D07.ORNL.04903B,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_046,NEON.PLA.D07.ORNL.01786,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_056,NEON.PLA.D07.ORNL.01986,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_061,NEON.PLA.D07.ORNL.01095,Sassafras albidum (Nutt.) Nees,SAAL5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_057,NEON.PLA.D07.ORNL.01386,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_046,NEON.PLA.D07.ORNL.04842,Nyssa sylvatica Marshall,NYSY,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_053,NEON.PLA.D07.ORNL.09409,Oxydendrum arboreum (L.) DC.,OXAR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_053,NEON.PLA.D07.ORNL.09416,Oxydendrum arboreum (L.) DC.,OXAR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_036,NEON.PLA.D07.ORNL.00150,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_036,NEON.PLA.D07.ORNL.00139,Acer saccharum Marshall,ACSA3,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_036,NEON.PLA.D07.ORNL.02702,Quercus montana Willd.,QUMO4,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_036,NEON.PLA.D07.ORNL.00017,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_050,NEON.PLA.D07.ORNL.05196,Acer rubrum L.,ACRU,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_045,NEON.PLA.D07.ORNL.08242,Oxydendrum arboreum (L.) DC.,OXAR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+ORNL,ORNL_037,NEON.PLA.D07.ORNL.01075,Oxydendrum arboreum (L.) DC.,OXAR,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

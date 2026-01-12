@@ -1,0 +1,814 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09095,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07478,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08762,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09104,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42004,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42229,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.01631,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44057,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08589,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43041,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01620,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08585,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08815,Carya glabra (Mill.) Sweet,CAGL8,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_009,NEON.PLA.D03.OSBS.07043,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44080,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_023,NEON.PLA.D03.OSBS.01121,Nyssa biflora Walter,NYBI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44059,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09128,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44130,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09050,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08818,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_031,TEMP.PLA.OSBS.2020.31862,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07490,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08649,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_009,NEON.PLA.D03.OSBS.07041,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44051,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44066,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08861,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08887,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.08759,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08564,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08822,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43046,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07474,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44061,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08755,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.07464,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09194,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01920,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,TEMP.PLA.OSBS.2022.27043,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44158,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44070,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.07500,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44156,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43020,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08644,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08640,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01108,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08576,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08890,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44052,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08650,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44149,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.09390,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08493,Oleaceae sp.,OLEACE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08754,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08820,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08795,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08834,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2019.26049,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43044,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08557,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09098,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09103,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09154,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08794,Fagaceae sp.,FAGACE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08760,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44170,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09108,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08784,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09164,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01247,Asimina incana (W. Bartram) Exell,ASIN12,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08848,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43040,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09182,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08777,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08892,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2019.26075,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44138,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08867,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09151,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08831,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09181,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44169,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2020.28029,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.07499,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08751,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01922,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43035,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08837,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44071,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2021.26138,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42012,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44108,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08870,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08768,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01959,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09146,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09092,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44132,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00884,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08786,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44097,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00886,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01111,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43036,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08586,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08897,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08883,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08803,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,TEMP.PLA.OSBS.2020.27207,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08630,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_004,NEON.PLA.D03.OSBS.08662,Asimina incana (W. Bartram) Exell,ASIN12,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09189,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44089,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08657,Pinus clausa (Chapm. ex Engelm.) Vasey ex Sarg.,PICL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44086,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08766,Sabal etonia Swingle ex Nash,SAET,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08891,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08843,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09173,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08574,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08753,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2023.28040,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08559,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08661,Ceratiola ericoides Michx.,CEER3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.09161,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09105,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44085,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07482,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44125,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_001,NEON.PLA.D03.OSBS.08545,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.08552,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08570,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08857,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08839,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08885,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09106,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08835,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09137,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09192,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08756,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01584,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09099,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09130,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08770,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07497,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08614,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08945,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43021,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43051,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,TEMP.PLA.OSBS.2019.25003,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09172,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44093,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.00589,Butia sp.,BUTIA,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08764,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00874,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00883,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.02024,Ilex glabra (L.) A. Gray,ILGL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,TEMP.PLA.OSBS.2019.33001,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08653,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08628,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09097,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01275,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2023.26125,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_004,NEON.PLA.D03.OSBS.01359,Asimina incana (W. Bartram) Exell,ASIN12,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_004,TEMP.PLA.OSBS.2020.04004,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42260,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43039,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01901,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44075,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44166,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08780,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08862,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09170,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08809,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08624,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43022,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00907,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44145,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08613,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44129,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.00451,Prunus americana Marshall,PRAM,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08783,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44155,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08641,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09120,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08643,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44134,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44133,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43037,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08621,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01110,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42254,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43028,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44143,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43033,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08855,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_048,NEON.PLA.D03.OSBS.08660,Vaccinium myrsinites Lam.,VAMY3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00905,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01294,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44135,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44060,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_001,NEON.PLA.D03.OSBS.08546,Ilex coriacea (Pursh) Chapm.,ILCO,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08569,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09150,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_031,NEON.PLA.D03.OSBS.03457,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08893,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08841,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08571,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08651,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09180,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44078,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,TEMP.PLA.OSBS.2019.99998,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08659B,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08566,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09049,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00596,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44123,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08485,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09044,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08634,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43038,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08595,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08901,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44160,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44171,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09112,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.07465,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08798,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.08752,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08635,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01274,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01283,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09046,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43054,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_005,NEON.PLA.D03.OSBS.08664,Ilex glabra (L.) A. Gray,ILGL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01904,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08607,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00860,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43034,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02293,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09045,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08881,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08830,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08813,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01290,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2021.28001,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07471,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07475,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44069,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44157,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08817,Loganiaceae sp.,LOGANI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09125,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07487,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08487,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09177,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01958,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09152,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02292,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09197,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08789,Ilex ambigua (Michx.) Torr.,ILAM,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08632,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08863,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,TEMP.PLA.OSBS.2019.99999,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07496,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,TEMP.PLA.OSBS.2019.00121,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08903,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08875,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02299,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01960,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08565,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44090,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08602,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08826,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00859,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44092,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.08757,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09107,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07473,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09041,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44100,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08899,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44159,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01962,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08561,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08591,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07485,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09145,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_030,TEMP.PLA.OSBS.2023.30100,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44084,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.07463,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09101,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44106,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,NEON.PLA.D03.OSBS.08869,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09081,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00850,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07472,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09196,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_029,TEMP.PLA.OSBS.2021.29006,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09149,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08580,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09133,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44137,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,TEMP.PLA.OSBS.2022.27500,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00593,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08874,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44109,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09184,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08592,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44146,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08774,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08501,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08601,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00592,Aceraceae sp.,ACERAC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08845,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09136,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08804,Quercus nigra L.,QUNI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01927,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44058,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44098,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09134,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08806,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08659C,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09122,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08623,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02294,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_009,NEON.PLA.D03.OSBS.08663,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44068,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44096,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08778,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09040,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.07469,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08656,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09135,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2022.26091,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09132,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_009,NEON.PLA.D03.OSBS.07071B,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.00846,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.08758,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43048,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08619,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08588,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08562,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2023.26062,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01582,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02297,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44050,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08772,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08851,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.00837,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07488,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,TEMP.PLA.OSBS.2020.06023,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.07461,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,TEMP.PLA.OSBS.2022.27119,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08615,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.01608,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44065,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07479,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44054,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08572,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08819,Magnolia grandiflora L.,MAGR4,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09187,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08617,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09155,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43045,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08763,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08836,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09185,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44151,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08645,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08814,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44112,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08603,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09109,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43042,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08761,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08800,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08618,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08802C,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08860,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44154,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08567,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01109,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_031,NEON.PLA.D03.OSBS.07470,Sabal etonia Swingle ex Nash,SAET,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08779,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.00000,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08880,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44136,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08658,Pinus clausa (Chapm. ex Engelm.) Vasey ex Sarg.,PICL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08900,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07480,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44164,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43031,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08609,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07489,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09124,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08852,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44055,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01106,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_036,TEMP.PLA.OSBS.2023.36201,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08878,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08612,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_009,NEON.PLA.D03.OSBS.00942,Ilex cassine L.,ILCA,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00595,Liquidambar styraciflua L.,LIST2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08606,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08593,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44165,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08558,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_023,NEON.PLA.D03.OSBS.01118,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_030,TEMP.PLA.OSBS.2019.30004,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09126,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,TEMP.PLA.OSBS.2019.25252,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00892,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08787,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44104,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08895,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.00590,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_030,TEMP.PLA.OSBS.2019.30156,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08620,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08849,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08616,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08492,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09160,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43027,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.09200,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08793,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01559,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09144,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08866,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09140,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01105,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42005,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44162,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08625,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02302,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.02930,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.00591,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44073,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44083,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01976,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08560,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43023,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08608,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08767,Sabal etonia Swingle ex Nash,SAET,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_004,TEMP.PLA.OSBS.2020.04020,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44067,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08578,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08611,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09158,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07498,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08654,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08877,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08579,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02304,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,NEON.PLA.D03.OSBS.08853,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.07468,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07491,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43053,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09169,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43029,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43050,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00885,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09110,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.09142,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44110,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01246,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44131,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,TEMP.PLA.OSBS.2019.25141,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.00830,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08825,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08808,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01112,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09096,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08888,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02305,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08631,Butia capitata (Mart.) Becc.,BUCA15,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44153,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44140,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08699,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44103,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.08553,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09111,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09171,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09129,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08627,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09157,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09113,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09082,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44077,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08865,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08828,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44079,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08773,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2019.26050,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42002,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43025,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09186,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08629,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09183,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07476,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07486,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01103,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09176,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44076,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44152,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01564,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08816,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08622,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2019.26063,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43049,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08859,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44107,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08838,Carya tomentosa (Lam.) Nutt.,CATO6,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42329,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08659A,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08858,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09195,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08847,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2020.26970,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01287,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43030,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08879,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_022,NEON.PLA.D03.OSBS.01704,Morella cerifera (L.) Small,MOCE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09179,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01314,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08827,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44053,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08876,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09102,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08797,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09131,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08637,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08802A,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08829,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09175,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44099,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08807,Quercus nigra L.,QUNI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08594,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,TEMP.PLA.OSBS.2023.27093,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_037,TEMP.PLA.OSBS.2023.37154,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09148,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08796,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44161,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44082,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09094,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08889,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08604,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08844,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_008,NEON.PLA.D03.OSBS.08665,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08799,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08590,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09043,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08854,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01621,Pinus taeda L.,PITA,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08584,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2021.28150,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01316,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01955,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08812,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44102,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44167,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.00404N,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08577,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44150,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08771,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08810,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08894,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01264,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07477,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09079,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44147,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.03639,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09168,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07495,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09156,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44072,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09167,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09191,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07481,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08646,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.07466,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_036,NEON.PLA.D03.OSBS.09003,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08502,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_039,NEON.PLA.D03.OSBS.09165,Sabal etonia Swingle ex Nash,SAET,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02295,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_048,NEON.PLA.D03.OSBS.08700,Morella cerifera (L.) Small,MOCE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44142,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08605,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2019.27118,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01272,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08833,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2022.26072,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08610,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44087,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44063,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44105,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09116,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.02026,Ilex glabra (L.) A. Gray,ILGL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08856,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44126,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,NEON.PLA.D03.OSBS.08765,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42011,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09100,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44064,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01292,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44163,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2023.26114,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43052,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08776,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.00003,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08840,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44141,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07494,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44144,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02296,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2019.26062,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08882,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_063,NEON.PLA.D03.OSBS.08666,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43032,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00597,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08698,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08573,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09118,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08785,Gelsemium sempervirens (L.) W.T. Aiton,GESE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08850,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2022.26023,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08568,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09190,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_036,NEON.PLA.D03.OSBS.09143,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01107,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01271,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08655,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08575,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08652,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09153,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.07493,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.08563,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44094,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02301,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_006,NEON.PLA.D03.OSBS.00879,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.09163,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08884,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01248,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08636,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42010,Vaccinium arboreum Marshall,VAAR,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08775,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08802B,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08842,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.00827,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09166,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09123,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01569,Quercus geminata Small,QUGE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09138,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01102,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09119,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02300,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02291,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08648,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44121,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_073,NEON.PLA.D03.OSBS.08659D,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09115,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.08547,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09141,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44148,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.09198,Opuntia sp.,OPUNT,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08832,Oleaceae sp.,OLEACE,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08846,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44111,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43024,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.07462,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.02025,Ilex glabra (L.) A. Gray,ILGL,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.09199,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44122,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09121,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2020.26999,Amphicarpum muehlenbergianum (Schult.) Hitchc.,AMMU2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01719,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09117,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44095,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44139,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44074,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08886,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08805,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43026,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08647,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.02303,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_025,TEMP.PLA.OSBS.2019.25126,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09080,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08823,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09159,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43047,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08587,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09042,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01957,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08824,Vitis rotundifolia Michx.,VIRO3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44120,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09147,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_028,TEMP.PLA.OSBS.2020.28022,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01293,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44062,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01273,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_039,NEON.PLA.D03.OSBS.09193,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_013,NEON.PLA.D03.OSBS.01237,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07483,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44101,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08896,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_015,NEON.PLA.D03.OSBS.01127,Persea palustris (Raf.) Sarg.,PEPA37,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08626,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01923,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.08864,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00599,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08581,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09139,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.07467,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44081,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_026,TEMP.PLA.OSBS.2020.26002,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00598,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09174,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09127,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07492,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44127,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09093,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09188,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08583,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08642,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44168,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_043,TEMP.PLA.OSBS.2023.43043,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_007,NEON.PLA.D03.OSBS.01599,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_027,NEON.PLA.D03.OSBS.09162,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44056,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.09048,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.00594,Quercus laurifolia Michx.,QULA3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_010,NEON.PLA.D03.OSBS.00088,Quercus hemisphaerica W. Bartram ex Willd.,QUHE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,NEON.PLA.D03.OSBS.07484,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09178,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_042,TEMP.PLA.OSBS.2023.42101,Diospyros virginiana L.,DIVI5,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_068,NEON.PLA.D03.OSBS.08633,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.08582,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_016,NEON.PLA.D03.OSBS.01961,Lyonia lucida (Lam.) K. Koch,LYLU3,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08898,Serenoa repens (W. Bartram) Small,SERE2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_012,NEON.PLA.D03.OSBS.01104,Celtis occidentalis L.,CEOC,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_070,NEON.PLA.D03.OSBS.08638,Pinus palustris Mill.,PIPA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_035,NEON.PLA.D03.OSBS.09114,Yucca filamentosa L.,YUFI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44091,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44128,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44172,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08811,Quercus virginiana Mill.,QUVI,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44124,Asimina incana (W. Bartram) Exell,ASIN12,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_066,NEON.PLA.D03.OSBS.08790,Ilex ambigua (Michx.) Torr.,ILAM,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_044,TEMP.PLA.OSBS.2023.44088,Quercus laevis Walter,QULA2,UNMEASURED,Never measured in survey campaigns
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06047,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06065,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06073,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06064,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06079,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_003,NEON.PLA.D03.OSBS.06067,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_005,NEON.PLA.D03.OSBS.01746B,Morella cerifera (L.) Small,MOCE2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06186,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06194,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06216,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06202,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06210,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06200,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.01689,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06220,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06219,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06204,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06196,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06192,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06206,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06211,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06199,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06215,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06183,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06193,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06213,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06207,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_014,NEON.PLA.D03.OSBS.06153,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.03515,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_033,NEON.PLA.D03.OSBS.03701,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_050,NEON.PLA.D03.OSBS.00765,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_050,NEON.PLA.D03.OSBS.00768,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_050,NEON.PLA.D03.OSBS.00767,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_023,NEON.PLA.D03.OSBS.02640,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_050,NEON.PLA.D03.OSBS.00766,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_005,NEON.PLA.D03.OSBS.01186,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_005,NEON.PLA.D03.OSBS.01746C,Morella cerifera (L.) Small,MOCE2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_029,NEON.PLA.D03.OSBS.02126,,,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.08284,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.02394,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_034,NEON.PLA.D03.OSBS.02994,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_036,NEON.PLA.D03.OSBS.00324,Quercus laevis Walter,QULA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_036,NEON.PLA.D03.OSBS.00262,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_036,NEON.PLA.D03.OSBS.00331,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.03075,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.09009,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.09008,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_038,NEON.PLA.D03.OSBS.09010,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.03545,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.03584,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_032,NEON.PLA.D03.OSBS.03541,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_029,NEON.PLA.D03.OSBS.02050,Quercus laevis Walter,QULA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_026,NEON.PLA.D03.OSBS.02824,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_030,NEON.PLA.D03.OSBS.03156,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_030,NEON.PLA.D03.OSBS.03178,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_037,NEON.PLA.D03.OSBS.09396,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_037,NEON.PLA.D03.OSBS.09395,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_041,NEON.PLA.D03.OSBS.09393,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_041,NEON.PLA.D03.OSBS.03292,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.00658,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_042,NEON.PLA.D03.OSBS.09039,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.07995,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+OSBS,OSBS_040,NEON.PLA.D03.OSBS.09388,Pinus palustris Mill.,PIPA2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

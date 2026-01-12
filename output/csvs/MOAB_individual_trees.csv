@@ -1,0 +1,207 @@
+siteID,plotID,individualID,year,AGBJenkins,AGBChojnacky,AGBAnnighofer,growth_AGBJenkins,growth_cumu_AGBJenkins,growth_AGBChojnacky,growth_cumu_AGBChojnacky,growth_AGBAnnighofer,growth_cumu_AGBAnnighofer,stemDiameter,height,plantStatus,corrected_is_dead,gapFilling,scientificName,taxonID,genus,family,taxonRank,pointID,stemDistance,stemAzimuth
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00517,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.2,2.4,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,3.4,26.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00517,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.5,2.1,"Live, insect damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,3.4,26.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00517,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.2,2.8,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,3.4,26.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00518,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,23.4,4.1,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,6.2,12.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00518,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.2,3.9,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,6.2,12.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00518,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.3,4.2,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,6.2,12.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,15.7,2.8,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,9.0,20.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.3,3.4,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,9.0,20.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.4,3.5,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,9.0,20.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.3,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.3,,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00519A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,27.8,4.4,Standing dead,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.8,42.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.4,3.9,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.8,42.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.5,4.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.8,42.9
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,28.3,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.3,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.2,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520B,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,18.9,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520B,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.9,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520B,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.2,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520C,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.7,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520C,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.7,,Standing dead,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00520C,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00521,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.6,3.7,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,12.0,38.0
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00521,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.9,4.0,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,12.0,38.0
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00521,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.3,3.5,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,12.0,38.0
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00522,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,24.8,3.5,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,12.4,39.8
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00522,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,2.9,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,12.4,39.8
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00522,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.4,3.5,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,12.4,39.8
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00534,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,25.5,3.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,298.6
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00534,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.5,3.9,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,298.6
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00534,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.6,3.9,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,298.6
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,34.8,3.4,Standing dead,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.5,148.2
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.6,2.8,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.5,148.2
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.2,3.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.5,148.2
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,35.0,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00544A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.1,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00546,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.4,3.9,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,8.8,119.4
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00546,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.5,4.2,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,8.8,119.4
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00546,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.2,4.3,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,8.8,119.4
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.0,2.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,9.2,120.5
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.9,2.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,9.2,120.5
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.1,2.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,9.2,120.5
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.0,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00547A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.5,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,29.3,3.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,10.0,127.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.6,4.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,10.0,127.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.7,4.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,10.0,127.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.7,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.7,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00548A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.7,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,16.1,4.0,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,2.6,256.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.9,3.5,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,2.6,256.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,3.9,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,2.6,256.3
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,15.7,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.7,,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00555A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.2,,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,26.5,4.5,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,5.0,228.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.2,4.3,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,5.0,228.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.3,4.5,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,5.0,228.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,26.2,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.2,,Standing dead,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00557A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.5,,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,23.3,2.9,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.0,237.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.7,3.4,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.0,237.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.5,3.2,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.0,237.1
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.5,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.5,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.4,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558B,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.4,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558B,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.4,,Standing dead,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_024,NEON.PLA.D13.MOAB.00558B,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.8,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.4,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,49.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.4,3.8,"Live, physically damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,49.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.3,3.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,49.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.4,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.4,3.8,"Live, physically damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.8,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566B,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.8,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566B,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.8,3.8,"Live, physically damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00566B,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00573,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.8,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,1.9,310.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00573,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.8,1.9,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,1.9,310.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00573,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.8,2.0,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,1.9,310.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.9,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,7.8,286.0
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.9,2.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,7.8,286.0
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.1,2.8,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,7.8,286.0
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.5,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.5,2.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00578A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00581,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,18.4,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.0,298.3
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00581,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.4,3.6,"Live, insect damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.0,298.3
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00581,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.4,3.9,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.0,298.3
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00582,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,12.8,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,11.0,296.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00582,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.8,3.2,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,11.0,296.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00582,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,3.4,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,11.0,296.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,15.0,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,6.0,347.7
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,1.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,6.0,347.7
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.5,2.1,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,6.0,347.7
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.9,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.9,1.6,Standing dead,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00586A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.5,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00592,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,17.6,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,1.4,123.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00592,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.6,2.7,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,1.4,123.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00592,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.8,2.3,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,1.4,123.5
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00594,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.0,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00594,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,2.2,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00594,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,,Downed,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,15.3,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,17.0,241.2
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.3,2.1,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,17.0,241.2
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.3,1.7,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,17.0,241.2
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.6,,,False,FILLED,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00600A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.6,2.1,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.8,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,12.8,244.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.8,2.1,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,12.8,244.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.7,2.8,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,12.8,244.6
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,19.0,,,False,FILLED,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,2.1,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_025,NEON.PLA.D13.MOAB.00614A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.4,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00630,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,20.9,4.0,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.3,61.7
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00630,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,4.0,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.3,61.7
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00630,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.2,4.3,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.3,61.7
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,23.2,3.2,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,7.0,64.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.4,3.0,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,7.0,64.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.9,3.1,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,7.0,64.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.9,3.2,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.3,,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00631A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.4,,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00632,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,19.1,2.4,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,7.0,63.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00632,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.5,2.4,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,7.0,63.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00632,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.7,2.4,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,7.0,63.3
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00634,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.3,2.4,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,64.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00634,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,2.6,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,64.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00634,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.3,2.6,"Dead, broken bole",True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,10.0,64.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00644,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,12.4,2.9,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.6,35.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00644,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.4,3.1,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.6,35.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00644,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.3,2.8,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,31,5.6,35.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.4,3.1,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.1,8.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.4,3.3,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.1,8.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.4,3.3,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,31,9.1,8.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650A,2023,0.0,0.0,0.0,,,,,,,10.8,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00650C,2023,0.0,0.0,0.0,,,,,,,10.4,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00656,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,24.4,3.4,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.4,298.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00656,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.4,3.4,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.4,298.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00656,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.1,3.3,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.4,298.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,24.1,4.0,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,4.0,327.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.7,3.7,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,4.0,327.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.1,3.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,4.0,327.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,14.1,4.0,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.1,,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00660A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.1,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00664,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,20.8,2.7,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,319.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00664,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.9,2.8,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,319.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00664,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.8,2.1,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,33,9.3,319.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,20.0,4.7,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.0,359.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,4.0,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.0,359.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.9,4.5,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,33,6.0,359.0
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,21.1,4.7,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.2,,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00675A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,20.2,2.8,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,8.2,91.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.0,3.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,8.2,91.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.9,2.8,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,8.2,91.8
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,17.8,2.8,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.9,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00679A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.4,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,22.5,4.0,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.6,113.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.9,4.0,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.6,113.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.6,3.8,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,5.6,113.5
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,22.4,4.0,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.9,,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00681A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.1,,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00682,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,11.7,2.8,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,7.0,123.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00682,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.4,3.5,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,7.0,123.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00682,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.2,2.7,Standing dead,True,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,7.0,123.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,15.4,2.5,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,7.8,119.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,2.6,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,7.8,119.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,2.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,7.8,119.1
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.2,2.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.8,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683B,2018,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.0,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00683B,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.3,,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00684,2023,0.0,0.0,0.0,,,,,,,10.1,2.9,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,49,8.4,138.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.3,3.2,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,11.0,125.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.9,3.4,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,11.0,125.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,3.1,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,49,11.0,125.4
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,12.2,3.2,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.2,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00685A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.3,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,21.7,3.0,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,1.5,265.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.6,1.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,1.5,265.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.2,2.5,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,1.5,265.9
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,13.0,3.0,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00689A,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.2,,Standing dead,True,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00691,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,17.4,2.2,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.4,231.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00691,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,2.1,"Live, disease damaged",False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.4,231.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00691,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.8,1.7,Live,False,ORIGINAL,Juniperus osteosperma (Torr.) Little,JUOS,Juniperus,Cupressaceae,species,51,10.4,231.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.5,3.0,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,6.4,197.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.2,2.3,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,6.4,197.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692,2023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.3,2.8,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,51,6.4,197.6
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692A,2016,0.0,0.0,0.0,,0.0,,0.0,,0.0,10.0,3.0,Live,False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,
+MOAB,MOAB_003,NEON.PLA.D13.MOAB.00692A,2018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.2,,"Live, disease damaged",False,ORIGINAL,Pinus edulis Engelm.,PIED,Pinus,Pinaceae,species,,,

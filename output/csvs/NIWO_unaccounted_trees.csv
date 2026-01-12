@@ -1,0 +1,45 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+NIWO,NIWO_067,NEON.PLA.D13.NIWO.04902,Salix sp.,SALIX,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_011,NEON.PLA.D13.NIWO.05397Z,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_017,NEON.PLA.D13.NIWO.05343Z,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.01015A,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_007,NEON.PLA.D13.NIWO.05342Z,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_017,NEON.PLA.D13.NIWO.05345Z,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.01015C,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.01015B,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_063,NEON.PLA.D13.NIWO.04903,Salix sp.,SALIX,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_045,NEON.PLA.D13.NIWO.05347,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_016,NEON.PLA.D13.NIWO.05512,Juniperus communis L. var. depressa Pursh,JUCOD,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_046,NEON.PLA.D13.NIWO.05616,Juniperus communis L. var. depressa Pursh,JUCOD,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_046,NEON.PLA.D13.NIWO.05395,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_046,NEON.PLA.D13.NIWO.05348,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,UNMEASURED,Never measured in survey campaigns
+NIWO,NIWO_007,NEON.PLA.D13.NIWO.01505A,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_010,NEON.PLA.D13.NIWO.01601B,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.05699,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.05698,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.04685,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_041,NEON.PLA.D13.NIWO.01004,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_051,NEON.PLA.D13.NIWO.00825,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_005,NEON.PLA.D13.NIWO.05904,Pinus flexilis James,PIFL2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_005,NEON.PLA.D13.NIWO.01946A,Pinus flexilis James,PIFL2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_005,NEON.PLA.D13.NIWO.06000,Pinus flexilis James,PIFL2,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_007,NEON.PLA.D13.NIWO.01578,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_004,NEON.PLA.D13.NIWO.01149,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_004,NEON.PLA.D13.NIWO.04686,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_007,NEON.PLA.D13.NIWO.01588,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_004,NEON.PLA.D13.NIWO.05679,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_004,NEON.PLA.D13.NIWO.05680,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_009,NEON.PLA.D13.NIWO.04688,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_009,NEON.PLA.D13.NIWO.04689,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_009,NEON.PLA.D13.NIWO.02286,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_010,NEON.PLA.D13.NIWO.05922,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_010,NEON.PLA.D13.NIWO.05906,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_010,NEON.PLA.D13.NIWO.05923,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_011,NEON.PLA.D13.NIWO.01769,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_011,NEON.PLA.D13.NIWO.01776,Picea engelmannii Parry ex Engelm.,PIEN,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_011,NEON.PLA.D13.NIWO.01783,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_011,NEON.PLA.D13.NIWO.01796,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_012,NEON.PLA.D13.NIWO.05341,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_014,NEON.PLA.D13.NIWO.05909,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_014,NEON.PLA.D13.NIWO.01350A,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+NIWO,NIWO_014,NEON.PLA.D13.NIWO.01371,Abies lasiocarpa (Hook.) Nutt. var. lasiocarpa,ABLAL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates

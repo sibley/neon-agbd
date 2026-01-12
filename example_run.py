@@ -39,6 +39,9 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     # Ensure output directory exists
     Path(output_dir).mkdir(exist_ok=True)
 
+    csvs_output_dir = Path(output_dir) / "csvs"
+    csvs_output_dir.mkdir(parents=True, exist_ok=True)
+
     print(f"\n{'='*60}")
     print(f"Processing site: {site_id}")
     print(f"{'='*60}\n")
@@ -68,7 +71,7 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     }
 
     for key, filename in csv_files.items():
-        filepath = Path(output_dir) / filename
+        filepath = Path(csvs_output_dir) / filename
         output[key].to_csv(filepath, index=False)
         print(f"CSV saved: {filepath}")
 

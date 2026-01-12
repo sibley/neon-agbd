@@ -1,0 +1,33 @@
+siteID,plotID,individualID,scientificName,taxonID,status,reason
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05358,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05355,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05353,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05357,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05387,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05386,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05359,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05389,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05356,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05384,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05351,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05350,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_008,NEON.PLA.D10.RMNP.04913,Jamesia americana Torr. & A. Gray,JAAM,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05361,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_008,NEON.PLA.D10.RMNP.04912,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05391,Picea engelmannii Parry ex Engelm.,PIEN,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05388,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05363,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05385,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05352,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05390,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05362,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05360,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_044,NEON.PLA.D10.RMNP.05354,Populus tremuloides Michx.,POTR5,UNMEASURED,Never measured in survey campaigns
+RMNP,RMNP_046,NEON.PLA.D10.RMNP.05947,Populus tremuloides Michx.,POTR5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_047,NEON.PLA.D10.RMNP.02222,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_047,NEON.PLA.D10.RMNP.02243,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_047,NEON.PLA.D10.RMNP.04123,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_047,NEON.PLA.D10.RMNP.05982,Populus tremuloides Michx.,POTR5,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_048,NEON.PLA.D10.RMNP.02619,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_049,NEON.PLA.D10.RMNP.02977,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
+RMNP,RMNP_049,NEON.PLA.D10.RMNP.02932,Pinus contorta Douglas ex Loudon var. latifolia Engelm. ex S. Watson,PICOL,NO_ALLOMETRY,Has diameter measurements but no biomass estimates
