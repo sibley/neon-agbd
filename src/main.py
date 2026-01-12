@@ -6,7 +6,8 @@ from NEON vegetation structure and NEONForestAGB data.
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
+from scipy import stats
 
 from .data_loader import (
     load_dp1_data,
@@ -20,32 +21,401 @@ from .data_loader import (
 from .gap_filling import (
     gap_fill_plot_data,
     create_complete_individual_year_grid,
+    apply_dead_status_corrections,
+    zero_biomass_for_dead_trees,
 )
 from .biomass_calculator import (
     add_category_column,
     aggregate_plot_biomass_all_years,
     ALLOMETRY_COLS,
+    TREE_GROWTH_FORMS,
+    DIAMETER_THRESHOLD,
 )
 
 
-def compute_site_biomass(
+def calculate_growth_rate(current_biomass: float, previous_biomass: float,
+                          current_year: int, previous_year: int) -> float:
+    """
+    Calculate growth rate in tonnes/year between two survey periods.
+
+    Parameters
+    ----------
+    current_biomass : float
+        Biomass at current survey (Mg/ha)
+    previous_biomass : float
+        Biomass at previous survey (Mg/ha)
+    current_year : int
+        Current survey year
+    previous_year : int
+        Previous survey year
+
+    Returns
+    -------
+    float
+        Growth rate in tonnes/year, or NaN if inputs invalid
+    """
+    if pd.isna(current_biomass) or pd.isna(previous_biomass):
+        return np.nan
+
+    year_diff = current_year - previous_year
+    if year_diff <= 0:
+        return np.nan
+
+    return (current_biomass - previous_biomass) / year_diff
+
+
+def calculate_cumulative_growth(years: np.ndarray, biomass: np.ndarray) -> float:
+    """
+    Calculate cumulative average growth rate using linear regression slope.
+
+    Parameters
+    ----------
+    years : np.ndarray
+        Array of survey years
+    biomass : np.ndarray
+        Array of biomass values corresponding to years
+
+    Returns
+    -------
+    float
+        Slope of linear regression (tonnes/year), or NaN if insufficient data
+    """
+    # Remove NaN values
+    valid_mask = ~np.isnan(biomass)
+    years_valid = years[valid_mask]
+    biomass_valid = biomass[valid_mask]
+
+    if len(years_valid) < 2:
+        return np.nan
+
+    # Check if we have variation in years
+    if len(np.unique(years_valid)) < 2:
+        return np.nan
+
+    try:
+        slope, _, _, _, _ = stats.linregress(years_valid, biomass_valid)
+        return slope
+    except Exception:
+        return np.nan
+
+
+def identify_unaccounted_trees(
+    vst_ai: pd.DataFrame,
+    vst_mapping: pd.DataFrame,
+    merged_df: pd.DataFrame,
+    site_id: str
+) -> pd.DataFrame:
+    """
+    Identify trees that are unaccounted for in the biomass calculations.
+
+    Two categories:
+    - UNMEASURED: Trees in vst_mappingandtagging that never appear in measurements
+    - NO_ALLOMETRY: Trees with diameter measurements but no biomass estimates
+
+    Parameters
+    ----------
+    vst_ai : pd.DataFrame
+        The vst_apparentindividual table
+    vst_mapping : pd.DataFrame
+        The vst_mappingandtagging table
+    merged_df : pd.DataFrame
+        Merged dataframe with biomass columns and category
+    site_id : str
+        Site identifier
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with unaccounted trees and their status
+    """
+    unaccounted_records = []
+
+    # Get all individuals from mapping table for this site
+    mapping_individuals = set(vst_mapping['individualID'].unique())
+
+    # Get all individuals that appear in apparent individual
+    measured_individuals = set(vst_ai['individualID'].unique())
+
+    # Category 1: UNMEASURED - in mapping but never in apparent individual
+    unmeasured = mapping_individuals - measured_individuals
+
+    for ind_id in unmeasured:
+        # Get info from mapping table
+        mapping_row = vst_mapping[vst_mapping['individualID'] == ind_id].iloc[0]
+        record = {
+            'siteID': site_id,
+            'plotID': mapping_row.get('plotID', np.nan),
+            'individualID': ind_id,
+            'scientificName': mapping_row.get('scientificName', np.nan),
+            'taxonID': mapping_row.get('taxonID', np.nan),
+            'status': 'UNMEASURED',
+            'reason': 'Never measured in survey campaigns'
+        }
+        unaccounted_records.append(record)
+
+    # Category 2: NO_ALLOMETRY - has measurements but no biomass for any allometry
+    # Filter to trees only (we only track unaccounted trees, not small_woody)
+    if 'category' in merged_df.columns:
+        trees_df = merged_df[merged_df['category'] == 'tree'].copy()
+    else:
+        # If no category yet, filter by growth form and diameter
+        trees_df = merged_df[
+            (merged_df['growthForm'].isin(TREE_GROWTH_FORMS)) &
+            (merged_df['stemDiameter'] >= DIAMETER_THRESHOLD)
+        ].copy()
+
+    # Find individuals with at least one diameter measurement
+    has_diameter = trees_df[trees_df['stemDiameter'].notna()]['individualID'].unique()
+
+    for ind_id in has_diameter:
+        ind_df = trees_df[trees_df['individualID'] == ind_id]
+
+        # Check if ANY allometry value exists for this individual
+        has_any_allometry = False
+        for col in ALLOMETRY_COLS:
+            if col in ind_df.columns and ind_df[col].notna().any():
+                has_any_allometry = True
+                break
+
+        if not has_any_allometry:
+            # Get best available info from mapping or apparent individual
+            first_row = ind_df.iloc[0]
+
+            # Try to get scientific name from mapping
+            mapping_match = vst_mapping[vst_mapping['individualID'] == ind_id]
+            if len(mapping_match) > 0:
+                sci_name = mapping_match.iloc[0].get('scientificName', np.nan)
+                taxon_id = mapping_match.iloc[0].get('taxonID', np.nan)
+            else:
+                sci_name = np.nan
+                taxon_id = np.nan
+
+            record = {
+                'siteID': site_id,
+                'plotID': first_row.get('plotID', np.nan),
+                'individualID': ind_id,
+                'scientificName': sci_name,
+                'taxonID': taxon_id,
+                'status': 'NO_ALLOMETRY',
+                'reason': 'Has diameter measurements but no biomass estimates'
+            }
+            unaccounted_records.append(record)
+
+    return pd.DataFrame(unaccounted_records)
+
+
+def create_individual_tree_table(
+    merged_df: pd.DataFrame,
+    vst_mapping: pd.DataFrame,
+    site_id: str
+) -> pd.DataFrame:
+    """
+    Create a table of individual tree measurements in long form.
+
+    Parameters
+    ----------
+    merged_df : pd.DataFrame
+        Merged dataframe with biomass columns and categories
+    vst_mapping : pd.DataFrame
+        The vst_mappingandtagging table for time-invariant attributes
+    site_id : str
+        Site identifier
+
+    Returns
+    -------
+    pd.DataFrame
+        Long-form table with one row per tree per survey year
+    """
+    # Filter to trees only
+    if 'category' not in merged_df.columns:
+        merged_df = add_category_column(merged_df)
+
+    trees_df = merged_df[merged_df['category'] == 'tree'].copy()
+
+    if trees_df.empty:
+        return pd.DataFrame()
+
+    # For multi-stem trees, aggregate biomass by summing across stems per year
+    # First, get the columns we need to aggregate
+    agg_cols = {col: 'sum' for col in ALLOMETRY_COLS if col in trees_df.columns}
+
+    # Add other aggregations
+    agg_cols['stemDiameter'] = 'max'  # Take max diameter for the individual
+    agg_cols['height'] = 'max'
+    agg_cols['plantStatus'] = 'first'  # Take first status (representative)
+
+    # Also keep corrected_is_dead if present
+    if 'corrected_is_dead' in trees_df.columns:
+        agg_cols['corrected_is_dead'] = 'first'
+
+    # Group by individual and year
+    grouped = trees_df.groupby(['individualID', 'year', 'plotID']).agg(agg_cols).reset_index()
+
+    # Merge with mapping table to get time-invariant attributes
+    mapping_cols = ['individualID', 'scientificName', 'taxonID', 'genus',
+                    'family', 'taxonRank', 'pointID', 'stemDistance', 'stemAzimuth']
+    mapping_subset = vst_mapping[vst_mapping['individualID'].isin(grouped['individualID'].unique())]
+
+    # Take most recent entry per individual from mapping
+    mapping_subset = mapping_subset.sort_values('date').groupby('individualID').last().reset_index()
+    mapping_cols_available = [c for c in mapping_cols if c in mapping_subset.columns]
+
+    # Merge
+    result = grouped.merge(
+        mapping_subset[mapping_cols_available],
+        on='individualID',
+        how='left'
+    )
+
+    # Add site ID
+    result['siteID'] = site_id
+
+    # Calculate growth rates per individual
+    result = result.sort_values(['individualID', 'year']).reset_index(drop=True)
+
+    # Calculate growth for each allometry type
+    for col in ALLOMETRY_COLS:
+        if col not in result.columns:
+            continue
+
+        growth_col = f'growth_{col}'
+        growth_cumu_col = f'growth_cumu_{col}'
+
+        result[growth_col] = np.nan
+        result[growth_cumu_col] = np.nan
+
+        for ind_id in result['individualID'].unique():
+            ind_mask = result['individualID'] == ind_id
+            ind_df = result[ind_mask].copy()
+
+            if len(ind_df) < 1:
+                continue
+
+            # Calculate year-over-year growth
+            years = ind_df['year'].values
+            biomass = ind_df[col].values
+
+            growth_values = [np.nan]  # First year has no growth
+            for i in range(1, len(ind_df)):
+                growth = calculate_growth_rate(
+                    biomass[i], biomass[i-1],
+                    years[i], years[i-1]
+                )
+                growth_values.append(growth)
+
+            result.loc[ind_mask, growth_col] = growth_values
+
+            # Calculate cumulative growth
+            cumu_growth = calculate_cumulative_growth(years, biomass)
+            result.loc[ind_mask, growth_cumu_col] = cumu_growth
+
+    # Reorder columns
+    first_cols = ['siteID', 'plotID', 'individualID', 'year']
+    allometry_cols_present = [c for c in ALLOMETRY_COLS if c in result.columns]
+    growth_cols = [c for c in result.columns if c.startswith('growth_')]
+    other_cols = [c for c in result.columns if c not in first_cols + allometry_cols_present + growth_cols]
+
+    result = result[first_cols + allometry_cols_present + growth_cols + other_cols]
+
+    return result
+
+
+def add_growth_columns_to_output(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add growth and growth_cumu columns to the output biomass table.
+
+    Growth is calculated using the sum of tree and small_woody biomass
+    for each allometry type.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Output dataframe with biomass columns per plot-year
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with added growth columns
+    """
+    df = df.copy()
+    df = df.sort_values(['plotID', 'year']).reset_index(drop=True)
+
+    # Calculate total biomass for each allometry type
+    for col in ALLOMETRY_COLS:
+        tree_col = f'tree_{col}'
+        sw_col = f'small_woody_{col}'
+        total_col = f'total_{col}'
+
+        if tree_col in df.columns and sw_col in df.columns:
+            df[total_col] = df[tree_col].fillna(0) + df[sw_col].fillna(0)
+        elif tree_col in df.columns:
+            df[total_col] = df[tree_col]
+        elif sw_col in df.columns:
+            df[total_col] = df[sw_col]
+        else:
+            df[total_col] = np.nan
+
+    # Add growth columns
+    df['growth'] = np.nan
+    df['growth_cumu'] = np.nan
+
+    # Use Jenkins as the primary allometry for growth calculations
+    # (or first available)
+    primary_total_col = None
+    for col in ALLOMETRY_COLS:
+        total_col = f'total_{col}'
+        if total_col in df.columns and df[total_col].notna().any():
+            primary_total_col = total_col
+            break
+
+    if primary_total_col is None:
+        return df
+
+    # Calculate growth per plot
+    for plot_id in df['plotID'].unique():
+        plot_mask = df['plotID'] == plot_id
+        plot_df = df[plot_mask].sort_values('year')
+
+        if len(plot_df) < 1:
+            continue
+
+        years = plot_df['year'].values
+        biomass = plot_df[primary_total_col].values
+
+        # Year-over-year growth
+        growth_values = [np.nan]  # First year is NA
+        for i in range(1, len(plot_df)):
+            growth = calculate_growth_rate(
+                biomass[i], biomass[i-1],
+                years[i], years[i-1]
+            )
+            growth_values.append(growth)
+
+        df.loc[plot_mask, 'growth'] = growth_values
+
+        # Cumulative growth
+        cumu_growth = calculate_cumulative_growth(years, biomass)
+        df.loc[plot_mask, 'growth_cumu'] = cumu_growth
+
+    return df
+
+
+def compute_site_biomass_full(
     site_id: str,
     dp1_data_dir: str = "./data/DP1.10098",
     agb_data_dir: str = "./data/NEONForestAGB",
     plot_polygons_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
     apply_gap_filling: bool = True,
+    apply_dead_corrections: bool = True,
     verbose: bool = True
-) -> pd.DataFrame:
+) -> Dict[str, Any]:
     """
-    Compute plot-level AGB estimates for all plots and years at a NEON site.
+    Compute comprehensive biomass outputs for a NEON site.
 
-    This is the main workflow function that:
-    1. Loads DP1.10098 data for the site
-    2. Loads and filters NEONForestAGB data
-    3. Merges AGB estimates with apparent individual data
-    4. Applies gap filling for missing biomass values
-    5. Categorizes individuals as trees or small_woody
-    6. Calculates plot-level biomass density for each year
+    This function returns a dictionary containing multiple output tables:
+    - plot_biomass: Plot-level biomass density with growth metrics
+    - unaccounted_trees: Trees not included in calculations
+    - individual_trees: Individual tree measurements in long form
 
     Parameters
     ----------
@@ -59,27 +429,20 @@ def compute_site_biomass(
         Path to the plot polygons GeoJSON file
     apply_gap_filling : bool
         Whether to apply gap filling for missing biomass values
+    apply_dead_corrections : bool
+        Whether to apply dead status corrections and zero biomass for dead trees
     verbose : bool
         Whether to print progress messages
 
     Returns
     -------
-    pd.DataFrame
-        DataFrame with columns:
-        - siteID: Site identifier
-        - plotID: Plot identifier
-        - year: Sampling year
-        - plotArea_m2: Plot area in square meters
-        - tree_AGBJenkins, tree_AGBChojnacky, tree_AGBAnnighofer: Tree biomass density (Mg/ha)
-        - n_trees: Number of trees
-        - small_woody_AGBJenkins, small_woody_AGBChojnacky, small_woody_AGBAnnighofer: Small woody biomass density (Mg/ha)
-        - n_small_woody_total: Total number of small woody individuals
-        - n_small_woody_measured: Number of small woody individuals with measurements
-
-    Notes
-    -----
-    Biomass density is reported in Mg/ha (megagrams per hectare, equivalent to tonnes per hectare).
-    NEONForestAGB provides individual tree AGB in kg, which is converted to Mg/ha during calculation.
+    Dict[str, Any]
+        Dictionary containing:
+        - 'plot_biomass': DataFrame with plot-level biomass and growth
+        - 'unaccounted_trees': DataFrame with trees not in calculations
+        - 'individual_trees': DataFrame with individual tree measurements
+        - 'site_id': The site identifier
+        - 'metadata': Dictionary with processing information
     """
     if verbose:
         print(f"Processing site: {site_id}")
@@ -89,6 +452,7 @@ def compute_site_biomass(
         print("  Loading DP1.10098 data...")
     dp1_data = load_dp1_data(site_id, dp1_data_dir)
     vst_ai = dp1_data['vst_apparentindividual'].copy()
+    vst_mapping = dp1_data['vst_mappingandtagging'].copy()
 
     # Step 2: Load NEONForestAGB data
     if verbose:
@@ -118,11 +482,39 @@ def compute_site_biomass(
         print("  Categorizing individuals (tree vs small_woody)...")
     merged_df = add_category_column(merged_df)
 
-    # Step 6: Process each plot
+    # Step 5b: Apply dead status corrections for trees
+    if apply_dead_corrections:
+        if verbose:
+            print("  Applying dead status corrections...")
+        # Only apply to trees
+        trees_mask = merged_df['category'] == 'tree'
+        trees_df = merged_df[trees_mask].copy()
+
+        if not trees_df.empty:
+            trees_df = apply_dead_status_corrections(trees_df)
+            trees_df = zero_biomass_for_dead_trees(trees_df, ALLOMETRY_COLS)
+
+            # Update merged_df with corrected tree data
+            merged_df = merged_df[~trees_mask].copy()
+            merged_df = pd.concat([merged_df, trees_df], ignore_index=True)
+
+    # Step 6: Identify unaccounted trees
+    if verbose:
+        print("  Identifying unaccounted trees...")
+    unaccounted_trees = identify_unaccounted_trees(vst_ai, vst_mapping, merged_df, site_id)
+
+    # Create unaccounted count per plot
+    if not unaccounted_trees.empty:
+        unaccounted_by_plot = unaccounted_trees.groupby('plotID').size().reset_index(name='n_unaccounted_trees')
+    else:
+        unaccounted_by_plot = pd.DataFrame(columns=['plotID', 'n_unaccounted_trees'])
+
+    # Step 7: Process each plot for biomass
     if verbose:
         print("  Computing plot-level biomass...")
 
     all_results = []
+    all_plot_dfs = []
     unique_plots = plot_years['plotID'].unique()
 
     for plot_id in unique_plots:
@@ -149,6 +541,18 @@ def compute_site_biomass(
             # Re-categorize after gap filling (category may be NA for new rows)
             plot_df = add_category_column(plot_df)
 
+            # Re-apply dead corrections after gap filling if needed
+            if apply_dead_corrections:
+                trees_mask = plot_df['category'] == 'tree'
+                if trees_mask.any():
+                    trees_df = plot_df[trees_mask].copy()
+                    trees_df = apply_dead_status_corrections(trees_df)
+                    trees_df = zero_biomass_for_dead_trees(trees_df, ALLOMETRY_COLS)
+                    plot_df = plot_df[~trees_mask].copy()
+                    plot_df = pd.concat([plot_df, trees_df], ignore_index=True)
+
+        all_plot_dfs.append(plot_df)
+
         # Calculate biomass for all years
         plot_results = aggregate_plot_biomass_all_years(
             plot_df, plot_area_m2, years, site_id, plot_id
@@ -161,10 +565,129 @@ def compute_site_biomass(
     else:
         results_df = pd.DataFrame()
 
+    # Combine all plot data for individual tree table
+    if all_plot_dfs:
+        all_merged_processed = pd.concat(all_plot_dfs, ignore_index=True)
+    else:
+        all_merged_processed = merged_df
+
+    # Step 8: Add n_unaccounted_trees to results
+    if not results_df.empty and not unaccounted_by_plot.empty:
+        results_df = results_df.merge(unaccounted_by_plot, on='plotID', how='left')
+        results_df['n_unaccounted_trees'] = results_df['n_unaccounted_trees'].fillna(0).astype(int)
+    elif not results_df.empty:
+        results_df['n_unaccounted_trees'] = 0
+
+    # Step 9: Add growth columns
+    if verbose:
+        print("  Calculating growth metrics...")
+    if not results_df.empty:
+        results_df = add_growth_columns_to_output(results_df)
+
+    # Step 10: Create individual tree table
+    if verbose:
+        print("  Creating individual tree table...")
+    individual_trees = create_individual_tree_table(all_merged_processed, vst_mapping, site_id)
+
     if verbose:
         print(f"  Done! Computed biomass for {len(results_df)} plot-year combinations.")
+        print(f"  Found {len(unaccounted_trees)} unaccounted trees.")
+        print(f"  Created individual tree table with {len(individual_trees)} records.")
 
-    return results_df
+    # Build output dictionary
+    output = {
+        'plot_biomass': results_df,
+        'unaccounted_trees': unaccounted_trees,
+        'individual_trees': individual_trees,
+        'site_id': site_id,
+        'metadata': {
+            'apply_gap_filling': apply_gap_filling,
+            'apply_dead_corrections': apply_dead_corrections,
+            'n_plots': len(unique_plots),
+            'n_plot_years': len(results_df),
+            'n_unaccounted_trees': len(unaccounted_trees),
+            'n_individual_tree_records': len(individual_trees)
+        }
+    }
+
+    return output
+
+
+def compute_site_biomass(
+    site_id: str,
+    dp1_data_dir: str = "./data/DP1.10098",
+    agb_data_dir: str = "./data/NEONForestAGB",
+    plot_polygons_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
+    apply_gap_filling: bool = True,
+    apply_dead_corrections: bool = True,
+    verbose: bool = True
+) -> pd.DataFrame:
+    """
+    Compute plot-level AGB estimates for all plots and years at a NEON site.
+
+    This is the main workflow function that:
+    1. Loads DP1.10098 data for the site
+    2. Loads and filters NEONForestAGB data
+    3. Merges AGB estimates with apparent individual data
+    4. Applies dead status corrections (corrects sandwiched dead->alive patterns)
+    5. Applies gap filling for missing biomass values
+    6. Categorizes individuals as trees or small_woody
+    7. Calculates plot-level biomass density for each year
+
+    Parameters
+    ----------
+    site_id : str
+        Four-character NEON site code (e.g., 'SJER', 'HARV')
+    dp1_data_dir : str
+        Path to directory containing DP1.10098 pickle files
+    agb_data_dir : str
+        Path to directory containing NEONForestAGB CSV files
+    plot_polygons_path : str
+        Path to the plot polygons GeoJSON file
+    apply_gap_filling : bool
+        Whether to apply gap filling for missing biomass values
+    apply_dead_corrections : bool
+        Whether to apply dead status corrections and zero biomass for dead trees
+    verbose : bool
+        Whether to print progress messages
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with columns:
+        - siteID: Site identifier
+        - plotID: Plot identifier
+        - year: Sampling year
+        - plotArea_m2: Plot area in square meters
+        - tree_AGBJenkins, tree_AGBChojnacky, tree_AGBAnnighofer: Tree biomass density (Mg/ha)
+        - n_trees: Number of trees
+        - small_woody_AGBJenkins, small_woody_AGBChojnacky, small_woody_AGBAnnighofer: Small woody biomass density (Mg/ha)
+        - n_small_woody_total: Total number of small woody individuals
+        - n_small_woody_measured: Number of small woody individuals with measurements
+        - n_unaccounted_trees: Number of unaccounted trees in the plot
+        - growth: Growth in tonnes/year since last survey (NA for first survey)
+        - growth_cumu: Average growth per year from linear regression of all surveys
+
+    Notes
+    -----
+    Biomass density is reported in Mg/ha (megagrams per hectare, equivalent to tonnes per hectare).
+    NEONForestAGB provides individual tree AGB in kg, which is converted to Mg/ha during calculation.
+
+    Dead status corrections:
+    - If a tree's status goes alive->dead->alive, the sandwiched dead status is assumed incorrect
+    - If dead status persists (alive->dead->dead), biomass is set to 0 for dead periods
+    """
+    # Use the full function and extract just the plot_biomass table
+    output = compute_site_biomass_full(
+        site_id=site_id,
+        dp1_data_dir=dp1_data_dir,
+        agb_data_dir=agb_data_dir,
+        plot_polygons_path=plot_polygons_path,
+        apply_gap_filling=apply_gap_filling,
+        apply_dead_corrections=apply_dead_corrections,
+        verbose=verbose
+    )
+    return output['plot_biomass']
 
 
 def compute_all_sites_biomass(
@@ -235,6 +758,7 @@ ALL_SITES = [
 if __name__ == "__main__":
     # Example usage: process a single site
     import sys
+    import pickle
 
     if len(sys.argv) > 1:
         site = sys.argv[1].upper()
@@ -242,14 +766,34 @@ if __name__ == "__main__":
         site = 'SJER'
 
     print(f"Computing biomass for site: {site}")
-    results = compute_site_biomass(site)
 
-    if not results.empty:
-        print("\nResults preview:")
-        print(results.head(10))
+    # Use the full function to get all outputs
+    output = compute_site_biomass_full(site)
 
-        # Save results
-        output_file = f"./output/{site}_biomass.csv"
-        Path("./output").mkdir(exist_ok=True)
-        results.to_csv(output_file, index=False)
-        print(f"\nResults saved to: {output_file}")
+    # Create output directory
+    Path("./output").mkdir(exist_ok=True)
+
+    # Preview results
+    if not output['plot_biomass'].empty:
+        print("\nPlot biomass preview:")
+        print(output['plot_biomass'].head(10))
+
+    if not output['unaccounted_trees'].empty:
+        print(f"\nUnaccounted trees: {len(output['unaccounted_trees'])}")
+        print(output['unaccounted_trees'].head(5))
+
+    if not output['individual_trees'].empty:
+        print(f"\nIndividual tree records: {len(output['individual_trees'])}")
+        print(output['individual_trees'].head(5))
+
+    # Save as pickle
+    pkl_file = f"./output/{site}_biomass_results.pkl"
+    with open(pkl_file, 'wb') as f:
+        pickle.dump(output, f)
+    print(f"\nResults saved to: {pkl_file}")
+
+    # Also save individual CSVs for inspection
+    output['plot_biomass'].to_csv(f"./output/{site}_plot_biomass.csv", index=False)
+    output['unaccounted_trees'].to_csv(f"./output/{site}_unaccounted_trees.csv", index=False)
+    output['individual_trees'].to_csv(f"./output/{site}_individual_trees.csv", index=False)
+    print(f"Individual CSVs also saved to ./output/")
