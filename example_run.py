@@ -58,7 +58,7 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     )
 
     # Save as pickle (dictionary)
-    pkl_file = Path(output_dir) / f"{site_id}_biomass_results.pkl"
+    pkl_file = Path(output_dir) / f"{site_id}.pkl"
     with open(pkl_file, 'wb') as f:
         pickle.dump(output, f)
     print(f"\nPickle file saved: {pkl_file}")
