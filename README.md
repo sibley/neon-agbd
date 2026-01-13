@@ -1,103 +1,247 @@
-# neon-agbd
+# NEON Plot-Level Aboveground Biomass Density
 
-This repository houses functions that are used to compute aboveground biomass density using (1) field survey plot data and (2) lidar data from the AOP (aerial observation platform). These functions are specific to the NEON database structure. 
+This repository computes plot-level aboveground biomass density (AGB) estimates from NEON vegetation structure data (DP1.10098.001) and the NEONForestAGB dataset.
 
+## Overview
 
-## 1.  Survey plot data
+The workflow processes individual tree measurements, applies gap-filling to create continuous time series, handles dead tree status corrections, and aggregates to plot-level biomass density in Mg/ha (megagrams per hectare).
 
-### 1.1 The datasets
+## Design Considerations
 
-#### 1.1.1 Veg structure data (DP1.10098.001)
+### Individual Classification
+- **Trees**: Individuals with `growthForm` in {single bole tree, multi-bole tree, small tree} AND `stemDiameter` >= 10 cm
+- **Small woody**: Individuals with `growthForm` in {small tree, sapling, single shrub, small shrub} AND `stemDiameter` < 10 cm
+- Other individuals are excluded from biomass calculations
 
-Most of the relevant data for a given site will be contained in the dictionary returned by running the retrieval function nu.load_by_product. 
+### Dead Tree Handling
+Trees marked as dead have their biomass set to **0**, not excluded. Dead statuses include: "Standing dead", "Downed", "Dead broken bole", "Lost presumed dead", "Removed".
+
+**Sandwiched dead correction**: If a tree shows alive → dead → alive pattern across years, the middle "dead" status is assumed to be a measurement error and corrected to alive.
+
+### Gap-Filling Strategy
+For each individual, missing biomass values are filled using:
+1. **Linear interpolation/extrapolation** if 2+ observations exist
+2. **Constant fill** (single value) if exactly 1 observation exists
+3. **No fill** (remains NaN) if 0 observations exist
+
+**Critical order of operations**: Gap-filling occurs BEFORE zeroing dead tree biomass. This prevents dead tree zeros from being extrapolated backwards into years when trees were alive.
+
+### Plot-Level Biomass Logic
+
+| Scenario | Plot Biomass Value |
+|----------|-------------------|
+| No trees in plot | 0 |
+| Only dead trees | 0 |
+| Live trees with valid AGB estimates | Calculated sum (Mg/ha) |
+| Live trees, ALL have NaN AGB | NaN |
+| Mix of live trees (some valid AGB) + dead trees | Calculated sum |
+
+The key distinction: dead trees contribute 0 to the sum, while live trees without biomass estimates indicate the plot cannot be reliably estimated (NaN).
+
+### Small Woody Biomass Calculation
+Since many small woody individuals lack diameter measurements:
+1. Calculate average biomass from measured individuals
+2. Multiply by total count of small woody individuals in plot
+3. Divide by plot area
+
+If no individuals are measured, small woody biomass = NaN.
+
+### Sites Without NEONForestAGB Data
+Seven NEON sites have no data in NEONForestAGB (grasslands, arid sites): CPER, NOGP, DCFS, WOOD, LAJA, MOAB, JORN. For these:
+- Plots with live trees → NaN (cannot estimate)
+- Plots without live trees → 0
+
+## Workflow DAG
+
+```
+                                    ┌─────────────────────┐
+                                    │   DP1.10098.001     │
+                                    │   (site pickle)     │
+                                    └─────────┬───────────┘
+                                              │
+              ┌───────────────────────────────┼───────────────────────────────┐
+              │                               │                               │
+              ▼                               ▼                               ▼
+┌─────────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
+│  vst_apparentindividual │   │  vst_mappingandtagging  │   │   vst_perplotperyear    │
+│  (measurements)         │   │  (taxonomy, location)   │   │   (surveyed plot-years) │
+└───────────┬─────────────┘   └───────────┬─────────────┘   └───────────┬─────────────┘
+            │                             │                             │
+            ▼                             │                             │
+┌─────────────────────────┐               │                             │
+│  Merge with             │◄──────────────┼─────────────────────────────┘
+│  NEONForestAGB          │               │
+│  (adds AGB columns)     │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ▼                             │
+┌─────────────────────────┐               │
+│  Categorize individuals │               │
+│  (tree vs small_woody)  │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ├─────────────────────────────┤
+            │                             │
+            ▼                             ▼
+┌─────────────────────────┐   ┌─────────────────────────┐
+│       TREES             │   │     SMALL WOODY         │
+└───────────┬─────────────┘   └───────────┬─────────────┘
+            │                             │
+            ▼                             │
+┌─────────────────────────┐               │
+│  Apply dead status      │               │
+│  corrections            │               │
+│  (sandwiched fix)       │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ▼                             │
+┌─────────────────────────┐               │
+│  Create complete grid   │               │
+│  (individual × year)    │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ▼                             │
+┌─────────────────────────┐               │
+│  Gap-fill biomass       │               │
+│  (linear interp/extrap) │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ▼                             │
+┌─────────────────────────┐               │
+│  Zero dead tree biomass │               │
+│  (AFTER gap-filling)    │               │
+└───────────┬─────────────┘               │
+            │                             │
+            ▼                             ▼
+┌─────────────────────────┐   ┌─────────────────────────┐
+│  Sum tree biomass       │   │  Avg measured × total   │
+│  per plot-year          │   │  per plot-year          │
+└───────────┬─────────────┘   └───────────┬─────────────┘
+            │                             │
+            └──────────────┬──────────────┘
+                           │
+                           ▼
+            ┌─────────────────────────────┐
+            │  Combine tree + small_woody │
+            │  Calculate growth rates     │
+            │  Count unaccounted trees    │
+            └─────────────┬───────────────┘
+                          │
+                          ▼
+            ┌─────────────────────────────┐
+            │       OUTPUT TABLES         │
+            │  - plot_biomass             │
+            │  - individual_trees         │
+            │  - unaccounted_trees        │
+            └─────────────────────────────┘
+```
+
+## Input Data
+
+### DP1.10098.001 (Vegetation Structure)
+- **Source**: NEON data portal, pre-downloaded as pickle files per site
+- **Key tables**: `vst_apparentindividual`, `vst_mappingandtagging`, `vst_perplotperyear`
+- **Location**: `./data/DP1.10098/`
+
+### NEONForestAGB
+- **Source**: NEONForestAGBv2 dataset (CSV files)
+- **Contains**: Individual-level biomass estimates using three allometry equations
+- **Location**: `./data/NEONForestAGB/`
+
+### Plot Polygons
+- **Source**: NEON TOS Plot Polygons GeoJSON
+- **Contains**: Plot areas in m²
+- **Location**: `./data/plot_polygons/`
+
+## Outputs
+
+The `compute_site_biomass_full()` function returns a dictionary containing:
+
+### 1. Plot Biomass Table (`plot_biomass`)
+One row per plot-year combination with columns:
+
+- **Identifiers**: `siteID`, `plotID`, `year`, `plotArea_m2`
+- **Tree biomass (Mg/ha)**:
+  - `tree_AGBJenkins` - Jenkins et al. 2003 allometry
+  - `tree_AGBChojnacky` - Chojnacky et al. 2014 allometry
+  - `tree_AGBAnnighofer` - Annighofer et al. allometry
+  - `n_trees` - Count of trees in plot-year
+- **Small woody biomass (Mg/ha)**:
+  - `small_woody_AGBJenkins`, `small_woody_AGBChojnacky`, `small_woody_AGBAnnighofer`
+  - `n_small_woody_total` - Total count
+  - `n_small_woody_measured` - Count with measurements
+- **Totals**:
+  - `total_AGBJenkins`, `total_AGBChojnacky`, `total_AGBAnnighofer` - Tree + small woody
+- **Growth metrics**:
+  - `growth` - Year-over-year change (Mg/ha/year)
+  - `growth_cumu` - Cumulative trend from linear regression slope
+- **Quality indicator**: `n_unaccounted_trees` - Trees not included in estimates
+
+### 2. Individual Trees Table (`individual_trees`)
+One row per tree per survey year with columns:
+
+- **Identifiers**: `siteID`, `plotID`, `individualID`, `year`
+- **Biomass (kg)**: `AGBJenkins`, `AGBChojnacky`, `AGBAnnighofer`
+- **Growth rates**: `growth_AGBJenkins`, `growth_cumu_AGBJenkins` (and for other allometries)
+- **Measurements**: `stemDiameter`, `height`, `plantStatus`
+- **Status**: `corrected_is_dead`, `gapFilling` (ORIGINAL or FILLED)
+- **Taxonomy**: `scientificName`, `taxonID`, `genus`, `family`
+- **Location**: `pointID`, `stemDistance`, `stemAzimuth`
+
+### 3. Unaccounted Trees Table (`unaccounted_trees`)
+Trees excluded from biomass calculations:
+
+- **Columns**: `siteID`, `plotID`, `individualID`, `scientificName`, `taxonID`, `status`, `reason`
+- **Reasons**:
+  - `UNMEASURED` - In mapping table but never measured
+  - `NO_ALLOMETRY` - Has diameter but no biomass estimate from any allometry
+
+### 4. Metadata
+- `site_id` - Site identifier
+- `site_has_agb_data` - Boolean indicating if NEONForestAGB data exists for site
+
+## Usage
 
 ```python
-import neonUtilities as nu
+from src.main import compute_site_biomass_full
 
-veg_dict = nu.load_by_product(dpid="DP1.10098.001", 
-                              site="SJER", 
-                              package="basic", 
-                              release="RELEASE-2025",
-                              check_size=False)
+# Process a single site
+results = compute_site_biomass_full('HARV')
+
+# Access output tables
+plot_biomass = results['plot_biomass']
+individual_trees = results['individual_trees']
+unaccounted_trees = results['unaccounted_trees']
+
+# Check metadata
+print(f"Site has AGB data: {results['metadata']['site_has_agb_data']}")
 ```
 
-where dpid is the data product ID (will always be DP1.10098.001 for this exercise), the site is a 4 digit site code (SJER = San Joaquin Experimental Range in this example), and all other arguments can be left as defaults. a successful run of `nu.load_by_product` results in a dictionary containing several data objects.  
+See `example_run.py` for a complete example that saves outputs as pickle and CSV files.
 
-The current list of DPIDs that have been downloaded are: 
-
-```python
-dpids= ['DELA','LENO','TALL','BONA','DEJU','HEAL','SRER','SJER','SOAP',
-              'TEAK','CPER','NIWO','RMNP','DSNY','OSBS','JERC','PUUM','KONZ',
-              'UKFS','SERC','HARV','UNDE','BART','JORN','DCFS','NOGP','WOOD',
-              'GUAN','LAJA','GRSM','ORNL','CLBJ','MOAB','ONAQ','BLAN','MLBS',
-              'SCBI','ABBY','WREF','STEI','TREE','YELL']
-```
-
-Which were retrieved and saved as pickle files using `./notebooks/dl_dp1.ipynb`. The .pkl files can be found in `./data/DP1.10098/` and are identified by siteID. All `.pkl` contain all available years as of 2025-11-01. 
-
-More information about the data can be found in the the snippet below from the NEON website and in the official documentation for this product found in the pdf and markdown files in `./docs/DP1.10098/`.
+## File Structure
 
 ```
-Queries for this data product return data from the user-specified date range for the vst_perplotperyear, vst_apparentindividual, vst_non-woody, and vst_shrubgroup tables. For the vst_mappingandtagging table, queries ignore the user-specified date range and return all records for each user-selected site regardless of the user-specified date, due to the fact that individuals may be tagged and mapped in a year prior to the user-selected sampling event. Data are provided in monthly download files; queries including any part of a month will return data from the entire month. In the vst_perplotperyear table, there should be one record per plotID per eventID, and data in this table describe the presence/absence and sampling area of woody and non-woody growth forms. The vst_mappingandtagging table contains at least one record per individualID, and provides data that are invariant through time, including tagID, taxonID, and mapped location (if applicable). Duplicates in vst_mappingandtagging may exist at the individualID level if errors have been corrected after ingest of the original record; in this instance, users are advised to use the most recent record for a given individualID. The vst_apparentindividual table contains at least one record per individualID per eventID, and includes growth form, structure and plant status data that may be linked to vst_mappingandtagging records via the individualID; records may also be linked to vst_perplotperyear via the plotID and eventID fields in order to generate plot-level estimates of biomass and productivity. The vst_non-woody table contains one record per individualID per eventID, and contains growth form, structure and status data that may be linked to vst_perplotperyear data via the plotID and eventID fields. The vst_shrubgroup table contains a minimum of one record per groupID per plotID per eventID; multiple records with the same groupID may exist if a given shrub group comprises more than one taxonID. Data provided in the vst_shrubgroup table allow calculation of live and dead volume per taxonID within each shrub group, and records may be linked with the vst_perplotperyear table via the plotID and eventID fields.
-
-For all tables, duplicates may exist where protocol and/or data entry aberrations have occurred; users should check data carefully for anomalies before joining tables. For the vst_apparentindividual table, the combination of the eventID x individualID x tempStemID fields should be unique. The tempStemID field is used to uniquely identify the stems within a multi-stem individual within a sampling event, but the identity of these stems is not tracked from year-to-year; individuals with a single stem are assigned a tempStemID of 1. Taxonomic IDs of species of concern have been 'fuzzed'; see data package readme files for more information.
-
-If taxonomic determinations have been updated for any records in the tables vst_mappingandtagging or vst_non-woody, past determinations are archived in the vst_identificationHistory table, where the archived determinations are linked to current records using identificationHistoryID.
+neon-agbd/
+├── src/
+│   ├── __init__.py
+│   ├── constants.py         # Shared constants (growth forms, statuses)
+│   ├── data_loader.py       # Data loading and merging functions
+│   ├── gap_filling.py       # Gap-filling and dead status corrections
+│   ├── biomass_calculator.py # Plot-level biomass calculations
+│   └── main.py              # Main workflow orchestration
+├── data/
+│   ├── DP1.10098/           # Site pickle files
+│   ├── NEONForestAGB/       # AGB CSV files
+│   └── plot_polygons/       # GeoJSON with plot areas
+├── output/                  # Processed results
+├── example_run.py           # Example usage script
+└── README.md
 ```
 
-#### 1.1.2 Tree biomass estimates - NEONForestAGB
+## Notes
 
-NEONForestAGB is a dataset derived from the Veg structure data described in section 1.1.1. Jeff Atkins et al. systematically applied allometric equations to every DBH measurement for every possible combination of `individualID` and survey `date` that is present in the DP1.10098.001 database. 
-
-In this dataset there are three rows for every combination of individualID and survey date. Each row is the same except for the allometry that was used to compute AGB (aboveground biomass). The allometry used is indicated in the `allometry` column of the 10 csv files that represent the full NEONForestAGB database (named `NEONForestAGBv2_partXX.csv`). Allometry values are either "AGBJenkins", "AGBChojnacky", or "AGBAnnighofer". 
-
-For more information about this dataset, how it was made, or what it's properties are, see the documentation in `./docs/NEONForestAGB/`, the metadata file, the master taxon list, and all of the files for the AGB database in `./data/NEONForestAGB/` 
-
-
-### 1.2 Deriving plot-level AGB for each sampling campaign
-
-The `DP1.10098.001` and `NEONForestAGB` datasets are used in tandem to create plot-level estimates of AGB. 
-
-The family of functions in the .py files in /src/ work together to execute the following workflow, which ultimately results in AGB estimates for a given NEON TOS site, by survey plot and survey campaign (year).   
-
-For the TOS site: 
-
-1. Open the DP1.10098 .pkl file for the specified siteID (4-character site code). 
-
-2. Read in and concatenate all NEONForestAGBv2 csvs. Filter to the specified siteID. 
-
-3. Cut the NEONForestAGB dataframe down to just the columns `['individualID','date','allometry','AGB']`. Pivot using an index of `['individualID','date']` so that each allometry type become a column and the values are the values from the AGB column. Join the NEONForestAGB dataframe to the `vst_apparentindividual` dataframe in the DP1 dict on the individualID and date columns. For any rows in vst_apparentindividual that do not have a corresponging entry in NEONForestAGB, fill in the allometry columns with NA. Now all available biomass estimates have been added to the table of the raw measurement information.
-
-3. Make a list of all unique combinations of plotID and year in the DP1 data, where the year is obtained from the final 4 characters of the eventID. 
-
-4. Begin looping through plotIDs and calculating the necessary information to be able to estimate whole-plot biomass. 
-
-Per plotID: 
-
-1. Create a list of all of the unique `individualIDs` from the `vst_apparentindividual` table that fall within the plot. We want all individuals, not just those for a given sampling year, because we will be implementing logic to fill in information for missing entries. From here foreward we can refer to the vst_apparentindividual dataframe as `vst_ai`. 
-
-2. Conduct any gap filling that is necessary for each individualID. If there is missing data for a given allometry type for a given survey year, and there are at least 2 observations for that individual and allometry type from other years, estimate the missing observation using a linear fit. If only 1 observation is available, use that same value as a gap filler (assumption: no growth). If no observations are available, leave all as NA. 
-
-3. Divide up all of the vst_ai df into categories of "small_woody" and "tree". 
-- To be in the "tree" category, an individual must have a `growthForm` within the set `['single bole tree','multi-bole tree','small tree']` and have a `stemDiameter` equal to or greater than 10cm. 
-
-- To be in the "small_woody" category, an individual must be in the set `['small_tree','sapling','single shrub', 'small shrub']` and have a `stemDiameter` of less than 10cm. 
-
-4. For each year, sum the biomass for all trees, and divide by the area of the plot. Plot area should be expressed in hectares. The area of each plot, identified by `plotID` in units of square meters can be obtained from the file /data/plot_polygons/NEON_TOS_Plot_polygons.geojson file in the `plotSize` column. Store this calculated value as the "tree" biomass for the plot. 
-
-5. For each year, sum the small_woody biomass and divided by the number of measured individuals to get an average biomass. Then multiply this by the total number of small_woody individuals that exist in the plot to get the "small_woody" biomass total for the plot. Divide by the plot area to get the biomass density.  
-
-The results of 4 and 5 should be stored in a data frame with columns showing the siteID, plotID, eventYear, the biomass totals for each category type (trees and small_woody) and for each of the 3 allometry types that are present, the n of trees, the n of measured small_woody, and the n of total small_woody in the site (total of 12 columns). 
-
-This will be the output of the workflow. 
-
-### 1.3 Misc. context 
-
-At each NEON TOS (Terrestrial Observation Site), there are both `Distributed` plots (up to n=20), the locations of which are chosen to proportionally represent the landcover types of the site, and `Tower` plots (n = 20 in forests, n = 30 in non-woody sites), which are located within the airshed of the flux tower.
-
-## 2. AOP data 
-
-This is an area of active research and will be updated at a later time. 
-
-
-2. Begin looping survey years, beginning with the first. 
+- **Units**: Individual biomass in kg; plot-level density in Mg/ha (1 Mg = 1000 kg = 1 tonne)
+- **Multi-stem trees**: Biomass summed across stems; individual is alive if ANY stem is alive
+- **AGBAnnighofer**: Often NaN for many species/sites - this is expected
+- **Surveyed plot-years**: Determined from `vst_perplotperyear`, not presence of individuals

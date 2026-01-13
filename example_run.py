@@ -52,7 +52,7 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
         dp1_data_dir="./data/DP1.10098",
         agb_data_dir="./data/NEONForestAGB",
         plot_polygons_path="./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
-        apply_gap_filling=True,
+        apply_gap_filling=True,r
         apply_dead_corrections=True,
         verbose=True
     )
