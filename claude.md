@@ -200,6 +200,50 @@ All plant statuses are now classified as either dead or live (see `constants.py`
 - Dead status corrections run per-individual, which can be slow for large sites
 - HARV with ~1300 unaccounted trees takes longer due to the iteration
 
+## Non-Forested Sites and Plot-Level Biomass Logic (2026-01-12)
+
+### Authoritative Source for Plot-Years
+The `vst_perplotperyear` table is now used as the authoritative source for which plot-years were surveyed. This includes plots that were surveyed but had no woody vegetation (previously these were excluded).
+
+### Sites Without NEONForestAGB Data
+Seven NEON sites have no data in the NEONForestAGB dataset:
+- **Grasslands**: CPER, NOGP, DCFS, WOOD
+- **Arid/semi-arid**: LAJA, MOAB, JORN
+
+For these sites, `metadata['site_has_agb_data']` will be `False`.
+
+### Plot-Level Biomass Logic
+
+| Scenario | Tree Biomass |
+|----------|-------------|
+| No trees in plot | 0 |
+| Only dead trees | 0 |
+| Live trees with valid AGB estimates | Calculated sum |
+| Live trees, ALL have NaN AGB (no ForestAGB data) | NaN |
+| Mix of live trees (some with valid AGB) + dead trees | Calculated sum |
+
+**Key principle**: Dead trees are set to 0 biomass (they have no living biomass). The NaN check only considers live trees - if ANY live trees exist but ALL of them lack AGB estimates, the plot biomass is NaN because we cannot estimate the living biomass.
+
+### Gap-Filling and Dead Tree Zeroing Order
+
+**Important**: Dead tree biomass is zeroed AFTER gap-filling, not before. This prevents the following bug:
+1. Tree is alive in 2016, 2018, dies in 2023
+2. If we zero the 2023 biomass to 0 before gap-filling...
+3. Gap-filling would extrapolate that 0 backwards to 2016 and 2018
+4. Result: incorrectly shows 0 biomass for years when tree was alive
+
+The correct order is:
+1. Apply `apply_dead_status_corrections()` to determine which trees are dead (sets `corrected_is_dead` column)
+2. Perform gap-filling (interpolates NaN values based on valid observations)
+3. Apply `zero_biomass_for_dead_trees()` to set dead tree biomass to 0
+
+### Interpreting Results for Sites Without AGB Data
+
+For sites like MOAB that have trees but no NEONForestAGB data:
+- Plot-years with live trees will show NaN biomass (can't estimate)
+- Plot-years with only dead trees or no trees will show 0 biomass
+- The `unaccounted_trees` table can help identify which trees lack estimates
+
 ## Future Improvements
 
 - Add support for vst_shrubgroup data (currently not used)
