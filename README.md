@@ -14,7 +14,7 @@ The workflow processes individual tree measurements, applies gap-filling to crea
 - Other individuals are excluded from biomass calculations
 
 ### Dead Tree Handling
-Trees marked as dead have their biomass set to **0**, not excluded. Dead statuses include: "Standing dead", "Downed", "Dead broken bole", "Lost presumed dead", "Removed".
+Trees marked as dead have their biomass set to **0**. Dead statuses include: `"Standing dead", "Downed", "Dead broken bole", "Lost presumed dead", "Removed".`
 
 **Sandwiched dead correction**: If a tree shows alive → dead → alive pattern across years, the middle "dead" status is assumed to be a measurement error and corrected to alive.
 
@@ -28,6 +28,8 @@ For each individual, missing biomass values are filled using:
 
 ### Plot-Level Biomass Logic
 
+In order to get a good number for plot-level biomass density, one must consider what to do with plots that have no woody vegetation, plots that have only dead woody veg, plots that have live woody veg but are missing all measurements, and plots that have a mix of live trees with at least 1 valid diameter measurement and live trees with no valid measurements. 
+
 | Scenario | Plot Biomass Value |
 |----------|-------------------|
 | No trees in plot | 0 |
@@ -36,10 +38,10 @@ For each individual, missing biomass values are filled using:
 | Live trees, ALL have NaN AGB | NaN |
 | Mix of live trees (some valid AGB) + dead trees | Calculated sum |
 
-The key distinction: dead trees contribute 0 to the sum, while live trees without biomass estimates indicate the plot cannot be reliably estimated (NaN).
+The key distinction: live trees without any biomass estimates cannot be included in the plot biomass, and are simply left out of biomass calculations, as long as some trees in the plot do have valid measurements. **In the future**, it may be wise to set a threshold here to minimize the impact of missing trees. 
 
 ### Small Woody Biomass Calculation
-Since many small woody individuals lack diameter measurements:
+Only a subsample of the small woody individuals are measured. To use those measurements and extrapolate to all of the small woody individuals:
 1. Calculate average biomass from measured individuals
 2. Multiply by total count of small woody individuals in plot
 3. Divide by plot area
@@ -49,7 +51,9 @@ If no individuals are measured, small woody biomass = NaN.
 ### Sites Without NEONForestAGB Data
 Seven NEON sites have no data in NEONForestAGB (grasslands, arid sites): CPER, NOGP, DCFS, WOOD, LAJA, MOAB, JORN. For these:
 - Plots with live trees → NaN (cannot estimate)
-- Plots without live trees → 0
+- Plots without live trees → 0 T/ha
+
+These are included because sites with 0 biomass are useful for evaluating the performance of biomass models, comparing with AOP data, etc...
 
 ## Workflow DAG
 
