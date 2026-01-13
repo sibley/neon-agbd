@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from typing import Dict, List, Optional, Tuple
 
-from .constants import (
+from ..constants import (
     TREE_GROWTH_FORMS,
     SMALL_WOODY_GROWTH_FORMS,
     DIAMETER_THRESHOLD,
@@ -132,8 +132,18 @@ def calculate_tree_biomass_density(
         else:
             result[f'tree_{col}'] = np.nan
 
-    # Also count number of trees
+    # Count number of trees
     result['n_trees'] = len(year_df)
+
+    # Count gap-filled, removed, and not-qualified trees
+    if 'gapFilling' in year_df.columns:
+        result['n_filled'] = (year_df['gapFilling'] == 'FILLED').sum()
+        result['n_removed'] = (year_df['gapFilling'] == 'REMOVED').sum()
+        result['n_not_qualified'] = (year_df['gapFilling'] == 'NOT_QUALIFIED').sum()
+    else:
+        result['n_filled'] = 0
+        result['n_removed'] = 0
+        result['n_not_qualified'] = 0
 
     return result
 

@@ -30,7 +30,7 @@ from .biomass_calculator import (
     add_category_column,
     aggregate_plot_biomass_all_years,
 )
-from .constants import (
+from ..constants import (
     ALLOMETRY_COLS,
     TREE_GROWTH_FORMS,
     DIAMETER_THRESHOLD,
@@ -159,6 +159,9 @@ def create_empty_plot_year_row(
         'tree_AGBChojnacky': tree_value,
         'tree_AGBAnnighofer': tree_value,
         'n_trees': 0,
+        'n_filled': 0,
+        'n_removed': 0,
+        'n_not_qualified': 0,
         'small_woody_AGBJenkins': sw_value,
         'small_woody_AGBChojnacky': sw_value,
         'small_woody_AGBAnnighofer': sw_value,
@@ -305,7 +308,14 @@ def create_individual_tree_table(
 
     # For multi-stem trees, aggregate biomass by summing across stems per year
     # First, get the columns we need to aggregate
-    agg_cols = {col: 'sum' for col in ALLOMETRY_COLS if col in trees_df.columns}
+    # Use lambda with min_count to preserve NaN when all values are NaN
+    def sum_preserve_nan(x):
+        """Sum values, but return NaN if all values are NaN."""
+        if x.isna().all():
+            return np.nan
+        return x.sum()
+
+    agg_cols = {col: sum_preserve_nan for col in ALLOMETRY_COLS if col in trees_df.columns}
 
     # Add other aggregations
     agg_cols['stemDiameter'] = 'max'  # Take max diameter for the individual
@@ -394,10 +404,10 @@ def create_individual_tree_table(
 
 def add_growth_columns_to_output(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Add growth and growth_cumu columns to the output biomass table.
+    Add annual_growth_t-1_to_t column to the output biomass table.
 
     Growth is calculated using the sum of tree and small_woody biomass
-    for each allometry type.
+    for each allometry type (using Jenkins as the primary allometry).
 
     Parameters
     ----------
@@ -407,7 +417,7 @@ def add_growth_columns_to_output(df: pd.DataFrame) -> pd.DataFrame:
     Returns
     -------
     pd.DataFrame
-        DataFrame with added growth columns
+        DataFrame with added growth column
     """
     df = df.copy()
     df = df.sort_values(['plotID', 'year']).reset_index(drop=True)
@@ -427,9 +437,8 @@ def add_growth_columns_to_output(df: pd.DataFrame) -> pd.DataFrame:
         else:
             df[total_col] = np.nan
 
-    # Add growth columns
-    df['growth'] = np.nan
-    df['growth_cumu'] = np.nan
+    # Add growth column (renamed from 'growth')
+    df['annual_growth_t-1_to_t'] = np.nan
 
     # Use Jenkins as the primary allometry for growth calculations
     # (or first available)
@@ -463,20 +472,160 @@ def add_growth_columns_to_output(df: pd.DataFrame) -> pd.DataFrame:
             )
             growth_values.append(growth)
 
-        df.loc[plot_mask, 'growth'] = growth_values
-
-        # Cumulative growth
-        cumu_growth = calculate_cumulative_growth(years, biomass)
-        df.loc[plot_mask, 'growth_cumu'] = cumu_growth
+        df.loc[plot_mask, 'annual_growth_t-1_to_t'] = growth_values
 
     return df
 
 
+def create_interpolated_timeseries(
+    plot_biomass_df: pd.DataFrame,
+    allometry_col: str
+) -> pd.DataFrame:
+    """
+    Create an interpolated time series table for a specific allometry type.
+
+    For each plot, creates a continuous time series with values for every year
+    between the first and last survey years. Values are linearly interpolated
+    between actual survey years.
+
+    Parameters
+    ----------
+    plot_biomass_df : pd.DataFrame
+        The plot_biomass output table with total_AGBxxx columns
+    allometry_col : str
+        The allometry column name (e.g., 'AGBJenkins')
+
+    Returns
+    -------
+    pd.DataFrame
+        Wide-format table with one row per plot, columns:
+        - siteID, plotID, plotArea_m2: Plot identifiers
+        - agb_YYYY: Interpolated biomass for each year
+        - change_YYYY: Annual change from previous year (NaN for first year)
+    """
+    total_col = f'total_{allometry_col}'
+
+    if total_col not in plot_biomass_df.columns:
+        return pd.DataFrame()
+
+    df = plot_biomass_df.copy()
+    df = df.sort_values(['plotID', 'year'])
+
+    # Get global year range across all plots
+    all_years = sorted(df['year'].unique())
+    if len(all_years) == 0:
+        return pd.DataFrame()
+
+    min_year = min(all_years)
+    max_year = max(all_years)
+
+    results = []
+
+    for plot_id in df['plotID'].unique():
+        plot_df = df[df['plotID'] == plot_id].sort_values('year')
+
+        if plot_df.empty:
+            continue
+
+        # Get plot metadata (time-invariant)
+        site_id = plot_df['siteID'].iloc[0]
+        plot_area = plot_df['plotArea_m2'].iloc[0]
+
+        # Get survey years and biomass values for this plot
+        survey_years = plot_df['year'].values
+        survey_biomass = plot_df[total_col].values
+
+        # Determine year range for this plot (first to last survey)
+        plot_min_year = int(survey_years.min())
+        plot_max_year = int(survey_years.max())
+
+        # Create a row with plot identifiers
+        row = {
+            'siteID': site_id,
+            'plotID': plot_id,
+            'plotArea_m2': plot_area,
+        }
+
+        # Create interpolated values for all years in the plot's range
+        interpolated_biomass = {}
+
+        for year in range(plot_min_year, plot_max_year + 1):
+            if year in survey_years:
+                # Use actual survey value
+                idx = np.where(survey_years == year)[0][0]
+                interpolated_biomass[year] = survey_biomass[idx]
+            else:
+                # Interpolate between surrounding survey years
+                # Find the closest survey years before and after
+                years_before = survey_years[survey_years < year]
+                years_after = survey_years[survey_years > year]
+
+                if len(years_before) > 0 and len(years_after) > 0:
+                    year_before = years_before.max()
+                    year_after = years_after.min()
+
+                    idx_before = np.where(survey_years == year_before)[0][0]
+                    idx_after = np.where(survey_years == year_after)[0][0]
+
+                    biomass_before = survey_biomass[idx_before]
+                    biomass_after = survey_biomass[idx_after]
+
+                    if pd.notna(biomass_before) and pd.notna(biomass_after):
+                        # Linear interpolation
+                        fraction = (year - year_before) / (year_after - year_before)
+                        interpolated_biomass[year] = biomass_before + fraction * (biomass_after - biomass_before)
+                    else:
+                        interpolated_biomass[year] = np.nan
+                else:
+                    # Outside survey range (shouldn't happen given our year range)
+                    interpolated_biomass[year] = np.nan
+
+        # Add agb_YEAR columns
+        for year in range(min_year, max_year + 1):
+            col_name = f'agb_{year}'
+            if year in interpolated_biomass:
+                row[col_name] = interpolated_biomass[year]
+            else:
+                row[col_name] = np.nan
+
+        # Add change_YEAR columns
+        prev_biomass = None
+        for year in range(min_year, max_year + 1):
+            col_name = f'change_{year}'
+            current_biomass = interpolated_biomass.get(year, np.nan)
+
+            if prev_biomass is not None and pd.notna(prev_biomass) and pd.notna(current_biomass):
+                row[col_name] = current_biomass - prev_biomass
+            else:
+                row[col_name] = np.nan
+
+            # Update prev_biomass only if this year is within the plot's survey range
+            if year >= plot_min_year and year <= plot_max_year:
+                prev_biomass = current_biomass
+
+        results.append(row)
+
+    if not results:
+        return pd.DataFrame()
+
+    result_df = pd.DataFrame(results)
+
+    # Order columns: identifiers first, then agb_YEAR, then change_YEAR
+    id_cols = ['siteID', 'plotID', 'plotArea_m2']
+    agb_cols = sorted([c for c in result_df.columns if c.startswith('agb_')])
+    change_cols = sorted([c for c in result_df.columns if c.startswith('change_')])
+
+    ordered_cols = id_cols + agb_cols + change_cols
+    result_df = result_df[ordered_cols]
+
+    return result_df
+
+
 def compute_site_biomass_full(
     site_id: str,
-    dp1_data_dir: str = "./data/DP1.10098",
-    agb_data_dir: str = "./data/NEONForestAGB",
-    plot_polygons_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
+    dp1_data_dir: str,
+    agb_data_dir: str,
+    plot_polygons_path: str,
     apply_gap_filling: bool = True,
     apply_dead_corrections: bool = True,
     verbose: bool = True
@@ -488,17 +637,20 @@ def compute_site_biomass_full(
     - plot_biomass: Plot-level biomass density with growth metrics
     - unaccounted_trees: Trees not included in calculations
     - individual_trees: Individual tree measurements in long form
+    - plot_jenkins_ts: Interpolated time series table for Jenkins allometry
+    - plot_chojnacky_ts: Interpolated time series table for Chojnacky allometry
+    - plot_annighofer_ts: Interpolated time series table for Annighofer allometry
 
     Parameters
     ----------
     site_id : str
         Four-character NEON site code (e.g., 'SJER', 'HARV')
     dp1_data_dir : str
-        Path to directory containing DP1.10098 pickle files
+        Absolute path to directory containing DP1.10098 pickle files
     agb_data_dir : str
-        Path to directory containing NEONForestAGB CSV files
+        Absolute path to directory containing NEONForestAGB CSV files
     plot_polygons_path : str
-        Path to the plot polygons GeoJSON file
+        Absolute path to the plot polygons GeoJSON file
     apply_gap_filling : bool
         Whether to apply gap filling for missing biomass values
     apply_dead_corrections : bool
@@ -513,6 +665,9 @@ def compute_site_biomass_full(
         - 'plot_biomass': DataFrame with plot-level biomass and growth
         - 'unaccounted_trees': DataFrame with trees not in calculations
         - 'individual_trees': DataFrame with individual tree measurements
+        - 'plot_jenkins_ts': DataFrame with interpolated Jenkins time series
+        - 'plot_chojnacky_ts': DataFrame with interpolated Chojnacky time series
+        - 'plot_annighofer_ts': DataFrame with interpolated Annighofer time series
         - 'site_id': The site identifier
         - 'metadata': Dictionary with processing information
     """
@@ -530,7 +685,7 @@ def compute_site_biomass_full(
     # Step 2: Load NEONForestAGB data
     if verbose:
         print("  Loading NEONForestAGB data...")
-    agb_df = load_neon_forest_agb(site_id, agb_data_dir)
+    agb_df = load_neon_forest_agb(agb_data_dir, site_id)
     site_has_agb_data = len(agb_df) > 0
 
     # Step 3: Pivot AGB data and merge with vst_apparentindividual
@@ -713,7 +868,14 @@ def compute_site_biomass_full(
     if not results_df.empty:
         results_df = add_growth_columns_to_output(results_df)
 
-    # Step 10: Create individual tree table
+    # Step 10: Create interpolated time series tables
+    if verbose:
+        print("  Creating interpolated time series tables...")
+    plot_jenkins_ts = create_interpolated_timeseries(results_df, 'AGBJenkins')
+    plot_chojnacky_ts = create_interpolated_timeseries(results_df, 'AGBChojnacky')
+    plot_annighofer_ts = create_interpolated_timeseries(results_df, 'AGBAnnighofer')
+
+    # Step 11: Create individual tree table
     if verbose:
         print("  Creating individual tree table...")
     individual_trees = create_individual_tree_table(all_merged_processed, vst_mapping, site_id)
@@ -728,6 +890,9 @@ def compute_site_biomass_full(
     output['plot_biomass'] = results_df
     output['unaccounted_trees'] = unaccounted_trees
     output['individual_trees'] = individual_trees
+    output['plot_jenkins_ts'] = plot_jenkins_ts
+    output['plot_chojnacky_ts'] = plot_chojnacky_ts
+    output['plot_annighofer_ts'] = plot_annighofer_ts
     output['site_id'] = site_id
     output['metadata'] = {
         'apply_gap_filling': apply_gap_filling,
@@ -744,9 +909,9 @@ def compute_site_biomass_full(
 
 def compute_site_biomass(
     site_id: str,
-    dp1_data_dir: str = "./data/DP1.10098",
-    agb_data_dir: str = "./data/NEONForestAGB",
-    plot_polygons_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
+    dp1_data_dir: str,
+    agb_data_dir: str,
+    plot_polygons_path: str,
     apply_gap_filling: bool = True,
     apply_dead_corrections: bool = True,
     verbose: bool = True
@@ -768,11 +933,11 @@ def compute_site_biomass(
     site_id : str
         Four-character NEON site code (e.g., 'SJER', 'HARV')
     dp1_data_dir : str
-        Path to directory containing DP1.10098 pickle files
+        Absolute path to directory containing DP1.10098 pickle files
     agb_data_dir : str
-        Path to directory containing NEONForestAGB CSV files
+        Absolute path to directory containing NEONForestAGB CSV files
     plot_polygons_path : str
-        Path to the plot polygons GeoJSON file
+        Absolute path to the plot polygons GeoJSON file
     apply_gap_filling : bool
         Whether to apply gap filling for missing biomass values
     apply_dead_corrections : bool
@@ -821,9 +986,9 @@ def compute_site_biomass(
 
 def compute_all_sites_biomass(
     site_ids: List[str],
-    dp1_data_dir: str = "./data/DP1.10098",
-    agb_data_dir: str = "./data/NEONForestAGB",
-    plot_polygons_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
+    dp1_data_dir: str,
+    agb_data_dir: str,
+    plot_polygons_path: str,
     apply_gap_filling: bool = True,
     verbose: bool = True
 ) -> pd.DataFrame:
@@ -835,11 +1000,11 @@ def compute_all_sites_biomass(
     site_ids : List[str]
         List of four-character NEON site codes
     dp1_data_dir : str
-        Path to directory containing DP1.10098 pickle files
+        Absolute path to directory containing DP1.10098 pickle files
     agb_data_dir : str
-        Path to directory containing NEONForestAGB CSV files
+        Absolute path to directory containing NEONForestAGB CSV files
     plot_polygons_path : str
-        Path to the plot polygons GeoJSON file
+        Absolute path to the plot polygons GeoJSON file
     apply_gap_filling : bool
         Whether to apply gap filling for missing biomass values
     verbose : bool
@@ -894,13 +1059,27 @@ if __name__ == "__main__":
     else:
         site = 'SJER'
 
+    # Determine repo root (this file is in neon_agbd/vst/)
+    repo_root = Path(__file__).parent.parent.parent.resolve()
+
+    # Set up paths
+    dp1_data_dir = repo_root / "data" / "DP1.10098"
+    agb_data_dir = repo_root / "data" / "NEONForestAGB"
+    plot_polygons_path = repo_root / "data" / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson"
+    output_dir = repo_root / "output"
+
     print(f"Computing biomass for site: {site}")
 
     # Use the full function to get all outputs
-    output = compute_site_biomass_full(site)
+    output = compute_site_biomass_full(
+        site_id=site,
+        dp1_data_dir=str(dp1_data_dir),
+        agb_data_dir=str(agb_data_dir),
+        plot_polygons_path=str(plot_polygons_path)
+    )
 
     # Create output directory
-    Path("./output").mkdir(exist_ok=True)
+    output_dir.mkdir(exist_ok=True)
 
     # Preview results
     if not output['plot_biomass'].empty:
@@ -916,13 +1095,13 @@ if __name__ == "__main__":
         print(output['individual_trees'].head(5))
 
     # Save as pickle
-    pkl_file = f"./output/{site}_biomass_results.pkl"
+    pkl_file = output_dir / f"{site}.pkl"
     with open(pkl_file, 'wb') as f:
         pickle.dump(output, f)
     print(f"\nResults saved to: {pkl_file}")
 
     # Also save individual CSVs for inspection
-    csv_dir = Path("./output/csvs")
+    csv_dir = output_dir / "csvs"
     csv_dir.mkdir(exist_ok=True)
     output['plot_biomass'].to_csv(csv_dir / f"{site}_plot_biomass.csv", index=False)
     output['unaccounted_trees'].to_csv(csv_dir / f"{site}_unaccounted_trees.csv", index=False)

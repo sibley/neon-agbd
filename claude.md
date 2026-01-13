@@ -4,9 +4,13 @@ This file contains notes for future sessions working with this codebase.
 
 ## Code Structure
 
-The `/src/` directory contains five Python modules:
+The `/neon_agbd/` package contains:
 
-1. **constants.py** - All hardcoded constants used across the codebase
+- **constants.py** - Shared constants (at package root)
+- **vst/** - Vegetation structure processing submodule
+
+### constants.py
+All hardcoded constants used across the codebase:
    - `DEAD_STATUSES` - Plant status values indicating dead trees
    - `LIVE_STATUSES` - Plant status values indicating live trees
    - `TREE_GROWTH_FORMS` - Growth forms that qualify as trees
@@ -15,24 +19,28 @@ The `/src/` directory contains five Python modules:
    - `ALLOMETRY_COLS` - Names of allometry columns
    - `KG_TO_MG` - Unit conversion factor
 
-2. **data_loader.py** - Functions for loading and preparing data
+### vst/data_loader.py
+Functions for loading and preparing data:
    - `load_dp1_data()` - Load DP1.10098.001 pickle files
    - `load_neon_forest_agb()` - Load and concatenate NEONForestAGB CSVs
    - `load_plot_areas()` - Load plot polygon data from GeoJSON
    - `pivot_agb_by_allometry()` - Convert long to wide format for AGB
    - `merge_agb_with_apparent_individual()` - Join AGB with vst_apparentindividual
 
-3. **gap_filling.py** - Functions for filling missing biomass values
+### vst/gap_filling.py
+Functions for filling missing biomass values:
    - Uses linear interpolation when 2+ observations exist
    - Uses constant fill when 1 observation exists
    - Leaves NA when 0 observations exist
 
-4. **biomass_calculator.py** - Functions for computing plot-level biomass
+### vst/biomass_calculator.py
+Functions for computing plot-level biomass:
    - Categorizes individuals as 'tree', 'small_woody', or 'other'
    - Trees: growthForm in [single bole tree, multi-bole tree, small tree] AND stemDiameter >= 10cm
    - Small woody: growthForm in [small tree, sapling, single shrub, small shrub] AND stemDiameter < 10cm
 
-5. **main.py** - Main workflow orchestration
+### vst/main.py
+Main workflow orchestration:
    - `compute_site_biomass()` - Process a single site
    - `compute_all_sites_biomass()` - Process multiple sites
 
@@ -75,27 +83,38 @@ When no measured individuals exist, the biomass is reported as NaN (not 0).
 
 ## Usage Example
 
+All data loading functions require **absolute paths** (no defaults). This allows reading data from any location.
+
 ```python
-from src.main import compute_site_biomass, compute_all_sites_biomass, ALL_SITES
+from pathlib import Path
+from neon_agbd.vst.main import compute_site_biomass_full, ALL_SITES
+
+# Set up absolute paths
+data_root = Path("/path/to/data")
+dp1_dir = str(data_root / "DP1.10098")
+agb_dir = str(data_root / "NEONForestAGB")
+polygons_path = str(data_root / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson")
 
 # Single site
-results = compute_site_biomass('SJER')
-
-# Multiple sites
-results = compute_all_sites_biomass(['SJER', 'HARV', 'TALL'])
-
-# All available sites
-results = compute_all_sites_biomass(ALL_SITES)
+results = compute_site_biomass_full(
+    site_id='SJER',
+    dp1_data_dir=dp1_dir,
+    agb_data_dir=agb_dir,
+    plot_polygons_path=polygons_path
+)
 ```
 
 ## Output Format
 
-The output DataFrame has 13 columns:
+The `plot_biomass` DataFrame has the following columns:
 - siteID, plotID, year, plotArea_m2
 - tree_AGBJenkins, tree_AGBChojnacky, tree_AGBAnnighofer (Mg/ha)
-- n_trees
+- n_trees, n_filled, n_removed, n_not_qualified
 - small_woody_AGBJenkins, small_woody_AGBChojnacky, small_woody_AGBAnnighofer (Mg/ha)
 - n_small_woody_total, n_small_woody_measured
+- n_unaccounted_trees
+- total_AGBJenkins, total_AGBChojnacky, total_AGBAnnighofer
+- annual_growth_t-1_to_t
 
 ## Questions for User
 
@@ -141,6 +160,9 @@ The `compute_site_biomass_full()` function returns a dictionary containing both 
 - `plot_biomass`: Plot-level biomass with growth metrics
 - `unaccounted_trees`: Trees not included in calculations
 - `individual_trees`: Individual tree measurements in long form
+- `plot_jenkins_ts`: Interpolated time series for Jenkins allometry
+- `plot_chojnacky_ts`: Interpolated time series for Chojnacky allometry
+- `plot_annighofer_ts`: Interpolated time series for Annighofer allometry
 - `site_id`: Site identifier
 - `metadata`: Processing information (settings used, counts)
 
@@ -166,8 +188,8 @@ When `apply_gap_filling=True` (default), the following gap-filling is applied:
 The `gapFilling` column tracks whether each row was from an actual measurement ('ORIGINAL') or created by gap-filling ('FILLED').
 
 ### Growth Metrics
-- `growth`: Year-over-year growth rate (Mg/ha/year)
-- `growth_cumu`: Cumulative average growth from linear regression slope
+- `annual_growth_t-1_to_t`: Year-over-year growth rate (Mg/ha/year) in plot_biomass
+- Individual trees still have both year-over-year and cumulative growth per allometry
 
 ### Example Script
 `example_run.py` demonstrates processing a site and saving outputs as pkl and CSV files.
@@ -191,9 +213,10 @@ The `gapFilling` column tracks whether each row was from an actual measurement (
 - Only trees (not small_woody) are tracked as unaccounted
 
 ### Dead Status Classification
-All plant statuses are now classified as either dead or live (see `constants.py`):
-- `No longer qualifies` - classified as DEAD
-- `Lost, fate unknown` - classified as DEAD
+Plant statuses are classified into three categories (see `constants.py`):
+- **DEAD_STATUSES**: Standing dead, Downed, Dead broken bole, Lost fate unknown, Lost burned, Lost herbivory, Lost presumed dead
+- **REMOVED_STATUSES**: Removed, No longer qualifies (handled separately with distinct markers)
+- **LIVE_STATUSES**: Live, Live broken bole, Live physically damaged, etc.
 - `Lost, tag damaged` - classified as LIVE (tag issue, not plant death)
 
 ### Performance Considerations
@@ -244,9 +267,71 @@ For sites like MOAB that have trees but no NEONForestAGB data:
 - Plot-years with only dead trees or no trees will show 0 biomass
 - The `unaccounted_trees` table can help identify which trees lack estimates
 
+## Session 4 Updates (2026-01-13)
+
+### Dead Status Forward/Back-Fill
+
+The dead status handling now includes:
+1. **Forward-fill**: Once a tree is dead, it stays dead for all subsequent years
+2. **Back-fill**: If the first actual observation is dead, prior gap-filled years are also marked dead
+
+This prevents incorrect biomass values from being extrapolated to years when trees should have 0 biomass.
+
+### Removed/Not-Qualified Status Handling
+
+Two statuses are now handled separately from dead trees:
+- **Removed**: Tree physically cut and removed by human activity (NEON.DOC.000987vM)
+- **No longer qualifies**: Tree no longer meets measurement criteria (e.g., badly broken)
+
+Both are treated like dead trees (biomass = 0 from status appearance onward) but with distinct gapFilling markers:
+- `gapFilling = 'REMOVED'` for removed trees
+- `gapFilling = 'NOT_QUALIFIED'` for not-qualified trees
+
+The constants are now separated in `constants.py`:
+```python
+DEAD_STATUSES = {'Standing dead', 'Downed', 'Dead, broken bole', ...}
+REMOVED_STATUSES = {'Removed', 'No longer qualifies'}
+```
+
+### New Count Columns in plot_biomass
+
+Three new columns track the composition of each plot-year:
+- `n_filled` - count of gap-filled tree records
+- `n_removed` - count of trees with "Removed" status
+- `n_not_qualified` - count of trees with "No longer qualifies" status
+
+### Growth Column Changes
+
+- Renamed `growth` to `annual_growth_t-1_to_t` for clarity
+- Removed `growth_cumu` column from plot_biomass (still available in individual_trees)
+
+### Interpolated Time Series Tables
+
+Three new wide-format tables are now included in the output:
+- `plot_jenkins_ts`
+- `plot_chojnacky_ts`
+- `plot_annighofer_ts`
+
+Each table has one row per plot with:
+- `siteID`, `plotID`, `plotArea_m2` as identifiers
+- `agb_YYYY` columns for each year (interpolated between surveys)
+- `change_YYYY` columns for annual change (NaN for first survey year)
+
+**Interpolation logic**: For years between survey years, values are linearly interpolated. Years outside a plot's survey range are NaN.
+
+### Known Data Quality Issues
+
+See `known_issues.md` for documented issues in source data. Example:
+- ABBY_073 in 2018 has erroneous 36.7 cm measurement for a vine maple that's actually 1-3 cm
+
+### NEONForestAGB Merge Limitation
+
+The current `pivot_agb_by_allometry()` function pivots on `individualID` and `date` only, which can cause issues when an individual has multiple stems with different diameters measured on the same date. The first AGB value encountered is used for all stems. This is a known limitation that may need addressing for multi-stem accuracy.
+
 ## Future Improvements
 
 - Add support for vst_shrubgroup data (currently not used)
 - Add support for vst_non-woody data (currently not used)
 - Add more sophisticated gap-filling methods (e.g., species-specific growth curves)
 - Add validation checks for data quality flags
+- Fix NEONForestAGB merge to preserve stem-level AGB granularity

@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Dict, Optional, Tuple
 
 
-def load_dp1_data(site_id: str, data_dir: str = "./data/DP1.10098") -> Dict:
+def load_dp1_data(site_id: str, data_dir: str) -> Dict:
     """
     Load the DP1.10098.001 vegetation structure data for a given site.
 
@@ -19,7 +19,7 @@ def load_dp1_data(site_id: str, data_dir: str = "./data/DP1.10098") -> Dict:
     site_id : str
         Four-character NEON site code (e.g., 'SJER', 'HARV')
     data_dir : str
-        Path to the directory containing the pickle files
+        Absolute path to the directory containing the pickle files
 
     Returns
     -------
@@ -43,18 +43,18 @@ def load_dp1_data(site_id: str, data_dir: str = "./data/DP1.10098") -> Dict:
 
 
 def load_neon_forest_agb(
-    site_id: Optional[str] = None,
-    data_dir: str = "./data/NEONForestAGB"
+    data_dir: str,
+    site_id: Optional[str] = None
 ) -> pd.DataFrame:
     """
     Load and concatenate all NEONForestAGBv2 CSV files.
 
     Parameters
     ----------
+    data_dir : str
+        Absolute path to the directory containing the NEONForestAGB CSV files
     site_id : str, optional
         If provided, filter to only this site. If None, return all sites.
-    data_dir : str
-        Path to the directory containing the NEONForestAGB CSV files
 
     Returns
     -------
@@ -85,14 +85,14 @@ def load_neon_forest_agb(
     return combined_df
 
 
-def load_plot_areas(geojson_path: str = "./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson") -> pd.DataFrame:
+def load_plot_areas(geojson_path: str) -> pd.DataFrame:
     """
     Load plot area information from the NEON TOS Plot Polygons GeoJSON file.
 
     Parameters
     ----------
     geojson_path : str
-        Path to the GeoJSON file containing plot polygons
+        Absolute path to the GeoJSON file containing plot polygons
 
     Returns
     -------

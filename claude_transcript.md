@@ -265,3 +265,102 @@ For these sites:
 ### Notes
 - The `unaccounted_trees` table helps interpret plots where some trees have estimates and others don't
 - Updated CLAUDE.md with new functionality documentation
+
+---
+
+## Session 4 - Bug Fixes and New Features
+
+**Date**: 2026-01-13
+
+### User Request
+Continuation of debugging session. User asked to:
+1. Investigate anomalous biomass changes in specific plots (ABBY_075, ABBY_067, ABBY_007, ABBY_073)
+2. Implement proper handling of "Removed" and "No longer qualifies" statuses
+3. Add new count columns to track gap-filled, removed, and not-qualified trees
+4. Rename growth column and create interpolated time series tables
+
+### Bug Investigation Summary
+
+#### ABBY_075: Dead tree biomass in gap-filled years
+- **Issue**: Tree NEON.PLA.D16.ABBY.00012 (171.4 cm dead snag) was contributing ~31,891 kg in gap-filled 2019 when it should be 0
+- **Root cause**: Dead status not being forward-filled to gap-filled years
+- **Fix**: Added `forward_fill_dead_status()` function - once dead, always dead
+
+#### ABBY_067: Dead snag biomass back-filled to prior years
+- **Issue**: Tree NEON.PLA.D16.ABBY.01003 (222 cm dead snag) first observed as dead in 2016, but 2015 was gap-filled and got biomass extrapolated backward
+- **Root cause**: First observation being dead wasn't propagating to earlier gap-filled years
+- **Fix**: Added `back_fill_dead_status()` function - if first actual observation is dead, mark prior gap-filled years as dead too
+
+#### ABBY_007: Biomass doubling from Removed status
+- **Issue**: Trees with both "Live" and "Removed" status in same year were getting AGB values via gap-filling, causing doubled biomass
+- **Root cause**: "Removed" status wasn't being handled separately from dead status
+- **Fix**: Added `forward_fill_removed_status()` and `forward_fill_not_qualified_status()` functions to set biomass to 0 from status appearance onward
+
+#### ABBY_073: Small woody biomass spike
+- **Issue**: ~15 Mg/ha spike in 2018, then drop in 2019
+- **Root cause**: Data quality issue in NEONForestAGB - individual NEON.PLA.D16.ABBY.00034 (Acer circinatum, vine maple) had an erroneous 36.7 cm / 741 kg measurement in 2018 when it's actually a 1-3 cm small tree
+- **Result**: Documented in `known_issues.md` - this is a source data issue, not a pipeline bug
+
+### Claude's Actions
+
+1. **Implemented dead status forward-fill** (`gap_filling.py`)
+   - Added `forward_fill_dead_status()` - ensures once dead, always dead for subsequent years
+
+2. **Implemented dead status back-fill** (`gap_filling.py`)
+   - Added `back_fill_dead_status()` - if first actual observation is dead, prior gap-filled years are also marked dead
+   - Updated `get_individual_status_by_year()` to track `has_status_observation`
+
+3. **Implemented Removed/Not-Qualified handling** (`gap_filling.py`)
+   - Separated `REMOVED_STATUSES` from `DEAD_STATUSES` in `constants.py`
+   - Added `forward_fill_removed_status()` and `forward_fill_not_qualified_status()`
+   - Updated `zero_biomass_for_dead_trees()` to set gapFilling='REMOVED' or 'NOT_QUALIFIED'
+
+4. **Researched NEON documentation**
+   - Found in NEON.DOC.000987vM Table 15:
+     - "Removed" = tree physically cut and removed by human activity
+     - "No longer qualifies" = tree no longer meets measurement criteria
+
+5. **Added count columns to plot_biomass** (`biomass_calculator.py`)
+   - `n_filled` - count of gap-filled tree records
+   - `n_removed` - count of trees with "Removed" status
+   - `n_not_qualified` - count of trees with "No longer qualifies" status
+
+6. **Updated growth reporting** (`main.py`)
+   - Renamed `growth` to `annual_growth_t-1_to_t`
+   - Removed `growth_cumu` column from plot_biomass
+
+7. **Created interpolated time series tables** (`main.py`)
+   - Added `create_interpolated_timeseries()` function
+   - Creates three new tables: `plot_jenkins_ts`, `plot_chojnacky_ts`, `plot_annighofer_ts`
+   - One row per plot with `agb_YYYY` and `change_YYYY` columns
+   - Linear interpolation between survey years
+
+8. **Created known_issues.md**
+   - Documented the NEONForestAGB data quality issue for ABBY_073
+
+### Status Handling Summary
+
+| Status | Classification | Biomass | gapFilling marker |
+|--------|---------------|---------|-------------------|
+| Standing dead, Downed, etc. | DEAD | 0 | (unchanged) |
+| Removed | REMOVED | 0 | 'REMOVED' |
+| No longer qualifies | NOT_QUALIFIED | 0 | 'NOT_QUALIFIED' |
+
+### New Output Tables
+
+**Interpolated Time Series** (`plot_jenkins_ts`, `plot_chojnacky_ts`, `plot_annighofer_ts`):
+- One row per plot
+- `siteID`, `plotID`, `plotArea_m2` as identifiers
+- `agb_YYYY` columns with values for each year (interpolated between surveys)
+- `change_YYYY` columns with annual change (NaN for first survey year)
+
+**Interpolation method**: For years between survey years, values are linearly interpolated. Example: if surveys in 2016 and 2019, values for 2017 and 2018 are 1/3 and 2/3 of the way between.
+
+### Test Results
+
+**ABBY site after all fixes:**
+- 130 plot-year combinations
+- 411 unaccounted trees
+- 4,258 individual tree records
+- New columns (n_filled, n_removed, n_not_qualified) working correctly
+- Time series tables generating with proper interpolation

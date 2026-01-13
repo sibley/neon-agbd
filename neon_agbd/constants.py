@@ -2,7 +2,7 @@
 Constants used across the neon-agbd codebase.
 """
 
-# Plant status values that indicate the tree is dead
+# Plant status values that indicate the tree is dead (biomass = 0)
 DEAD_STATUSES = {
     'Dead, broken bole',
     'Downed',
@@ -10,8 +10,13 @@ DEAD_STATUSES = {
     'Lost, fate unknown',
     'Lost, herbivory',
     'Lost, presumed dead',
-    'Removed',
     'Standing dead',
+}
+
+# Plant status values that indicate administrative removal from plot
+# Trees with these statuses have biomass set to NaN (not 0) for all years
+REMOVED_STATUSES = {
+    'Removed',
     'No longer qualifies',
 }
 

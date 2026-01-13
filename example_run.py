@@ -14,13 +14,19 @@ import pickle
 import sys
 from pathlib import Path
 
-# Add the src directory to the path
+# Add the repo root to the path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.main import compute_site_biomass_full, ALL_SITES
+from neon_agbd.vst.main import compute_site_biomass_full, ALL_SITES
 
 
-def process_site(site_id: str, output_dir: str = "./output") -> dict:
+def process_site(
+    site_id: str,
+    dp1_data_dir: str,
+    agb_data_dir: str,
+    plot_polygons_path: str,
+    output_dir: str
+) -> dict:
     """
     Process a single NEON site and save results.
 
@@ -28,6 +34,12 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     ----------
     site_id : str
         Four-character NEON site code (e.g., 'SJER', 'HARV')
+    dp1_data_dir : str
+        Absolute path to directory containing DP1.10098 pickle files
+    agb_data_dir : str
+        Absolute path to directory containing NEONForestAGB CSV files
+    plot_polygons_path : str
+        Absolute path to the plot polygons GeoJSON file
     output_dir : str
         Directory to save output files
 
@@ -49,10 +61,10 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     # Run the full workflow
     output = compute_site_biomass_full(
         site_id=site_id,
-        dp1_data_dir="./data/DP1.10098",
-        agb_data_dir="./data/NEONForestAGB",
-        plot_polygons_path="./data/plot_polygons/NEON_TOS_Plot_Polygons.geojson",
-        apply_gap_filling=True,r
+        dp1_data_dir=dp1_data_dir,
+        agb_data_dir=agb_data_dir,
+        plot_polygons_path=plot_polygons_path,
+        apply_gap_filling=True,
         apply_dead_corrections=True,
         verbose=True
     )
@@ -67,7 +79,10 @@ def process_site(site_id: str, output_dir: str = "./output") -> dict:
     csv_files = {
         'plot_biomass': f"{site_id}_plot_biomass.csv",
         'unaccounted_trees': f"{site_id}_unaccounted_trees.csv",
-        'individual_trees': f"{site_id}_individual_trees.csv"
+        'individual_trees': f"{site_id}_individual_trees.csv",
+        'plot_jenkins_ts': f"{site_id}_plot_jenkins_ts.csv",
+        'plot_chojnacky_ts': f"{site_id}_plot_chojnacky_ts.csv",
+        'plot_annighofer_ts': f"{site_id}_plot_annighofer_ts.csv"
     }
 
     for key, filename in csv_files.items():
@@ -113,8 +128,21 @@ def main():
         print(f"Available sites: {', '.join(sorted(ALL_SITES))}")
         sys.exit(1)
 
+    # Determine repo root and set up absolute paths
+    repo_root = Path(__file__).parent.resolve()
+    dp1_data_dir = str(repo_root / "data" / "DP1.10098")
+    agb_data_dir = str(repo_root / "data" / "NEONForestAGB")
+    plot_polygons_path = str(repo_root / "data" / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson")
+    output_dir = str(repo_root / "output")
+
     # Process the site
-    output = process_site(site_id)
+    output = process_site(
+        site_id=site_id,
+        dp1_data_dir=dp1_data_dir,
+        agb_data_dir=agb_data_dir,
+        plot_polygons_path=plot_polygons_path,
+        output_dir=output_dir
+    )
 
     print(f"\n{'='*60}")
     print("Done!")

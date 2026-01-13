@@ -14,9 +14,12 @@ The workflow processes individual tree measurements, applies gap-filling to crea
 - Other individuals are excluded from biomass calculations
 
 ### Dead Tree Handling
-Trees marked as dead have their biomass set to **0**. Dead statuses include: `"Standing dead", "Downed", "Dead broken bole", "Lost presumed dead", "Removed".`
+Trees marked as dead have their biomass set to **0**. Dead statuses include: `"Standing dead", "Downed", "Dead, broken bole", "Lost, presumed dead", "Lost, fate unknown", "Lost, burned", "Lost, herbivory".`
 
 **Sandwiched dead correction**: If a tree shows alive → dead → alive pattern across years, the middle "dead" status is assumed to be a measurement error and corrected to alive.
+
+### Removed/Not-Qualified Tree Handling
+Trees with "Removed" status (physically cut and removed by human activity) or "No longer qualifies" status (tree no longer meets measurement criteria, e.g., broken) have their biomass set to **0** from the year the status first appears onward. The `gapFilling` column will show 'REMOVED' or 'NOT_QUALIFIED' for these records.
 
 ### Gap-Filling Strategy
 For each individual, missing biomass values are filled using:
@@ -170,15 +173,17 @@ One row per plot-year combination with columns:
   - `tree_AGBChojnacky` - Chojnacky et al. 2014 allometry
   - `tree_AGBAnnighofer` - Annighofer et al. allometry
   - `n_trees` - Count of trees in plot-year
+  - `n_filled` - Count of gap-filled tree records
+  - `n_removed` - Count of trees with "Removed" status
+  - `n_not_qualified` - Count of trees with "No longer qualifies" status
 - **Small woody biomass (Mg/ha)**:
   - `small_woody_AGBJenkins`, `small_woody_AGBChojnacky`, `small_woody_AGBAnnighofer`
   - `n_small_woody_total` - Total count
   - `n_small_woody_measured` - Count with measurements
 - **Totals**:
   - `total_AGBJenkins`, `total_AGBChojnacky`, `total_AGBAnnighofer` - Tree + small woody
-- **Growth metrics**:
-  - `growth` - Year-over-year change (Mg/ha/year)
-  - `growth_cumu` - Cumulative trend from linear regression slope
+- **Growth metric**:
+  - `annual_growth_t-1_to_t` - Year-over-year change (Mg/ha/year)
 - **Quality indicator**: `n_unaccounted_trees` - Trees not included in estimates
 
 ### 2. Individual Trees Table (`individual_trees`)
@@ -200,17 +205,45 @@ Trees excluded from biomass calculations:
   - `UNMEASURED` - In mapping table but never measured
   - `NO_ALLOMETRY` - Has diameter but no biomass estimate from any allometry
 
-### 4. Metadata
+### 4. Interpolated Time Series Tables
+
+Three wide-format tables with interpolated annual biomass for each allometry type:
+- `plot_jenkins_ts` - Jenkins allometry time series
+- `plot_chojnacky_ts` - Chojnacky allometry time series
+- `plot_annighofer_ts` - Annighofer allometry time series
+
+Each table has one row per plot with columns:
+- **Identifiers**: `siteID`, `plotID`, `plotArea_m2`
+- **Biomass columns**: `agb_YYYY` for each year (e.g., `agb_2016`, `agb_2017`, ...)
+- **Change columns**: `change_YYYY` for annual change from previous year (NaN for first survey year)
+
+**Interpolation method**: Values for years between actual surveys are linearly interpolated. For example, if a plot was surveyed in 2016 and 2019, values for 2017 and 2018 are calculated as 1/3 and 2/3 of the way between the 2016 and 2019 measurements. Years outside the plot's survey range are NaN.
+
+### 5. Metadata
 - `site_id` - Site identifier
 - `site_has_agb_data` - Boolean indicating if NEONForestAGB data exists for site
 
 ## Usage
 
+All data loading functions require **absolute paths** to input data directories. This allows flexibility to read data from any location.
+
 ```python
-from src.main import compute_site_biomass_full
+from pathlib import Path
+from neon_agbd.vst.main import compute_site_biomass_full
+
+# Set up absolute paths to data
+data_root = Path("/path/to/your/data")
+dp1_data_dir = str(data_root / "DP1.10098")
+agb_data_dir = str(data_root / "NEONForestAGB")
+plot_polygons_path = str(data_root / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson")
 
 # Process a single site
-results = compute_site_biomass_full('HARV')
+results = compute_site_biomass_full(
+    site_id='HARV',
+    dp1_data_dir=dp1_data_dir,
+    agb_data_dir=agb_data_dir,
+    plot_polygons_path=plot_polygons_path
+)
 
 # Access output tables
 plot_biomass = results['plot_biomass']
@@ -227,13 +260,15 @@ See `example_run.py` for a complete example that saves outputs as pickle and CSV
 
 ```
 neon-agbd/
-├── src/
-│   ├── __init__.py
+├── neon_agbd/               # Main package
+│   ├── __init__.py          # Package exports (re-exports from vst)
 │   ├── constants.py         # Shared constants (growth forms, statuses)
-│   ├── data_loader.py       # Data loading and merging functions
-│   ├── gap_filling.py       # Gap-filling and dead status corrections
-│   ├── biomass_calculator.py # Plot-level biomass calculations
-│   └── main.py              # Main workflow orchestration
+│   └── vst/                  # Vegetation structure processing module
+│       ├── __init__.py
+│       ├── data_loader.py       # Data loading and merging functions
+│       ├── gap_filling.py       # Gap-filling and dead status corrections
+│       ├── biomass_calculator.py # Plot-level biomass calculations
+│       └── main.py              # Main workflow orchestration
 ├── data/
 │   ├── DP1.10098/           # Site pickle files
 │   ├── NEONForestAGB/       # AGB CSV files
