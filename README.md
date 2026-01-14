@@ -43,11 +43,26 @@ In order to get a good number for plot-level biomass density, one must consider 
 
 The key distinction: live trees without any biomass estimates cannot be included in the plot biomass, and are simply left out of biomass calculations, as long as some trees in the plot do have valid measurements. **In the future**, it may be wise to set a threshold here to minimize the impact of missing trees. 
 
+### Sampled Area Handling
+
+NEON uses different sampling strategies depending on plot type and vegetation stature:
+
+| Plot Type | Dimensions | Tree Sampled Area | Description |
+|-----------|------------|-------------------|-------------|
+| **Distributed plots** | 20×20m | 400 m² | All trees measured in full plot |
+| **Tower plots (short-stature)** | 20×20m | 400 m² | All trees measured in full plot |
+| **Tower plots (tall-stature)** | 40×40m | 800 m² | 2 of 4 subplots randomly selected |
+
+**Critical**: Biomass density (Mg/ha) is calculated using `totalSampledAreaTrees` and `totalSampledAreaShrubSapling` from `vst_perplotperyear`, **not** the full plot polygon area. This correctly accounts for subplot sampling in 40×40m tower plots.
+
+For shrubs/saplings, nested subplots are used and `totalSampledAreaShrubSapling` can range from 8 m² to 800 m² depending on vegetation density.
+
+**Subplot consistency**: The same subplots are measured in each survey year (subplots are randomly selected initially, then fixed for all subsequent remeasurements).
+
 ### Small Woody Biomass Calculation
-Only a subsample of the small woody individuals are measured. To use those measurements and extrapolate to all of the small woody individuals:
-1. Calculate average biomass from measured individuals
-2. Multiply by total count of small woody individuals in plot
-3. Divide by plot area
+Small woody individuals (saplings, shrubs, small trees <10cm) are measured in nested subplots. The biomass density is calculated as:
+1. Sum biomass of all measured individuals
+2. Divide by `totalSampledAreaShrubSapling` for that year
 
 If no individuals are measured, small woody biomass = NaN.
 
@@ -155,10 +170,7 @@ These are included because sites with 0 biomass are useful for evaluating the pe
 - **Contains**: Individual-level biomass estimates using three allometry equations
 - **Location**: `./data/NEONForestAGB/`
 
-### Plot Polygons
-- **Source**: NEON TOS Plot Polygons GeoJSON
-- **Contains**: Plot areas in m²
-- **Location**: `./data/plot_polygons/`
+**Note**: Plot polygon areas are no longer used. Sampled areas are sourced directly from `vst_perplotperyear` (`totalSampledAreaTrees`, `totalSampledAreaShrubSapling`).
 
 ## Outputs
 
@@ -167,7 +179,8 @@ The `compute_site_biomass_full()` function returns a dictionary containing:
 ### 1. Plot Biomass Table (`plot_biomass`)
 One row per plot-year combination with columns:
 
-- **Identifiers**: `siteID`, `plotID`, `year`, `plotArea_m2`
+- **Identifiers**: `siteID`, `plotID`, `year`
+- **Sampled areas**: `totalSampledAreaTrees_m2`, `totalSampledAreaShrubSapling_m2`
 - **Tree biomass (Mg/ha)**:
   - `tree_AGBJenkins` - Jenkins et al. 2003 allometry
   - `tree_AGBChojnacky` - Chojnacky et al. 2014 allometry
@@ -213,7 +226,7 @@ Three wide-format tables with interpolated annual biomass for each allometry typ
 - `plot_annighofer_ts` - Annighofer allometry time series
 
 Each table has one row per plot with columns:
-- **Identifiers**: `siteID`, `plotID`, `plotArea_m2`
+- **Identifiers**: `siteID`, `plotID`
 - **Biomass columns**: `agb_YYYY` for each year (e.g., `agb_2016`, `agb_2017`, ...)
 - **Change columns**: `change_YYYY` for annual change from previous year (NaN for first survey year)
 
@@ -235,14 +248,12 @@ from neon_agbd.vst.main import compute_site_biomass_full
 data_root = Path("/path/to/your/data")
 dp1_data_dir = str(data_root / "DP1.10098")
 agb_data_dir = str(data_root / "NEONForestAGB")
-plot_polygons_path = str(data_root / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson")
 
 # Process a single site
 results = compute_site_biomass_full(
     site_id='HARV',
     dp1_data_dir=dp1_data_dir,
-    agb_data_dir=agb_data_dir,
-    plot_polygons_path=plot_polygons_path
+    agb_data_dir=agb_data_dir
 )
 
 # Access output tables
@@ -271,8 +282,7 @@ neon-agbd/
 │       └── main.py              # Main workflow orchestration
 ├── data/
 │   ├── DP1.10098/           # Site pickle files
-│   ├── NEONForestAGB/       # AGB CSV files
-│   └── plot_polygons/       # GeoJSON with plot areas
+│   └── NEONForestAGB/       # AGB CSV files
 ├── output/                  # Processed results
 ├── example_run.py           # Example usage script
 └── README.md

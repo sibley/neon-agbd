@@ -12,7 +12,6 @@ from scipy import stats
 from .data_loader import (
     load_dp1_data,
     load_neon_forest_agb,
-    load_plot_areas,
     pivot_agb_by_allometry,
     merge_agb_with_apparent_individual,
     extract_year_from_event_id,
@@ -107,7 +106,8 @@ def create_empty_plot_year_row(
     site_id: str,
     plot_id: str,
     year: int,
-    plot_area_m2: float,
+    tree_sampled_area_m2: float,
+    small_woody_sampled_area_m2: float,
     site_has_agb_data: bool,
     has_trees_in_vst_ai: bool = False,
     has_small_woody_in_vst_ai: bool = False
@@ -123,8 +123,10 @@ def create_empty_plot_year_row(
         Plot identifier
     year : int
         Survey year
-    plot_area_m2 : float
-        Plot area in square meters
+    tree_sampled_area_m2 : float
+        totalSampledAreaTrees in square meters for this year
+    small_woody_sampled_area_m2 : float
+        totalSampledAreaShrubSapling in square meters for this year
     site_has_agb_data : bool
         Whether the site has NEONForestAGB data
     has_trees_in_vst_ai : bool
@@ -154,7 +156,8 @@ def create_empty_plot_year_row(
         'siteID': site_id,
         'plotID': plot_id,
         'year': year,
-        'plotArea_m2': plot_area_m2,
+        'totalSampledAreaTrees_m2': tree_sampled_area_m2,
+        'totalSampledAreaShrubSapling_m2': small_woody_sampled_area_m2,
         'tree_AGBJenkins': tree_value,
         'tree_AGBChojnacky': tree_value,
         'tree_AGBAnnighofer': tree_value,
@@ -499,7 +502,7 @@ def create_interpolated_timeseries(
     -------
     pd.DataFrame
         Wide-format table with one row per plot, columns:
-        - siteID, plotID, plotArea_m2: Plot identifiers
+        - siteID, plotID: Plot identifiers
         - agb_YYYY: Interpolated biomass for each year
         - change_YYYY: Annual change from previous year (NaN for first year)
     """
@@ -529,7 +532,6 @@ def create_interpolated_timeseries(
 
         # Get plot metadata (time-invariant)
         site_id = plot_df['siteID'].iloc[0]
-        plot_area = plot_df['plotArea_m2'].iloc[0]
 
         # Get survey years and biomass values for this plot
         survey_years = plot_df['year'].values
@@ -543,7 +545,6 @@ def create_interpolated_timeseries(
         row = {
             'siteID': site_id,
             'plotID': plot_id,
-            'plotArea_m2': plot_area,
         }
 
         # Create interpolated values for all years in the plot's range
@@ -611,7 +612,7 @@ def create_interpolated_timeseries(
     result_df = pd.DataFrame(results)
 
     # Order columns: identifiers first, then agb_YEAR, then change_YEAR
-    id_cols = ['siteID', 'plotID', 'plotArea_m2']
+    id_cols = ['siteID', 'plotID']
     agb_cols = sorted([c for c in result_df.columns if c.startswith('agb_')])
     change_cols = sorted([c for c in result_df.columns if c.startswith('change_')])
 
@@ -625,7 +626,7 @@ def compute_site_biomass_full(
     site_id: str,
     dp1_data_dir: str,
     agb_data_dir: str,
-    plot_polygons_path: str,
+    plot_polygons_path: str = None,
     apply_gap_filling: bool = True,
     apply_dead_corrections: bool = True,
     verbose: bool = True
@@ -641,6 +642,10 @@ def compute_site_biomass_full(
     - plot_chojnacky_ts: Interpolated time series table for Chojnacky allometry
     - plot_annighofer_ts: Interpolated time series table for Annighofer allometry
 
+    Sampled areas are now sourced from vst_perplotperyear (totalSampledAreaTrees
+    and totalSampledAreaShrubSapling) rather than plot polygon areas. This correctly
+    accounts for subplot sampling in tower plots.
+
     Parameters
     ----------
     site_id : str
@@ -649,8 +654,9 @@ def compute_site_biomass_full(
         Absolute path to directory containing DP1.10098 pickle files
     agb_data_dir : str
         Absolute path to directory containing NEONForestAGB CSV files
-    plot_polygons_path : str
-        Absolute path to the plot polygons GeoJSON file
+    plot_polygons_path : str, optional
+        DEPRECATED - No longer used. Sampled areas are now sourced from
+        vst_perplotperyear. Kept for backward compatibility.
     apply_gap_filling : bool
         Whether to apply gap filling for missing biomass values
     apply_dead_corrections : bool
@@ -697,13 +703,11 @@ def compute_site_biomass_full(
     # Add year column
     merged_df['year'] = merged_df['eventID'].apply(extract_year_from_event_id)
 
-    # Step 4: Load plot areas
-    if verbose:
-        print("  Loading plot area data...")
-    plot_areas = load_plot_areas(plot_polygons_path)
-    plot_areas_site = plot_areas[plot_areas['siteID'] == site_id]
-
-    # Get unique plot-year combinations from vst_perplotperyear (authoritative source)
+    # Step 4: Get unique plot-year combinations from vst_perplotperyear (authoritative source)
+    # Note: We now use totalSampledAreaTrees and totalSampledAreaShrubSapling from
+    # vst_perplotperyear instead of plot polygon areas, as these reflect the actual
+    # sampled areas (which can vary by year and be smaller than the full plot area
+    # for tower plots that only sample 2 of 4 subplots).
     # This includes plots that were surveyed but had no woody vegetation
     plot_years = get_plot_years_from_perplotperyear(vst_ppy)
     if verbose:
@@ -761,20 +765,29 @@ def compute_site_biomass_full(
         plot_year_rows = plot_years[plot_years['plotID'] == plot_id]
         years = plot_year_rows['year'].tolist()
 
-        # Get plot area - try plot_areas first, then fallback to totalSampledAreaTrees from vst_perplotperyear
-        plot_area_row = plot_areas_site[plot_areas_site['plotID'] == plot_id]
-        if len(plot_area_row) > 0:
-            plot_area_m2 = plot_area_row['plotSize'].iloc[0]
-        elif 'totalSampledAreaTrees' in plot_year_rows.columns:
-            # Use totalSampledAreaTrees as fallback
-            plot_area_m2 = plot_year_rows['totalSampledAreaTrees'].iloc[0]
-            if pd.isna(plot_area_m2):
-                if verbose:
-                    print(f"    Warning: No plot area found for {plot_id}, skipping...")
-                continue
-        else:
+        # Build year-specific sampled areas from vst_perplotperyear
+        # These reflect the actual area sampled for each vegetation type
+        tree_sampled_areas = {}
+        small_woody_sampled_areas = {}
+
+        if 'totalSampledAreaTrees' in plot_year_rows.columns:
+            for _, row in plot_year_rows.iterrows():
+                yr = row['year']
+                tree_area = row['totalSampledAreaTrees']
+                if not pd.isna(tree_area):
+                    tree_sampled_areas[yr] = tree_area
+
+        if 'totalSampledAreaShrubSapling' in plot_year_rows.columns:
+            for _, row in plot_year_rows.iterrows():
+                yr = row['year']
+                sw_area = row['totalSampledAreaShrubSapling']
+                if not pd.isna(sw_area):
+                    small_woody_sampled_areas[yr] = sw_area
+
+        # Skip plots with no tree sampled area data
+        if not tree_sampled_areas:
             if verbose:
-                print(f"    Warning: No plot area found for {plot_id}, skipping...")
+                print(f"    Warning: No totalSampledAreaTrees data for {plot_id}, skipping...")
             continue
 
         # Get data for this plot from merged_df
@@ -798,8 +811,12 @@ def compute_site_biomass_full(
                     has_trees = (year_vst_ai['stemDiameter'] >= DIAMETER_THRESHOLD).any()
                     has_small_woody = (year_vst_ai['stemDiameter'] < DIAMETER_THRESHOLD).any()
 
+                # Get year-specific sampled areas
+                tree_area = tree_sampled_areas.get(year, np.nan)
+                sw_area = small_woody_sampled_areas.get(year, np.nan)
+
                 empty_row = create_empty_plot_year_row(
-                    site_id, plot_id, year, plot_area_m2,
+                    site_id, plot_id, year, tree_area, sw_area,
                     site_has_agb_data, has_trees, has_small_woody
                 )
                 empty_rows.append(empty_row)
@@ -837,9 +854,11 @@ def compute_site_biomass_full(
 
         all_plot_dfs.append(plot_df)
 
-        # Calculate biomass for all years
+        # Calculate biomass for all years using year-specific sampled areas
         plot_results = aggregate_plot_biomass_all_years(
-            plot_df, plot_area_m2, years, site_id, plot_id
+            plot_df, years, site_id, plot_id,
+            tree_sampled_areas=tree_sampled_areas,
+            small_woody_sampled_areas=small_woody_sampled_areas
         )
         all_results.append(plot_results)
 
@@ -952,20 +971,24 @@ def compute_site_biomass(
         - siteID: Site identifier
         - plotID: Plot identifier
         - year: Sampling year
-        - plotArea_m2: Plot area in square meters
+        - totalSampledAreaTrees_m2: Area sampled for trees in square meters
+        - totalSampledAreaShrubSapling_m2: Area sampled for shrubs/saplings in square meters
         - tree_AGBJenkins, tree_AGBChojnacky, tree_AGBAnnighofer: Tree biomass density (Mg/ha)
         - n_trees: Number of trees
         - small_woody_AGBJenkins, small_woody_AGBChojnacky, small_woody_AGBAnnighofer: Small woody biomass density (Mg/ha)
         - n_small_woody_total: Total number of small woody individuals
         - n_small_woody_measured: Number of small woody individuals with measurements
         - n_unaccounted_trees: Number of unaccounted trees in the plot
-        - growth: Growth in tonnes/year since last survey (NA for first survey)
-        - growth_cumu: Average growth per year from linear regression of all surveys
+        - annual_growth_t-1_to_t: Growth in Mg/ha/year since last survey (NA for first survey)
 
     Notes
     -----
     Biomass density is reported in Mg/ha (megagrams per hectare, equivalent to tonnes per hectare).
     NEONForestAGB provides individual tree AGB in kg, which is converted to Mg/ha during calculation.
+
+    Sampled areas are sourced from vst_perplotperyear (totalSampledAreaTrees and
+    totalSampledAreaShrubSapling) rather than plot polygon areas. This correctly accounts
+    for subplot sampling in 40x40m tower plots (where only 2 of 4 subplots are surveyed).
 
     Dead status corrections:
     - If a tree's status goes alive->dead->alive, the sandwiched dead status is assumed incorrect

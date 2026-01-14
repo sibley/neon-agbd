@@ -78,19 +78,25 @@ def add_category_column(df: pd.DataFrame) -> pd.DataFrame:
 
 def calculate_tree_biomass_density(
     trees_df: pd.DataFrame,
-    plot_area_m2: float,
+    sampled_area_m2: float,
     year: int
 ) -> Dict[str, float]:
     """
     Calculate tree biomass density for a specific year.
+
+    Uses the actual sampled area (totalSampledAreaTrees) which reflects
+    the area where trees were actually measured. For 40x40m tower plots
+    at tall-stature sites, this is typically 800 m² (2 of 4 subplots).
+    For 20x20m distributed plots, this is 400 m².
 
     Parameters
     ----------
     trees_df : pd.DataFrame
         DataFrame containing only tree-category individuals for a plot,
         with allometry columns and 'year' column
-    plot_area_m2 : float
-        Plot area in square meters
+    sampled_area_m2 : float
+        The totalSampledAreaTrees in square meters for this specific year
+        (the area where trees were actually sampled)
     year : int
         Year to calculate for
 
@@ -100,8 +106,8 @@ def calculate_tree_biomass_density(
         Dictionary with keys for each allometry type containing the
         biomass density in Mg/ha (tonnes per hectare)
     """
-    # Convert plot area to hectares
-    plot_area_ha = plot_area_m2 / 10000.0
+    # Convert sampled area to hectares
+    sampled_area_ha = sampled_area_m2 / 10000.0 if not pd.isna(sampled_area_m2) else np.nan
 
     # Filter to the specified year
     year_df = trees_df[trees_df['year'] == year]
@@ -123,12 +129,15 @@ def calculate_tree_biomass_density(
             elif len(live_trees) > 0 and live_trees[col].isna().all():
                 # Live trees exist but ALL have NaN biomass - can't estimate
                 result[f'tree_{col}'] = np.nan
+            elif pd.isna(sampled_area_ha) or sampled_area_ha <= 0:
+                # No valid sampled area - can't calculate density
+                result[f'tree_{col}'] = np.nan
             else:
                 # Either no live trees (only dead with 0), or some live trees have valid biomass
                 # Sum all valid values (0 for dead, actual values for live with estimates)
                 total_biomass_kg = year_df[col].sum(skipna=True)
-                biomass_density_kg_ha = total_biomass_kg / plot_area_ha if plot_area_ha > 0 else np.nan
-                result[f'tree_{col}'] = biomass_density_kg_ha * KG_TO_MG if not np.isnan(biomass_density_kg_ha) else np.nan
+                biomass_density_kg_ha = total_biomass_kg / sampled_area_ha
+                result[f'tree_{col}'] = biomass_density_kg_ha * KG_TO_MG
         else:
             result[f'tree_{col}'] = np.nan
 
@@ -150,25 +159,27 @@ def calculate_tree_biomass_density(
 
 def calculate_small_woody_biomass_density(
     small_woody_df: pd.DataFrame,
-    plot_area_m2: float,
+    sampled_area_m2: float,
     year: int
 ) -> Dict[str, float]:
     """
     Calculate small woody biomass density for a specific year.
 
     The calculation:
-    1. Sum biomass of measured small_woody individuals
-    2. Divide by number of measured individuals to get average
-    3. Multiply by total number of small_woody individuals in the plot
-    4. Divide by plot area to get density
+    1. Sum biomass of all measured small_woody individuals
+    2. Divide by totalSampledAreaShrubSapling to get density
+
+    This uses the actual sampled area for shrubs/saplings, which may be a
+    nested subplot smaller than the full plot area.
 
     Parameters
     ----------
     small_woody_df : pd.DataFrame
         DataFrame containing only small_woody-category individuals for a plot,
         with allometry columns and 'year' column
-    plot_area_m2 : float
-        Plot area in square meters
+    sampled_area_m2 : float
+        The totalSampledAreaShrubSapling in square meters for this specific year
+        (the area where shrubs/saplings were actually sampled)
     year : int
         Year to calculate for
 
@@ -178,13 +189,13 @@ def calculate_small_woody_biomass_density(
         Dictionary with keys for each allometry type containing the
         biomass density in Mg/ha (tonnes per hectare)
     """
-    # Convert plot area to hectares
-    plot_area_ha = plot_area_m2 / 10000.0
+    # Convert sampled area to hectares
+    sampled_area_ha = sampled_area_m2 / 10000.0 if not pd.isna(sampled_area_m2) else np.nan
 
     # Filter to the specified year
     year_df = small_woody_df[small_woody_df['year'] == year]
 
-    # Total count of small_woody individuals (including unmeasured)
+    # Total count of small_woody individuals
     n_total = len(year_df)
 
     result = {}
@@ -194,15 +205,17 @@ def calculate_small_woody_biomass_density(
             measured_df = year_df[year_df[col].notna()]
             n_measured = len(measured_df)
 
-            if n_measured > 0 and n_total > 0:
-                # Calculate average biomass of measured individuals
-                avg_biomass_kg = measured_df[col].mean()
-                # Estimate total plot biomass
-                total_biomass_kg = avg_biomass_kg * n_total
+            if n_measured > 0:
+                # Sum biomass of all measured individuals
+                total_biomass_kg = measured_df[col].sum()
                 # Convert to density in Mg/ha (tonnes/ha)
-                biomass_density_kg_ha = total_biomass_kg / plot_area_ha if plot_area_ha > 0 else np.nan
-                result[f'small_woody_{col}'] = biomass_density_kg_ha * KG_TO_MG if not np.isnan(biomass_density_kg_ha) else np.nan
+                if sampled_area_ha > 0 and not np.isnan(sampled_area_ha):
+                    biomass_density_kg_ha = total_biomass_kg / sampled_area_ha
+                    result[f'small_woody_{col}'] = biomass_density_kg_ha * KG_TO_MG
+                else:
+                    result[f'small_woody_{col}'] = np.nan
             else:
+                # No measured individuals
                 result[f'small_woody_{col}'] = 0.0 if n_total == 0 else np.nan
         else:
             result[f'small_woody_{col}'] = np.nan
@@ -218,10 +231,11 @@ def calculate_small_woody_biomass_density(
 
 def calculate_plot_year_biomass(
     plot_df: pd.DataFrame,
-    plot_area_m2: float,
     year: int,
     site_id: str,
-    plot_id: str
+    plot_id: str,
+    tree_sampled_area_m2: float,
+    small_woody_sampled_area_m2: float
 ) -> Dict:
     """
     Calculate all biomass metrics for a single plot-year combination.
@@ -231,14 +245,19 @@ def calculate_plot_year_biomass(
     plot_df : pd.DataFrame
         DataFrame containing all individuals for a plot (already categorized),
         with allometry columns and 'year' column
-    plot_area_m2 : float
-        Plot area in square meters
     year : int
         Year to calculate for
     site_id : str
         Site ID
     plot_id : str
         Plot ID
+    tree_sampled_area_m2 : float
+        The totalSampledAreaTrees for this specific year.
+        For 40x40m tower plots, typically 800 m² (2 of 4 subplots).
+        For 20x20m distributed plots, typically 400 m².
+    small_woody_sampled_area_m2 : float
+        The totalSampledAreaShrubSapling for this specific year.
+        Can vary significantly based on nested subplot selection.
 
     Returns
     -------
@@ -249,16 +268,17 @@ def calculate_plot_year_biomass(
     trees_df = plot_df[plot_df['category'] == 'tree']
     small_woody_df = plot_df[plot_df['category'] == 'small_woody']
 
-    # Calculate biomass densities
-    tree_results = calculate_tree_biomass_density(trees_df, plot_area_m2, year)
-    small_woody_results = calculate_small_woody_biomass_density(small_woody_df, plot_area_m2, year)
+    # Calculate biomass densities using year-specific sampled areas
+    tree_results = calculate_tree_biomass_density(trees_df, tree_sampled_area_m2, year)
+    small_woody_results = calculate_small_woody_biomass_density(small_woody_df, small_woody_sampled_area_m2, year)
 
     # Combine results
     result = {
         'siteID': site_id,
         'plotID': plot_id,
         'year': year,
-        'plotArea_m2': plot_area_m2,
+        'totalSampledAreaTrees_m2': tree_sampled_area_m2,
+        'totalSampledAreaShrubSapling_m2': small_woody_sampled_area_m2,
     }
     result.update(tree_results)
     result.update(small_woody_results)
@@ -268,10 +288,11 @@ def calculate_plot_year_biomass(
 
 def aggregate_plot_biomass_all_years(
     plot_df: pd.DataFrame,
-    plot_area_m2: float,
     years: List[int],
     site_id: str,
-    plot_id: str
+    plot_id: str,
+    tree_sampled_areas: Dict[int, float],
+    small_woody_sampled_areas: Dict[int, float]
 ) -> pd.DataFrame:
     """
     Calculate biomass metrics for a plot across all sampled years.
@@ -280,14 +301,19 @@ def aggregate_plot_biomass_all_years(
     ----------
     plot_df : pd.DataFrame
         DataFrame containing all individuals for a plot (already categorized)
-    plot_area_m2 : float
-        Plot area in square meters
     years : List[int]
         List of years to calculate for
     site_id : str
         Site ID
     plot_id : str
         Plot ID
+    tree_sampled_areas : Dict[int, float]
+        Dictionary mapping year to totalSampledAreaTrees for that year.
+        For 40x40m tower plots, typically 800 m² (2 of 4 subplots).
+        For 20x20m distributed plots, typically 400 m².
+    small_woody_sampled_areas : Dict[int, float]
+        Dictionary mapping year to totalSampledAreaShrubSapling for that year.
+        Can vary significantly based on nested subplot selection.
 
     Returns
     -------
@@ -296,8 +322,14 @@ def aggregate_plot_biomass_all_years(
     """
     results = []
     for year in years:
+        # Get year-specific sampled areas (use NaN if not available)
+        tree_area = tree_sampled_areas.get(year, np.nan)
+        sw_area = small_woody_sampled_areas.get(year, np.nan)
+
         year_result = calculate_plot_year_biomass(
-            plot_df, plot_area_m2, year, site_id, plot_id
+            plot_df, year, site_id, plot_id,
+            tree_sampled_area_m2=tree_area,
+            small_woody_sampled_area_m2=sw_area
         )
         results.append(year_result)
 

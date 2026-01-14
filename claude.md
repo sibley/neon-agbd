@@ -23,9 +23,9 @@ All hardcoded constants used across the codebase:
 Functions for loading and preparing data:
    - `load_dp1_data()` - Load DP1.10098.001 pickle files
    - `load_neon_forest_agb()` - Load and concatenate NEONForestAGB CSVs
-   - `load_plot_areas()` - Load plot polygon data from GeoJSON
    - `pivot_agb_by_allometry()` - Convert long to wide format for AGB
    - `merge_agb_with_apparent_individual()` - Join AGB with vst_apparentindividual
+   - `get_plot_years_from_perplotperyear()` - Extract plot-year combinations with sampled areas
 
 ### vst/gap_filling.py
 Functions for filling missing biomass values:
@@ -55,10 +55,12 @@ Three allometry types are available:
 - **AGBChojnacky** - Based on Chojnacky et al. 2014
 - **AGBAnnighofer** - May have many NaN values depending on site/species
 
-### Plot Areas
-Plot areas are obtained from the GeoJSON file. Common sizes:
-- 400 m² (20m x 20m)
-- 1600 m² (40m x 40m)
+### Sampled Areas
+Sampled areas are obtained from `vst_perplotperyear` columns (NOT GeoJSON plot polygons):
+- `totalSampledAreaTrees` - Area where trees ≥10cm were measured (400 or 800 m²)
+- `totalSampledAreaShrubSapling` - Area where shrubs/saplings were measured (8-800 m²)
+
+These are year-specific as they can vary between survey campaigns.
 
 ### Biomass Units
 - NEONForestAGB provides individual tree AGB in **kg** (kilograms)
@@ -66,10 +68,9 @@ Plot areas are obtained from the GeoJSON file. Common sizes:
 - Conversion factor: `KG_TO_MG = 1/1000`
 
 ### Small Woody Calculation
-The small_woody biomass calculation accounts for unmeasured individuals:
-1. Calculate average biomass from measured individuals
-2. Multiply by total count of small_woody individuals
-3. Divide by plot area
+Small woody biomass density is calculated by:
+1. Sum biomass of all measured small woody individuals
+2. Divide by `totalSampledAreaShrubSapling` for that year
 
 When no measured individuals exist, the biomass is reported as NaN (not 0).
 
@@ -77,7 +78,7 @@ When no measured individuals exist, the biomass is reported as NaN (not 0).
 
 1. **Same-year duplicate observations**: Fixed by using mean value instead of linear regression when all observations are from the same year.
 
-2. **Missing plot areas**: Some plots may not have entries in the GeoJSON file. These are skipped with a warning.
+2. **Missing sampled areas**: If `totalSampledAreaTrees` is NaN for all years of a plot, that plot is skipped with a warning.
 
 3. **AGBAnnighofer NaN values**: For many sites/species, this allometry type returns NaN values. This is expected behavior from the NEONForestAGB dataset.
 
@@ -87,27 +88,26 @@ All data loading functions require **absolute paths** (no defaults). This allows
 
 ```python
 from pathlib import Path
-from neon_agbd.vst.main import compute_site_biomass_full, ALL_SITES
+from neon_agbd.vst.main import compute_site_biomass_full
 
 # Set up absolute paths
 data_root = Path("/path/to/data")
 dp1_dir = str(data_root / "DP1.10098")
 agb_dir = str(data_root / "NEONForestAGB")
-polygons_path = str(data_root / "plot_polygons" / "NEON_TOS_Plot_Polygons.geojson")
 
 # Single site
 results = compute_site_biomass_full(
     site_id='SJER',
     dp1_data_dir=dp1_dir,
-    agb_data_dir=agb_dir,
-    plot_polygons_path=polygons_path
+    agb_data_dir=agb_dir
 )
 ```
 
 ## Output Format
 
 The `plot_biomass` DataFrame has the following columns:
-- siteID, plotID, year, plotArea_m2
+- siteID, plotID, year
+- totalSampledAreaTrees_m2, totalSampledAreaShrubSapling_m2
 - tree_AGBJenkins, tree_AGBChojnacky, tree_AGBAnnighofer (Mg/ha)
 - n_trees, n_filled, n_removed, n_not_qualified
 - small_woody_AGBJenkins, small_woody_AGBChojnacky, small_woody_AGBAnnighofer (Mg/ha)
@@ -313,7 +313,7 @@ Three new wide-format tables are now included in the output:
 - `plot_annighofer_ts`
 
 Each table has one row per plot with:
-- `siteID`, `plotID`, `plotArea_m2` as identifiers
+- `siteID`, `plotID` as identifiers
 - `agb_YYYY` columns for each year (interpolated between surveys)
 - `change_YYYY` columns for annual change (NaN for first survey year)
 
@@ -327,6 +327,85 @@ See `known_issues.md` for documented issues in source data. Example:
 ### NEONForestAGB Merge Limitation
 
 The current `pivot_agb_by_allometry()` function pivots on `individualID` and `date` only, which can cause issues when an individual has multiple stems with different diameters measured on the same date. The first AGB value encountered is used for all stems. This is a known limitation that may need addressing for multi-stem accuracy.
+
+## Session 5 Updates (2026-01-14) - Sampled Area Methodology
+
+### Critical Discovery: Plot Polygon Areas vs Actual Sampled Areas
+
+**Problem identified**: The previous implementation used GeoJSON plot polygon areas (400m² or 1600m²) to calculate biomass density. This is incorrect because NEON uses nested subplot sampling, particularly for 40×40m tower plots.
+
+### NEON Sampling Strategy Research
+
+After consultation with NEON staff and detailed research of documentation:
+
+#### Distributed Plots
+- **Always 20×20m (400 m²)**
+- **Fully sampled** for trees ≥10cm DBH
+- No subsampling of the plot area for trees
+
+#### Tower Plots
+
+| Site Vegetation | Plot Dimensions | Trees Sampled Area | Notes |
+|-----------------|-----------------|-------------------|-------|
+| Short-stature (grassland/shrubland) | 20×20m | 400 m² | Identical to distributed plots |
+| Tall-stature (forest/savannah) | 40×40m | 800 m² | **Only 2 of 4 subplots** randomly selected |
+
+#### Key Findings from Data Analysis
+
+Verified in actual data (HARV, WREF, DELA, etc.):
+- `totalSampledAreaTrees` = 400 m² for distributed plots
+- `totalSampledAreaTrees` = 800 m² for 40×40m tower plots (2 × 400m² subplots)
+- `totalSampledAreaShrubSapling` varies significantly (8 m² to 800 m²) based on nested subplot selection
+
+#### Subplot Consistency Across Years
+
+**Important**: The same subplots are measured in each survey year. Verified at WREF:
+```
+WREF_070: 2017, 2019, 2020 → always 21_400|39_400
+WREF_071: 2017, 2019, 2020 → always 21_400|23_400
+WREF_073: 2017-2023 (6 years) → always 23_400|39_400
+```
+
+Subplots are randomly selected initially but then **fixed** for all subsequent remeasurements.
+
+#### Trees ≥10cm Are Not Further Subsampled
+
+From NEON VST Protocol (NEON.DOC.000987):
+> "Nested subplots are not employed for individuals with DBH ≥ 10 cm."
+
+Within the sampled area (whether 400 m² or 800 m²), ALL trees ≥10cm are measured.
+
+### Code Changes Implemented
+
+1. **Removed GeoJSON plot polygon dependency** - `plot_polygons_path` parameter is now deprecated
+2. **Year-specific sampled areas** - Both tree and small_woody biomass now use year-specific values from `vst_perplotperyear`
+3. **New output columns**:
+   - `totalSampledAreaTrees_m2` - replaces `plotArea_m2`
+   - `totalSampledAreaShrubSapling_m2` - new column for small woody area
+
+### Updated Biomass Calculation
+
+**Trees**:
+```
+biomass_density_Mg_ha = sum(tree_biomass_kg) / totalSampledAreaTrees_ha * KG_TO_MG
+```
+
+**Small Woody** (simplified from previous extrapolation method):
+```
+biomass_density_Mg_ha = sum(measured_biomass_kg) / totalSampledAreaShrubSapling_ha * KG_TO_MG
+```
+
+The previous small_woody calculation multiplied average biomass by total count - this was incorrect. The new method simply divides total measured biomass by the sampled area, which properly accounts for the nested subplot sampling.
+
+### Impact on Results
+
+For sites with 40×40m tower plots (tall-stature forests), previous biomass density estimates may have been **underestimated by up to 50%** because we were dividing by 1600 m² instead of 800 m².
+
+### Reference Documentation
+
+- [NEON VST Protocol (NEON.DOC.000987)](https://data.neonscience.org/api/v0/documents/NEON.DOC.000987vJ)
+- [Meier et al. 2023 - Spatial and temporal sampling strategy](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4455)
+- [NEON Quick Start Guide DP1.10098.001](https://data.neonscience.org/data-products/DP1.10098.001)
 
 ## Future Improvements
 
