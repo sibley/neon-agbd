@@ -407,6 +407,60 @@ For sites with 40×40m tower plots (tall-stature forests), previous biomass dens
 - [Meier et al. 2023 - Spatial and temporal sampling strategy](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4455)
 - [NEON Quick Start Guide DP1.10098.001](https://data.neonscience.org/data-products/DP1.10098.001)
 
+## Session 6 Updates (2026-01-15) - Diameter Outlier Filter
+
+### Problem: Erroneous Diameter Measurements
+
+Some individuals have clearly erroneous diameter measurements that create biomass spikes. Example: ABBY_073 vine maple (NEON.PLA.D16.ABBY.00034) with measurements:
+- 2017: 1.6 cm
+- 2018: 36.7 cm (ERROR - likely transcription error, should be ~1.8 cm)
+- 2019: 2.0 cm
+
+This single erroneous measurement caused `small_woody_AGBJenkins` to spike from ~5 to ~193 Mg/ha.
+
+### Solution: Conservative Spike Detection Filter
+
+Added `filter_diameter_outliers()` function that detects "spike" outliers where:
+1. **Growth rate** from previous year > 10 cm/yr, AND
+2. **Shrinkage rate** to next year > 5 cm/yr
+
+This conservative approach only flags measurements that are clearly erroneous spikes.
+
+### Implementation Details
+
+**New parameter**: `apply_outlier_filter` (default=True) in `compute_site_biomass_full()`
+
+**Workflow order**:
+1. Gap filling creates complete grid
+2. `forward_fill_growth_form()` fills ONLY for FILLED rows (not ORIGINAL rows with missing data)
+3. `filter_diameter_outliers()` detects spikes using max diameter per year
+4. Outliers are marked (`gapFilling='OUTLIER'`) and biomass set to NaN
+5. Dead status corrections applied
+6. Biomass calculated (outliers with NaN don't contribute)
+
+**Multi-stem handling**: For individuals with multiple stems per year, the filter uses the maximum diameter per year for comparison. When an outlier year is detected, ALL rows for that individual+year are flagged.
+
+### Bug Fix: forward_fill_growth_form
+
+**Issue discovered**: The original `forward_fill_growth_form()` function was filling `stemDiameter` for ALL rows with NaN, including ORIGINAL measurements that happened to have missing diameter. This caused erroneous values to propagate.
+
+**Fix**: Now only fills `stemDiameter` for FILLED (gap-created) rows, not ORIGINAL rows.
+
+### Impact on Results
+
+For ABBY_073:
+- **Before fix**: 2018 `small_woody_AGBJenkins` = 192.8 Mg/ha
+- **After fix**: 2018 `small_woody_AGBJenkins` = 6.2 Mg/ha (consistent with other years)
+
+### gapFilling Column Values
+
+The `gapFilling` column can now have these values:
+- `ORIGINAL` - Actual measurement from survey
+- `FILLED` - Gap-filled row created by grid expansion
+- `OUTLIER` - Original measurement flagged as erroneous spike
+- `REMOVED` - Tree physically removed from plot
+- `NOT_QUALIFIED` - Tree no longer qualifies for measurement
+
 ## Future Improvements
 
 - Add support for vst_shrubgroup data (currently not used)

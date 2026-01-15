@@ -8,7 +8,7 @@ import pandas as pd
 from typing import List, Optional, Tuple
 from scipy import stats
 
-from ..constants import DEAD_STATUSES, LIVE_STATUSES, REMOVED_STATUSES
+from ..constants import DEAD_STATUSES, LIVE_STATUSES, REMOVED_STATUSES, ALLOMETRY_COLS
 
 
 def is_dead_status(status: str) -> bool:
@@ -155,10 +155,15 @@ def correct_sandwiched_dead_status(yearly_status: pd.DataFrame) -> pd.DataFrame:
     If a dead status is sandwiched between two alive statuses, we assume the
     dead status was an error and the tree was actually alive.
 
+    IMPORTANT: Only years with actual status observations are considered for
+    the sandwiched pattern. Gap-filled years (no plantStatus) are ignored
+    because they don't provide evidence of the tree being alive.
+
     Parameters
     ----------
     yearly_status : pd.DataFrame
-        DataFrame with columns ['individualID', 'year', 'is_dead'] sorted by year
+        DataFrame with columns ['individualID', 'year', 'is_dead', 'has_status_observation']
+        sorted by year
 
     Returns
     -------
@@ -174,13 +179,31 @@ def correct_sandwiched_dead_status(yearly_status: pd.DataFrame) -> pd.DataFrame:
     if len(df) < 3:
         return df
 
+    # Check if has_status_observation column exists
+    has_obs_col = 'has_status_observation' in df.columns
+
     # Look for sandwiched dead status
     for i in range(1, len(df) - 1):
         if df.loc[i, 'is_dead']:  # Current year is dead
-            # Check if previous is alive (not dead)
-            prev_alive = not df.loc[i-1, 'is_dead']
-            # Check if next is alive (not dead)
-            next_alive = not df.loc[i+1, 'is_dead']
+            # Only correct if the dead year has an actual observation
+            if has_obs_col and not df.loc[i, 'has_status_observation']:
+                continue
+
+            # Find the nearest previous year with an actual observation
+            prev_alive = False
+            for j in range(i - 1, -1, -1):
+                if has_obs_col and not df.loc[j, 'has_status_observation']:
+                    continue  # Skip gap-filled years
+                prev_alive = not df.loc[j, 'is_dead']
+                break
+
+            # Find the nearest next year with an actual observation
+            next_alive = False
+            for j in range(i + 1, len(df)):
+                if has_obs_col and not df.loc[j, 'has_status_observation']:
+                    continue  # Skip gap-filled years
+                next_alive = not df.loc[j, 'is_dead']
+                break
 
             if prev_alive and next_alive:
                 # Sandwiched dead - correct to alive
@@ -749,16 +772,22 @@ def create_complete_individual_year_grid(
 
 def forward_fill_growth_form(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Forward-fill growthForm and stemDiameter for each individual.
+    Forward-fill growthForm and stemDiameter for gap-filled rows only.
 
-    For gap-filled rows where these columns are NaN or empty string, this fills
-    in the value from the most recent previous year where it was observed. If no
-    previous observation exists, it uses the next available observation (backward fill).
+    For gap-filled rows (gapFilling == 'FILLED') where these columns are NaN or
+    empty string, this fills in the value from the most recent previous year where
+    it was observed. If no previous observation exists, it uses the next available
+    observation (backward fill).
+
+    IMPORTANT: This function only fills values for FILLED (gap-created) rows,
+    NOT for ORIGINAL rows that happen to have missing data. This prevents erroneous
+    measurements from propagating to other years.
 
     Parameters
     ----------
     df : pd.DataFrame
-        DataFrame with 'individualID', 'year', 'growthForm', and 'stemDiameter' columns
+        DataFrame with 'individualID', 'year', 'growthForm', 'stemDiameter', and
+        'gapFilling' columns
 
     Returns
     -------
@@ -776,6 +805,9 @@ def forward_fill_growth_form(df: pd.DataFrame) -> pd.DataFrame:
     if not columns_present:
         return df
 
+    # Check if gapFilling column exists
+    has_gap_filling = 'gapFilling' in df.columns
+
     # Replace empty strings with NaN so they can be filled
     for col in columns_present:
         if df[col].dtype == object:  # String column
@@ -789,8 +821,165 @@ def forward_fill_growth_form(df: pd.DataFrame) -> pd.DataFrame:
             ind_df = df.loc[ind_mask].sort_values('year')
 
             for col in columns_present:
-                # Forward fill then backward fill
+                # Get indices of FILLED rows only (these are the ones we want to fill)
+                if has_gap_filling:
+                    filled_row_mask = ind_df['gapFilling'] == 'FILLED'
+                else:
+                    # If no gapFilling column, fill all NaN values (legacy behavior)
+                    filled_row_mask = ind_df[col].isna()
+
+                if not filled_row_mask.any():
+                    continue
+
+                # Compute forward-filled and back-filled values for the whole series
                 filled_values = ind_df[col].ffill().bfill()
-                df.loc[ind_mask, col] = filled_values.values
+
+                # Only apply to FILLED rows
+                filled_indices = ind_df[filled_row_mask].index
+                df.loc[filled_indices, col] = filled_values.loc[filled_indices].values
+
+    return df
+
+
+def filter_diameter_outliers(
+    df: pd.DataFrame,
+    growth_threshold: float = 10.0,
+    shrinkage_threshold: float = 5.0
+) -> pd.DataFrame:
+    """
+    Filter out diameter measurements that show impossible growth followed by shrinkage.
+
+    This function identifies "spike" outliers where a measurement shows:
+    1. Impossible growth rate from the previous ORIGINAL observation (> growth_threshold cm/yr)
+    2. AND impossible shrinkage rate to the next ORIGINAL observation (> shrinkage_threshold cm/yr)
+
+    When both conditions are met, the measurement is marked as an outlier:
+    - gapFilling column is set to 'OUTLIER'
+    - All allometry AGB columns are set to NaN
+
+    This filter is conservative - it only flags measurements that are clearly erroneous
+    based on the surrounding observations.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with individual measurements. Must have columns:
+        - individualID: Unique identifier for each tree
+        - year: Survey year
+        - stemDiameter: Diameter measurement in cm
+        - gapFilling: Status column ('ORIGINAL', 'FILLED', etc.)
+        - AGBJenkins, AGBChojnacky, AGBAnnighofer: Biomass columns
+    growth_threshold : float, default 10.0
+        Maximum allowed diameter growth rate (cm/year). Measurements exceeding
+        this rate from the previous observation are candidates for outlier status.
+    shrinkage_threshold : float, default 5.0
+        Maximum allowed diameter shrinkage rate (cm/year). Measurements followed
+        by shrinkage exceeding this rate are candidates for outlier status.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with outliers marked in gapFilling column and AGB set to NaN.
+
+    Notes
+    -----
+    - Only ORIGINAL observations are checked (gap-filled rows are interpolated)
+    - For multi-stem trees, max diameter per year is used for comparison
+    - Requires at least 3 unique years of observations for an individual to detect outliers
+    - First and last year's observations cannot be flagged (need neighbors on both sides)
+
+    Example
+    -------
+    The ABBY_073 case: vine maple with measurements 1.6cm (2017) -> 36.7cm (2018) -> 2.0cm (2019)
+    - Growth rate: (36.7 - 1.6) / 1 = 35.1 cm/yr (> 10 threshold)
+    - Shrinkage rate: (36.7 - 2.0) / 1 = 34.7 cm/yr (> 5 threshold)
+    - Result: 2018 measurement flagged as OUTLIER
+    """
+    if df.empty:
+        return df
+
+    df = df.copy()
+
+    # Track how many outliers we flag
+    n_outliers = 0
+
+    # Process each individual separately
+    for ind_id in df['individualID'].unique():
+        ind_mask = df['individualID'] == ind_id
+        ind_df = df.loc[ind_mask].copy()
+
+        # Get only ORIGINAL observations for comparison
+        # These are the actual measurements, not gap-filled values
+        if 'gapFilling' not in ind_df.columns:
+            continue
+
+        original_mask = ind_df['gapFilling'] == 'ORIGINAL'
+        original_df = ind_df[original_mask].copy()
+
+        if original_df.empty:
+            continue
+
+        # For multi-stem trees, aggregate to max diameter per year
+        # This handles cases where the same individual has multiple stems measured per year
+        year_agg = original_df.groupby('year').agg({
+            'stemDiameter': 'max'  # Use max diameter for comparison
+        }).reset_index()
+
+        # Get unique years with valid diameter measurements
+        year_agg = year_agg[year_agg['stemDiameter'].notna()]
+        year_agg = year_agg.sort_values('year')
+
+        if len(year_agg) < 3:
+            # Need at least 3 unique years to detect a "sandwiched" outlier
+            continue
+
+        # Get arrays for efficient computation
+        years = year_agg['year'].values
+        max_diameters = year_agg['stemDiameter'].values
+
+        # Check each year (except first and last)
+        for i in range(1, len(year_agg) - 1):
+            curr_year = years[i]
+            curr_max_diam = max_diameters[i]
+            prev_year = years[i - 1]
+            prev_max_diam = max_diameters[i - 1]
+            next_year = years[i + 1]
+            next_max_diam = max_diameters[i + 1]
+
+            # Calculate time differences
+            years_since_prev = curr_year - prev_year
+            years_to_next = next_year - curr_year
+
+            if years_since_prev <= 0 or years_to_next <= 0:
+                continue
+
+            # Calculate growth rate from previous year
+            growth_rate = (curr_max_diam - prev_max_diam) / years_since_prev
+
+            # Calculate shrinkage rate to next year
+            # Positive value means diameter decreased (shrinkage)
+            shrinkage_rate = (curr_max_diam - next_max_diam) / years_to_next
+
+            # Check if this is a spike outlier:
+            # - Grew impossibly fast from previous
+            # - AND shrank impossibly fast toward next
+            if growth_rate > growth_threshold and shrinkage_rate > shrinkage_threshold:
+                # Flag ALL rows for this individual+year as outliers
+                # (including all stems measured that year)
+                year_mask = (ind_df['year'] == curr_year) & (ind_df['gapFilling'] == 'ORIGINAL')
+                year_indices = ind_df[year_mask].index.tolist()
+
+                for idx in year_indices:
+                    df.loc[idx, 'gapFilling'] = 'OUTLIER'
+
+                    # Set all allometry columns to NaN
+                    for col in ALLOMETRY_COLS:
+                        if col in df.columns:
+                            df.loc[idx, col] = np.nan
+
+                n_outliers += len(year_indices)
+
+    if n_outliers > 0:
+        print(f"    Flagged {n_outliers} diameter outlier(s)")
 
     return df

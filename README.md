@@ -21,6 +21,13 @@ Trees marked as dead have their biomass set to **0**. Dead statuses include: `"S
 ### Removed/Not-Qualified Tree Handling
 Trees with "Removed" status (physically cut and removed by human activity) or "No longer qualifies" status (tree no longer meets measurement criteria, e.g., broken) have their biomass set to **0** from the year the status first appears onward. The `gapFilling` column will show 'REMOVED' or 'NOT_QUALIFIED' for these records.
 
+### Diameter Outlier Detection
+Erroneous diameter measurements that create impossible growth followed by shrinkage are automatically detected and excluded. A measurement is flagged as an outlier if:
+- Growth rate from previous year exceeds 10 cm/year, AND
+- Shrinkage rate to next year exceeds 5 cm/year
+
+Flagged measurements have their biomass set to NaN and `gapFilling` set to 'OUTLIER'. This conservative filter catches clear transcription errors (e.g., 1.6cm → 36.7cm → 2.0cm) while preserving legitimate measurements.
+
 ### Gap-Filling Strategy
 For each individual, missing biomass values are filled using:
 1. **Linear interpolation/extrapolation** if 2+ observations exist

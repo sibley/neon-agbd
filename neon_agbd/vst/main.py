@@ -24,6 +24,7 @@ from .gap_filling import (
     forward_fill_growth_form,
     apply_dead_status_corrections,
     zero_biomass_for_dead_trees,
+    filter_diameter_outliers,
 )
 from .biomass_calculator import (
     add_category_column,
@@ -629,6 +630,7 @@ def compute_site_biomass_full(
     plot_polygons_path: str = None,
     apply_gap_filling: bool = True,
     apply_dead_corrections: bool = True,
+    apply_outlier_filter: bool = True,
     verbose: bool = True
 ) -> Dict[str, Any]:
     """
@@ -661,6 +663,11 @@ def compute_site_biomass_full(
         Whether to apply gap filling for missing biomass values
     apply_dead_corrections : bool
         Whether to apply dead status corrections and zero biomass for dead trees
+    apply_outlier_filter : bool
+        Whether to filter out diameter outliers (measurements showing impossible
+        growth followed by impossible shrinkage). See filter_diameter_outliers()
+        for details. Outliers are marked with gapFilling='OUTLIER' and have their
+        biomass set to NaN.
     verbose : bool
         Whether to print progress messages
 
@@ -833,6 +840,15 @@ def compute_site_biomass_full(
             # Re-categorize after gap filling (category may be NA for new rows)
             plot_df = add_category_column(plot_df)
 
+            # Filter outlier diameter measurements (runs on ALL individuals)
+            # This must happen AFTER gap filling (so gapFilling column exists)
+            # and BEFORE dead status zeroing (so outlier biomass becomes NaN, not 0)
+            # We run on all data (trees + small_woody) to catch cases where an
+            # erroneous measurement changes an individual's category (e.g., a small
+            # tree with normal diameter ~2cm but one spike to 36cm)
+            if apply_outlier_filter:
+                plot_df = filter_diameter_outliers(plot_df)
+
             # Re-apply dead corrections after gap filling
             if apply_dead_corrections:
                 trees_mask = plot_df['category'] == 'tree'
@@ -916,6 +932,7 @@ def compute_site_biomass_full(
     output['metadata'] = {
         'apply_gap_filling': apply_gap_filling,
         'apply_dead_corrections': apply_dead_corrections,
+        'apply_outlier_filter': apply_outlier_filter,
         'site_has_agb_data': site_has_agb_data,
         'n_plots': len(unique_plots),
         'n_plot_years': len(results_df),
@@ -933,6 +950,7 @@ def compute_site_biomass(
     plot_polygons_path: str,
     apply_gap_filling: bool = True,
     apply_dead_corrections: bool = True,
+    apply_outlier_filter: bool = True,
     verbose: bool = True
 ) -> pd.DataFrame:
     """
@@ -1002,6 +1020,7 @@ def compute_site_biomass(
         plot_polygons_path=plot_polygons_path,
         apply_gap_filling=apply_gap_filling,
         apply_dead_corrections=apply_dead_corrections,
+        apply_outlier_filter=apply_outlier_filter,
         verbose=verbose
     )
     return output['plot_biomass']
